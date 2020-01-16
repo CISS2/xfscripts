@@ -18,5 +18,11 @@
  - [**Lutris**](scripts/lutris.md) (_games_)
  - [**Xubuntu extras**](scripts/xubuntu-extras.md) (_extras_)
  - [**Elementary OS AppCenter repo**](scripts/eos-appcenter-repo.md) (_extras_)
-
-![desktop](desktop.png)
+#### Desktop
+![desktop](screenshots/desktop.png)
+#### Apps
+![apps](screenshots/apps.png)
+#### Terminal
+![terminal](screenshots/terminal.png)
+#### Arquivos
+![arquivos](screenshots/arquivos.png)

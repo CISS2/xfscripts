@@ -29,6 +29,7 @@ sed -i 's/ -V//g' ~/.bash_it/aliases/available/apt.aliases.bash
 sed -i 's/remove --purge/autoremove --purge/g' ~/.bash_it/aliases/available/apt.aliases.bash
 echo '[Configuration]
 FontName=Monaco 10
+MiscDefaultGeometry=85x25
 DropdownHeight=70
 DropdownWidth=70
 DropdownOpacity=90
