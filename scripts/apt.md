@@ -11,7 +11,7 @@ _(abrir em uma nova aba)_
  - [**Neofetch**](http://apt.ubuntu.com/p/neofetch)
  - [**OBS studio**](http://apt.ubuntu.com/p/obs-studio) (`--no-install-recommends`)
  - [**OpenSSH server**](http://apt.ubuntu.com/p/openssh-server)
- - [**Redshift**](http://apt.ubuntu.com/p/redshift-gtk)
+ - [**Redshift-gtk**](http://apt.ubuntu.com/p/redshift-gtk)
  - [**RAR**](http://apt.ubuntu.com/p/rar)
  - [**Remmina**](http://apt.ubuntu.com/p/remmina)
  - [**SMPlayer**](http://apt.ubuntu.com/p/smplayer)
