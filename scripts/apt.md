@@ -6,6 +6,7 @@ _(abrir em uma nova aba)_
  - [**Discos**](apt:gnome-disk-utility)
  - [**Fonts EmojiOne**](apt:fonts-emojione)
  - [**GNOME characters**](apt:gnome-characters) (_--no-install-recommends_)
+ - [**GPick**](apt:gpick)
  - [**GPU info**](apt:mesa-utils,vulkan-tools)
  - [**Neofetch**](apt:neofetch)
  - [**OBS studio**](apt:obs-studio) (_--no-install-recommends_)
