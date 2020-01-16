@@ -1,9 +1,3 @@
----
-title: GRUB
-created: '2020-01-16T03:13:33.693Z'
-modified: '2020-01-16T03:13:34.340Z'
----
-
 # GRUB
 ```bash
 sudo sed -i 's/quiet splash/quiet splash loglevel=0 logo.nologo vt.global_cursor_default=0/g' /etc/default/grub

@@ -1,9 +1,3 @@
----
-title: Compton
-created: '2020-01-16T03:17:14.284Z'
-modified: '2020-01-16T04:41:41.185Z'
----
-
 # Compton
 ```bash
 git clone https://github.com/tryone144/compton

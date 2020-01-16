@@ -1,9 +1,3 @@
----
-title: REAPER
-created: '2020-01-16T03:14:39.320Z'
-modified: '2020-01-16T03:14:39.994Z'
----
-
 # REAPER
 ```bash
 wget "https://www.reaper.fm/download.php#linux_download" -O download.php

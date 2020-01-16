@@ -1,9 +1,3 @@
----
-title: Gestos
-created: '2020-01-16T03:15:38.103Z'
-modified: '2020-01-16T04:45:45.372Z'
----
-
 # Gestos
 ```bash
 sudo gpasswd -a $USER input

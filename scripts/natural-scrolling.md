@@ -1,9 +1,3 @@
----
-title: Rolagem natural
-created: '2020-01-16T03:15:24.531Z'
-modified: '2020-01-16T03:15:25.206Z'
----
-
 # Rolagem natural
 ```bash
 echo '[Desktop Entry]

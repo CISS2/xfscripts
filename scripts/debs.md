@@ -1,9 +1,3 @@
----
-title: Debs
-created: '2020-01-16T03:17:30.545Z'
-modified: '2020-01-16T06:36:14.319Z'
----
-
 # Debs
  - [**AppImageLauncher**](https://github.com/TheAssassin/AppImageLauncher/releases)
 ```bash

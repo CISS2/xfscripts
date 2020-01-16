@@ -1,9 +1,3 @@
----
-title: WINE
-created: '2020-01-16T03:14:15.099Z'
-modified: '2020-01-16T04:49:51.375Z'
----
-
 # WINE
 ```bash
 echo 'deb https://dl.winehq.org/wine-builds/ubuntu/ eoan main' | sudo tee /etc/apt/sources.list.d/winehq.list

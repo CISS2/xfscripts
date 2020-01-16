@@ -1,9 +1,3 @@
----
-title: Temas
-created: '2020-01-16T03:16:48.390Z'
-modified: '2020-01-16T18:10:52.474Z'
----
-
 # Temas
 ```bash
 sudo add-apt-repository -yn ppa:papirus/hardcode-tray

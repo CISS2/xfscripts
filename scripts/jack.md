@@ -1,9 +1,3 @@
----
-title: JACK
-created: '2020-01-16T03:14:00.331Z'
-modified: '2020-01-16T03:14:01.228Z'
----
-
 # JACK
 ```bash
 sudo usermod -aG audio $USER

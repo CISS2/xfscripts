@@ -1,9 +1,3 @@
----
-title: DockbarX
-created: '2020-01-16T03:16:28.112Z'
-modified: '2020-01-16T03:21:55.259Z'
----
-
 # DockbarX
 ```bash
 sudo add-apt-repository -y ppa:xuzhen666/dockbarx

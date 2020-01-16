@@ -1,9 +1,3 @@
----
-title: Bash-it
-created: '2020-01-16T03:12:04.135Z'
-modified: '2020-01-16T18:08:16.135Z'
----
-
 # Bash-it
 ```bash
 sudo apt update

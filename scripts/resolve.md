@@ -1,9 +1,3 @@
----
-title: Resolve
-created: '2020-01-16T03:15:10.567Z'
-modified: '2020-01-16T04:47:42.195Z'
----
-
 # Resolve
  - [**Link para baixar o DaVinci Resolve no site oficial**](https://www.blackmagicdesign.com/products/davinciresolve)
 ```bash

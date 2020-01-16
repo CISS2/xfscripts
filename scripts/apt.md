@@ -1,9 +1,3 @@
----
-title: Apt
-created: '2020-01-16T03:17:50.467Z'
-modified: '2020-01-16T05:38:11.644Z'
----
-
 # Apt 
 _(abrir em uma nova aba)_
  - [**Deluge**](apt:deluged,deluge-gtk)
