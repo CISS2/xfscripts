@@ -18,3 +18,5 @@
  - [**Lutris**](scripts/lutris.md) (_games_)
  - [**Xubuntu extras**](scripts/xubuntu-extras.md) (_extras_)
  - [**Elementary OS AppCenter repo**](scripts/eos-appcenter-repo.md) (_extras_)
+
+![desktop](desktop.png)
