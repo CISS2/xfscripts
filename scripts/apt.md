@@ -2,7 +2,7 @@
 _(abrir em uma nova aba)_
  - [**Deluge-gtk**](http://apt.ubuntu.com/p/deluge-gtk) - [**Deluged**](https://apt.ubuntu.com/p/deluged)
  - [**Diodon**](http://apt.ubuntu.com/p/diodon)
- - [**FeedReader**](http://apt.ubuntu.com/p/feedreader) `#sync_settings`
+ - [**FeedReader**](http://apt.ubuntu.com/p/feedreader) #sync_settings
  - [**Discos**](http://apt.ubuntu.com/p/gnome-disk-utility)
  - [**Fonts EmojiOne**](http://apt.ubuntu.com/p/fonts-emojione)
  - [**GNOME characters**](http://apt.ubuntu.com/p/gnome-characters) (`--no-install-recommends`)
