@@ -1,6 +1,6 @@
 # Apt 
 _(abrir em uma nova aba)_
- - [**Deluge**](apt:deluged,deluge-gtk)
+ - <a href="apt:deluged,deluged-gtk"><strong>Deluge</strong></a>
  - [**Diodon**](apt:diodon)
  - [**FeedReader**](apt:feedreader) #sync_settings
  - [**Discos**](apt:gnome-disk-utility)
