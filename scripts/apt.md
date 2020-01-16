@@ -1,6 +1,6 @@
 # Apt 
 _(abrir em uma nova aba)_
- - [**Deluge**](apt:deluged,deluge-gtk)
+ - [**Deluge-gtk**](http://apt.ubuntu.com/p/deluge-gtk) - [**Deluged**](https://apt.ubuntu.com/p/deluged)
  - [**Diodon**](apt:diodon)
  - [**FeedReader**](apt:feedreader) #sync_settings
  - [**Discos**](apt:gnome-disk-utility)
