@@ -9,4 +9,5 @@ cd ..
 rm -rfv DockBarX-Windows10
 wget -O dockbarx.xml http://my.opendesktop.org/index.php/s/yFiAkRaPHqGkk9o/download #update-link
 gconftool --load dockbarx.xml
+rm -rfv dockbarx.xml
 ```
