@@ -22,13 +22,15 @@ jobs:
         sudo apt install -y --no-install-recommends asciidoc docbook-xml xsltproc xmlto
         make docs
         sudo checkinstall -D -y --install=no --maintainer rauldipeas@mail.com --pkgversion 0.1-beta2 --requires libconfig9
+        mv -v compton*.deb $HOME/
     - name: linput-gestures
       run: |
         sudo apt install -y libinput-tools
         git clone https://github.com/bulletmark/libinput-gestures.git
         cd libinput-gestures
         sudo checkinstall -D -y --install=no --maintainer rauldipeas@mail.com --pkgname libinput-gestures --pkgversion `./list-version-hashes | tail -1 | awk '{print $1}'` --provides libinput-gestures
+        mv -v libinput-gestures*.deb $HOME/
     - name: Upload dos pacotes para o Nextcloud
       run: |
-        'curl -k -T compton/compton*.deb -u ${{ secrets.NEXTCLOUD_ID }} -H "X-Requested-With: XMLHttpRequest" https://my.opendesktop.org/public.php/webdav/compton.deb'
-        'curl -k -T libinput-gestures/libinput-gestures*.deb -u ${{ secrets.NEXTCLOUD_ID }} -H "X-Requested-With: XMLHttpRequest" https://my.opendesktop.org/public.php/webdav/libinput-gestures.deb'
+        'curl -k -T $HOME/compton*.deb -u ${{ secrets.NEXTCLOUD_ID }} -H "X-Requested-With: XMLHttpRequest" https://my.opendesktop.org/public.php/webdav/compton.deb'
+        'curl -k -T $HOME/libinput-gestures*.deb -u ${{ secrets.NEXTCLOUD_ID }} -H "X-Requested-With: XMLHttpRequest" https://my.opendesktop.org/public.php/webdav/libinput-gestures.deb'
