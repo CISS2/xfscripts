@@ -1,5 +1,6 @@
 # XCape
 ```bash
+mkdir -pv ~/.config/autostart
 aptinst -y xcape
 echo '[Desktop Entry]
 Exec=xcape -e "Super_L=Super_L|r"

@@ -27,13 +27,15 @@ echo DPkg::Post-Invoke \{\"sed -i \'s/Long\ command\ completed/Comando\ concluí
 sed -i 's/apt-get/apt/g' ~/.bash_it/aliases/available/apt.aliases.bash
 sed -i 's/ -V//g' ~/.bash_it/aliases/available/apt.aliases.bash
 sed -i 's/remove --purge/autoremove --purge/g' ~/.bash_it/aliases/available/apt.aliases.bash
+mkdir -pv ~/.config/xfce4/terminal
 echo '[Configuration]
 FontName=Monaco 10
 MiscDefaultGeometry=85x25
 DropdownHeight=70
 DropdownWidth=70
 DropdownOpacity=90
-DropdownKeepAbove=FALSE' > ~/.config/xfce4/terminal/terminalrc
+DropdownKeepAbove=FALSE
+ScrollingOnOutput=FALSE' > ~/.config/xfce4/terminal/terminalrc
 exit
 ```
 ```bash

@@ -1,5 +1,6 @@
 # Rolagem natural
 ```bash
+mkdir -pv ~/.config/autostart
 echo '[Desktop Entry]
 Encoding=UTF-8
 Version=0.9.4
