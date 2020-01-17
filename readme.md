@@ -10,7 +10,7 @@ Este repositório contém scripts otimizados para o [**Xubuntu**](https://xubunt
 
 **Você pode seguir a ordem recomendada de execução dos scripts, através do arquivo de [**pós instalação**](postinst.md)**.
 
-Para uma execução correta dos scripts, você deve copiar e colar uma linha por vez no terminal, para poder acompanhar detalhadamente o processo, desse modo, qualquer tipo de problema pode ser detectado com maior facilidade.
+Para uma execução correta dos scripts, você deve copiar e colar uma linha por vez no terminal, para poder acompanhar detalhadamente o processo, dessa forma, qualquer tipo de problema pode ser detectado com maior facilidade.
 
 ## Envolva-se
 
