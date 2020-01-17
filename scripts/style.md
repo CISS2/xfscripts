@@ -4,10 +4,10 @@ sudo add-apt-repository -yn ppa:papirus/hardcode-tray
 sudo add-apt-repository -yn ppa:papirus/papirus
 sudo add-apt-repository -y ppa:tista/plata-theme
 aptinst -y breeze-cursor-theme hardcode-tray papirus-icon-theme plata-theme qt5ct qt5-gtk2-platformtheme
-xfconf-query -c xfce4-appfinder -p /always-center -T true
-xfconf-query -c xfce4-appfinder -p /category-icon-size -s 3
-xfconf-query -c xfce4-appfinder -p /icon-view -T true
-xfconf-query -c xfce4-appfinder -p /item-icon-size -s 4
+# xfconf-query -c xfce4-appfinder -p /always-center -T true
+# xfconf-query -c xfce4-appfinder -p /category-icon-size -s 3
+# xfconf-query -c xfce4-appfinder -p /icon-view -T true
+# xfconf-query -c xfce4-appfinder -p /item-icon-size -s 4
 xfconf-query -c xfce4-appfinder -p /last/window-height -s 5000
 xfconf-query -c xfce4-appfinder -p /last/window-width -s 5000
 xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/show-tray-icon -T true
@@ -23,7 +23,7 @@ echo '{
     },
     "backup_ignore": true
 }' > ~/.config/hardcode-tray.json
-hardcode-tray --apply
+sudo hardcode-tray --apply
 mkdir -pv ~/.config/qt5ct
 echo '[Appearance]
 icon_theme=Papirus-Dark

@@ -38,6 +38,6 @@ Name=Volume Icon
 Exec=volumeicon
 NoDisplay=false
 OnlyShowIn=XFCE;' > ~/.config/autostart/volumeicon.desktop
-wget -o ~/.config/volumeicon/volumeicon #update-link
+wget -o ~/.config/volumeicon/volumeicon http://my.opendesktop.org/index.php/s/tw8kNw3pjdQbfwB/download #update-link
 ```
  - [**XBoxDrv**](http://apt.ubuntu.com/p/xboxdrv)
