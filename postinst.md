@@ -1,4 +1,4 @@
-# Script de póst instalação do Xubuntu 19.10
+# Script de pós instalação do Xubuntu 19.10
  - [**Bash-it**](scripts/bash-it.md)
  - [**Kernel de baixa latência**](scripts/lowlatency-kernel.md)
  - [**NVIDIA DRM modeset**](scripts/nvidia-drm-modeset.md)
