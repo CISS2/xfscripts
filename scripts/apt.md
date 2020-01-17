@@ -5,11 +5,11 @@ _(abrir em uma nova aba)_
  - [**FeedReader**](http://apt.ubuntu.com/p/feedreader) #sync_settings
  - [**Discos**](http://apt.ubuntu.com/p/gnome-disk-utility)
  - [**Fonts EmojiOne**](http://apt.ubuntu.com/p/fonts-emojione)
- - [**GNOME characters**](http://apt.ubuntu.com/p/gnome-characters) (`--no-install-recommends`)
+ - [**GNOME characters**](http://apt.ubuntu.com/p/gnome-characters) `--no-install-recommends`
  - [**GPick**](http://apt.ubuntu.com/p/gpick)
  - [**MPlayer**](http://apt.ubuntu.com/p/mplayer)
  - [**Neofetch**](http://apt.ubuntu.com/p/neofetch)
- - [**OBS studio**](http://apt.ubuntu.com/p/obs-studio) (`--no-install-recommends`)
+ - [**OBS studio**](http://apt.ubuntu.com/p/obs-studio) `--no-install-recommends`
  - [**OpenSSH server**](http://apt.ubuntu.com/p/openssh-server)
  - [**Redshift-gtk**](http://apt.ubuntu.com/p/redshift-gtk)
  - [**RAR**](http://apt.ubuntu.com/p/rar)
