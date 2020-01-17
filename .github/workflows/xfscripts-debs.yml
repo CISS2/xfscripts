@@ -5,7 +5,6 @@ on:
       - 'releases/**'
     paths-ignore:
       - '_config.yml'
-      - 'readme.md'
       - 'screenshots/**'
 jobs:
   build:
