@@ -10,7 +10,7 @@ xfconf-query -c xfce4-appfinder -np /icon-view -t bool -s true
 xfconf-query -c xfce4-appfinder -np /item-icon-size -t int 4
 xfconf-query -c xfce4-appfinder -np /last/window-height -t int -s 5000
 xfconf-query -c xfce4-appfinder -np /last/window-width -t int -s 5000
-xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/show-tray-icon -T true
+xfconf-query -c xfce4-power-manager -np /xfce4-power-manager/show-tray-icon -t bool -s true
 xfconf-query -c xfwm4 -p /general/theme -s Plata-Noir
 xfconf-query -c xsettings -p /Gtk/CursorThemeName -s Breeze_Snow
 xfconf-query -c xsettings -p /Gtk/MonospaceFontName -s 'Monaco 10'
