@@ -9,6 +9,6 @@ Para uma execução correta dos scripts, você deve copiar e colar uma linha por
 ## Envolva-se
 Crie um _**fork**_ e envie um _**pull-request**_ com as suas sugestões de melhorias para este repositório, elas são muito bem vindas!
 ## Fale comigo
-A forma mais fácil de tirar as suas dúvidas é falar diretamente comigo, através do [**Mattermost**](https://rauldipeas-chat.herokuapp.com/chat/messages/@rauldipeas).
+A forma mais fácil de tirar todas as suas dúvidas é falar diretamente comigo, através do [**Mattermost**](https://rauldipeas-chat.herokuapp.com/chat/messages/@rauldipeas).
 
 [![mattermost-banner](images/mattermost-banner.png)](https://rauldipeas-chat.herokuapp.com/chat/messages/@rauldipeas)
