@@ -7,6 +7,7 @@ wget -cO ~/.fonts/Monaco-Linux.ttf https://github.com/hbin/top-programming-fonts
 wget -c https://github.com/ryanoasis/nerd-fonts/releases/download/v2.0.0/DroidSansMono.zip
 unzip DroidSansMono.zip -d ~/.fonts
 rm -rfv DroidSansMono.zip
+fc-cache -fv
 git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
 bash ~/.bash_it/install.sh --silent
 sed -i 's/bobby/powerline/g' ~/.bashrc
