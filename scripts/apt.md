@@ -1,5 +1,4 @@
 # Apt 
-_(abrir em uma nova aba)_
  - [**Deluge-gtk**](http://apt.ubuntu.com/p/deluge-gtk) - [**Deluged**](https://apt.ubuntu.com/p/deluged)
  - [**Diodon**](http://apt.ubuntu.com/p/diodon)
  - [**FeedReader**](http://apt.ubuntu.com/p/feedreader) #sync_settings
