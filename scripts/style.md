@@ -4,12 +4,12 @@ sudo add-apt-repository -yn ppa:papirus/hardcode-tray
 sudo add-apt-repository -yn ppa:papirus/papirus
 sudo add-apt-repository -y ppa:tista/plata-theme
 aptinst -y breeze-cursor-theme hardcode-tray papirus-icon-theme plata-theme qt5ct qt5-gtk2-platformtheme
-# xfconf-query -c xfce4-appfinder -p /always-center -T true
-# xfconf-query -c xfce4-appfinder -p /category-icon-size -s 3
-# xfconf-query -c xfce4-appfinder -p /icon-view -T true
-# xfconf-query -c xfce4-appfinder -p /item-icon-size -s 4
-xfconf-query -c xfce4-appfinder -p /last/window-height -s 5000
-xfconf-query -c xfce4-appfinder -p /last/window-width -s 5000
+xfconf-query -c xfce4-appfinder -np /always-center -t bool -s true
+xfconf-query -c xfce4-appfinder -np /category-icon-size -t int -s 3
+xfconf-query -c xfce4-appfinder -np /icon-view -t bool -s true
+xfconf-query -c xfce4-appfinder -np /item-icon-size -t int 4
+xfconf-query -c xfce4-appfinder -np /last/window-height -t int -s 5000
+xfconf-query -c xfce4-appfinder -np /last/window-width -t int -s 5000
 xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/show-tray-icon -T true
 xfconf-query -c xfwm4 -p /general/theme -s Plata-Noir
 xfconf-query -c xsettings -p /Gtk/CursorThemeName -s Breeze_Snow
