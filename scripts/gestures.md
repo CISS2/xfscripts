@@ -1,4 +1,5 @@
 # Gestos
+#### [checkinstall-build](http://my.opendesktop.org/index.php/s/i5g8XbQiAfmGWtj/download)
 ```bash
 sudo gpasswd -a $USER input
 aptinst -y libinput-tools

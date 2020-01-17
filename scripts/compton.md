@@ -1,4 +1,5 @@
 # Compton
+#### [checkinstall-build](http://my.opendesktop.org/index.php/s/qZWn7PQ2iNXFW6a/download)
 ```bash
 git clone https://github.com/tryone144/compton
 cd compton
