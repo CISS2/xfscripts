@@ -20,7 +20,7 @@ jobs:
         make
         sudo apt install -y --no-install-recommends asciidoc docbook-xml xsltproc xmlto
         make docs
-        sudo checkinstall -D -y --install=no --maintainer rauldipeas@mail.com --pkgversion 0.1-beta2
+        sudo checkinstall -D -y --install=no --maintainer rauldipeas@mail.com --pkgversion 0.1-beta2 --requires libconfig9
     - name: linput-gestures
       run: |
         sudo apt install -y libinput-tools
