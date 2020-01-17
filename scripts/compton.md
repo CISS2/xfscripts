@@ -14,5 +14,5 @@ aptpurge -y libpthread-stubs0-dev libx11-dev libx11-doc libxau-dev libxcb1-dev l
 cp /usr/share/applications/compton.desktop ~/.config/autostart/
 echo 'OnlyShowIn=XFCE;' >> ~/.config/autostart/compton.desktop
 sed -i 's/TryExec/#TryExec/g' ~/.config/autostart/compton.desktop
-wget -O ~/.config/compton.conf #update-link
+wget -O ~/.config/compton.conf http://my.opendesktop.org/index.php/s/SpcapKgySxmHmzG/download #update-link
 ```
