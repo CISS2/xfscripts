@@ -7,6 +7,7 @@
  - [**GNOME characters**](http://apt.ubuntu.com/p/gnome-characters) `--no-install-recommends`
  - [**GPick**](http://apt.ubuntu.com/p/gpick)
  - [**MPlayer**](http://apt.ubuntu.com/p/mplayer)
+ - [**Nextcloud**](http://apt.ubuntu.com/p/nextcloud-desktop)
  - [**Neofetch**](http://apt.ubuntu.com/p/neofetch)
  - [**OBS studio**](http://apt.ubuntu.com/p/obs-studio) `--no-install-recommends`
  - [**OpenSSH server**](http://apt.ubuntu.com/p/openssh-server)
