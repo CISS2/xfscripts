@@ -7,6 +7,6 @@ cd DockBarX-Windows10
 sudo ./install.sh
 cd ..
 rm -rfv DockBarX-Windows10
-wget #update-link
+wget -O dockbarx.xml http://my.opendesktop.org/index.php/s/yFiAkRaPHqGkk9o/download #update-link
 gconftool --load dockbarx.xml
 ```
