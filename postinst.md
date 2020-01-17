@@ -19,10 +19,10 @@
  - [**Xubuntu extras**](scripts/xubuntu-extras.md) (_extras_)
  - [**Elementary OS AppCenter repo**](scripts/eos-appcenter-repo.md) (_extras_)
 #### Desktop
-![desktop](screenshots/desktop.png)
+![desktop](images/desktop.png)
 #### Apps
-![apps](screenshots/apps.png)
+![apps](images/apps.png)
 #### Terminal
-![terminal](screenshots/terminal.png)
+![terminal](images/terminal.png)
 #### Arquivos
-![arquivos](screenshots/arquivos.png)
+![arquivos](images/arquivos.png)

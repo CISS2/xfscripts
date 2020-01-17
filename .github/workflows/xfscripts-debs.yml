@@ -5,7 +5,8 @@ on:
       - 'releases/**'
     paths-ignore:
       - '_config.yml'
-      - 'screenshots/**'
+      - 'readme.md'
+      - 'images/**'
 jobs:
   build:
     runs-on: ubuntu-18.04
