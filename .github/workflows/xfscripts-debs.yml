@@ -22,11 +22,11 @@ jobs:
         sudo apt install -y --no-install-recommends asciidoc docbook-xml xsltproc xmlto
         make docs
         sudo checkinstall -D -y --install=no --maintainer rauldipeas@mail.com --pkgversion 0.1-beta2 --requires libconfig9
-        curl -k -T compton_0.1-beta2-1_amd64.deb -u "${{ secrets.NEXTCLOUD_ID }}" -H "X-Requested-With: XMLHttpRequest" https://my.opendesktop.org/public.php/webdav/compton.deb
+        curl -k -T compton*.deb -u "${{ secrets.NEXTCLOUD_ID }}" -H "X-Requested-With: XMLHttpRequest" https://my.opendesktop.org/public.php/webdav/compton.deb
     - name: linput-gestures
       run: |
         sudo apt install -y libinput-tools
         git clone https://github.com/bulletmark/libinput-gestures.git
         cd libinput-gestures
         sudo checkinstall -D -y --install=no --maintainer rauldipeas@mail.com --pkgname libinput-gestures --pkgversion `./list-version-hashes | tail -1 | awk '{print $1}'` --provides libinput-gestures
-        curl -k -T libinput-gestures_2.48-2-g7a5dd3a-1_amd64.deb -u "${{ secrets.NEXTCLOUD_ID }}" -H "X-Requested-With: XMLHttpRequest" https://my.opendesktop.org/public.php/webdav/libinput-gestures.deb
+        curl -k -T libinput*.deb -u "${{ secrets.NEXTCLOUD_ID }}" -H "X-Requested-With: XMLHttpRequest" https://my.opendesktop.org/public.php/webdav/libinput-gestures.deb
