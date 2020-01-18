@@ -6,7 +6,7 @@ Este repositório contém scripts de personalização otimizados para o [**Xubun
 
 ## Instalação
 
-**Você pode seguir a ordem recomendada de execução dos scripts, através do arquivo de [**pós instalação**](postinst.md)**.
+**Você pode seguir a ordem recomendada de execução dos scripts, através do arquivo de [pós instalação](postinst.md)**.
 
 Para uma execução correta dos scripts, você deve copiar e colar uma linha por vez no terminal, para poder acompanhar detalhadamente o processo, dessa forma, qualquer tipo de problema pode ser detectado com maior facilidade.
 
