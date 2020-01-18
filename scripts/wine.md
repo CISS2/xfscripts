@@ -15,3 +15,4 @@ STAGING_SHARED_MEMORY=1
 WINE_ENABLE_PIPE_SYNC_FOR_APP=1' >> ~/.profile
 #wine vcrun2013
 ```
+![wine](../images/wine.png)

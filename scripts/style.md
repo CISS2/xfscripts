@@ -10,6 +10,7 @@ xfconf-query -c xfce4-appfinder -np /icon-view -t bool -s true
 xfconf-query -c xfce4-appfinder -np /item-icon-size -t int 4
 xfconf-query -c xfce4-appfinder -np /last/window-height -t int -s 5000
 xfconf-query -c xfce4-appfinder -np /last/window-width -t int -s 5000
+xfconf-query -c xfce4-notifyd -np /theme -t string -s Plata
 xfconf-query -c xfce4-power-manager -np /xfce4-power-manager/show-tray-icon -t bool -s true
 xfconf-query -c xfwm4 -p /general/theme -s Plata-Noir
 xfconf-query -c xsettings -p /Gtk/CursorThemeName -s Breeze_Snow
@@ -33,3 +34,4 @@ style=gtk2
 fixed=@Variant(\0\0\0@\0\0\0\f\0M\0o\0n\0\x61\0\x63\0o@$\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)
 general=@Variant(\0\0\0@\0\0\0\x12\0N\0o\0t\0o\0 \0S\0\x61\0n\0s@\"\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10' > ~/.config/qt5ct/qt5ct.conf
 ```
+![style](../images/style.png)

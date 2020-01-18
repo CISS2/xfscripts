@@ -4,3 +4,6 @@ wget -O- http://packages.elementary.io/key.asc | gpg --dearmor | sudo tee /etc/a
 echo 'deb http://packages.elementary.io/appcenter bionic main' | sudo tee /etc/apt/sources.list.d/appcenter.list
 aptupd
 ```
+[**AppCenter**](https://appcenter.elementary.io/)
+
+![eos-appcenter](../images/eos-appcenter-repo.png)

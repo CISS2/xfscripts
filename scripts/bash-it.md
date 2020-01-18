@@ -45,3 +45,4 @@ exit
 bash_it enable alias apt
 exit
 ```
+![bash-it](../images/bash-it.png)

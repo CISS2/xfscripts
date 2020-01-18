@@ -11,3 +11,4 @@ wget -O dockbarx.xml http://my.opendesktop.org/index.php/s/yFiAkRaPHqGkk9o/downl
 gconftool --load dockbarx.xml
 rm -rfv dockbarx.xml
 ```
+![dockbarx](../images/dockbarx.png)

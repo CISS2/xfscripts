@@ -13,3 +13,4 @@ Name=ALSA Restore
 Exec=sh -c "sleep 2;alsactl restore --file ~/.config/asound.state"' | tee ~/.config/autostart/alsa-restore.desktop
 alsactl store --file ~/.config/asound.state
 ```
+![jack](../images/jack.png)
