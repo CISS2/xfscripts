@@ -1,6 +1,4 @@
-# XFScripts
-
-![powered-by-xubuntu](images/xubuntu-banner.png)
+![powered-by-xubuntu](images/xfscripts-banner.png)
 
 ## Bem vindo!
 
