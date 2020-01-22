@@ -16,6 +16,6 @@ Crie um _**fork**_ e envie um _**pull-request**_ com as suas sugestões de melho
 
 ## Fale comigo
 
-A forma mais fácil de tirar todas as suas dúvidas é falar diretamente comigo, através do [**Mattermost**](https://rauldipeas-chat.herokuapp.com/chat/messages/@rauldipeas).
+A forma mais fácil de tirar todas as suas dúvidas é falar diretamente comigo, através do [**Gitter**](https://gitter.im/xfscripts/comunidade).
 
-[![mattermost-banner](images/mattermost-banner.png)](https://rauldipeas-chat.herokuapp.com/chat/messages/@rauldipeas)
+[![gitter-banner](images/gitter-banner.png)](https://gitter.im/xfscripts/comunidade)
