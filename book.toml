@@ -1,0 +1,11 @@
+[book]
+authors = ["Raul Dipeas"]
+language = "pt-br"
+multilingual = false
+src = "src"
+title = "XFScripts"
+
+[output.html]
+theme = "coal"
+default-theme = "coal"
+preferred-dark-theme = "coal"

@@ -1,0 +1,18 @@
+name: Surge
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Deploy no Surge
+    steps:
+      - uses: actions/checkout@v1
+      - name: Instalação do mdBook/Surge e deploy do site
+        uses: actions/setup-node@v1
+        with:
+          node-version: 8
+      - run: npm install -g mdbook surge
+      - run: mdbook init --force docs;cp -varf book.toml docs/
+      - run: cd docs/;mdbook build
+      - run: surge docs/book --token ${{ secrets.SURGE_TOKEN }}
