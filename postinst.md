@@ -1,5 +1,6 @@
 # Script de pós instalação do Xubuntu 19.10
  - [**Bash-it**](scripts/bash-it.md) (_workflow_)
+ - [**GRUB**](scripts/grub.md) (_desktop_)
  - [**Kernel de baixa latência**](scripts/lowlatency-kernel.md) (_workflow_)
  - [**NVIDIA DRM modeset**](scripts/nvidia-drm-modeset.md) (_workflow_)
  - [**JACK**](scripts/jack.md) (_studio_)
@@ -17,12 +18,16 @@
  - [**Apt**](scripts/apt.md) (_miscelânea_)
  - [**Lutris**](scripts/lutris.md) (_games_)
  - [**Xubuntu extras**](scripts/xubuntu-extras.md) (_extras_)
- - [**Elementary OS AppCenter repo**](scripts/eos-appcenter-repo.md) (_extras_)
+ - [**Elementary OS AppCenter repo**](scipts/eos-appcenter-repo.md) (_extras_)
+
 #### Desktop
 ![desktop](images/desktop.png)
+
 #### Apps
 ![apps](images/apps.png)
+
 #### Terminal
 ![terminal](images/terminal.png)
+
 #### Arquivos
 ![arquivos](images/arquivos.png)

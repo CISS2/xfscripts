@@ -1,8 +1,8 @@
-![powered-by-xubuntu](images/xfscripts-banner.png)
+![xfscripts](images/xfscripts-banner.png)
 
 ## Bem vindo!
 
-Este repositório contém scripts de personalização otimizados para o [**Xubuntu**](https://xubuntu.org) [**19.10**](https://xubuntu.org/release/19-10/).
+Esta documentação contém scripts de personalização otimizados para o [**Xubuntu**](https://xubuntu.org) [**19.10**](https://xubuntu.org/release/19-10/).
 
 ## Instalação
 
@@ -12,10 +12,10 @@ Para uma execução correta dos scripts, você deve copiar e colar uma linha por
 
 ## Envolva-se
 
-Crie um _**fork**_ e envie um _**pull-request**_ com as suas sugestões de melhorias para este repositório, elas são muito bem vindas!
+Crie um [_**fork**_](https://github.com/rauldipeas/xfscripts) e envie um _**pull-request**_ com as suas sugestões de melhorias para este repositório, elas são muito bem vindas!
 
 ## Fale comigo
 
-A forma mais fácil de tirar todas as suas dúvidas é falar diretamente comigo, através do [**Gitter**](https://gitter.im/xfscripts/comunidade).
+A forma mais fácil de tirar todas as suas dúvidas é através do chat no [**Gitter**](https://gitter.im/xfscripts/comunidade).
 
 [![gitter-banner](images/gitter-banner.png)](https://gitter.im/xfscripts/comunidade)
