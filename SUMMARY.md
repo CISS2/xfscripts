@@ -1,6 +1,6 @@
 # Summary
 
-- [XFScripts](./readme.md)
+- [XFScripts](./book.md)
 - [Pós instalação](./postinst.md)
     - [Bash-it](scripts/bash-it.md)
     - [GRUB](scripts/grub.md)
