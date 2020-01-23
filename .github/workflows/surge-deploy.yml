@@ -14,6 +14,6 @@ jobs:
           node-version: 8
       - run: sudo apt install cargo;cargo install mdbook
       - run: npm install -g surge
-      - run: mdbook init --force docs;cp -varf * docs/src/;mv -v docs/src/book.toml docs/
+      - run: mdbook init --force docs;cp -varf * !(docs) docs/src/;mv -v docs/src/book.toml docs/
       - run: cd docs/;mdbook build
       - run: surge docs/book --token ${{ secrets.SURGE_TOKEN }}
