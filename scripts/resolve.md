@@ -15,6 +15,7 @@ mv davinci-resolve*.deb ~/Downloads
 rm -rfv resolve
 aptpurge -y gdebi-core xorriso
 ```
+![resolve](../images/resolve.png)
  - [**!** _FFMultiConverter_](http://ppa.launchpad.net/cteehayder/ffmulticonverter/ubuntu/pool/main/f/ffmulticonverter/)
 ```bash
 mkdir -pv ~/.config/ffmulticonverter
