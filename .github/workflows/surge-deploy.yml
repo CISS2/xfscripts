@@ -17,3 +17,9 @@ jobs:
       - run: mdbook init --force docs;cp -varf `ls | grep -v docs` docs/src/;mv -v docs/src/book.toml docs/
       - run: cd docs/;mdbook build
       - run: surge docs/book --token ${{ secrets.SURGE_TOKEN }}
+      - name: Gitter webhook
+        uses: joelwmale/webhook-action@master
+        env:
+          WEBHOOK_URL: ${{ secrets.GITTER_WEBHOOK }}
+          WEBHOOK_TOKEN: ${{ secrets.GITTER_TOKEN }}
+          data: "{'deployment': 'finished', 'project': 'actions'}"
