@@ -8,8 +8,8 @@ jobs:
     name: Deploy no Surge
     steps:
       - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
       - name: Instalação do mdBook/Surge e deploy do site
+        uses: actions/setup-node@v1
       - run: |
           wget -c https://github.com/rust-lang/mdBook/releases/download/v0.3.5/mdbook-v0.3.5-x86_64-unknown-linux-gnu.tar.gz
           tar -vzxf mdbook*.tar.gz
