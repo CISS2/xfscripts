@@ -5,7 +5,7 @@ jobs:
       - image: circleci/node:latest
     steps:
       - checkout
-      - run: sudo apt install cargo;cargo install mdbook
+      - run: sudo apt install -y build-essential cargo;sudo cargo install mdbook
       - run: sudo npm install -g surge
       - run: mdbook init --force docs;cp -varf `ls | grep -v docs` docs/src/;mv -v docs/src/book.toml docs/
       - run: cd docs/;mdbook build
