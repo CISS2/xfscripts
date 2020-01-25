@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circle/buildpack-deps:latest
+      - image: circleci/buildpack-deps:latest
     steps:
       - run: |
           sudo apt update
