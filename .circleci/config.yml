@@ -1,4 +1,4 @@
-version: 2
+version: 2.1
 jobs:
   build:
     docker:
@@ -22,7 +22,10 @@ jobs:
           sudo checkinstall -D -y --install=no --maintainer rauldipeas@mail.com --pkgname libinput-gestures --pkgversion `./list-version-hashes | tail -1 | awk '{print $1}'` --provides libinput-gestures
           curl -k -T libinput*.deb -u "$NEXTCLOUD_ID" -H "X-Requested-With: XMLHttpRequest" https://my.opendesktop.org/public.php/webdav/libinput-gestures.deb
 workflows:
-  version: 2
+  version: 2.1
   build_and_test:
     jobs:
       - build
+notify:
+  webhooks:
+    - url: https://webhooks.gitter.im/e/d554cb0ee1cbf5a23ac1
