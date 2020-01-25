@@ -5,13 +5,17 @@ jobs:
       - image: circleci/node:latest
     steps:
       - checkout
-      - run: |
+      - run: 
+          name: Build do mdBooks e deploy no Surge
+          command: |
           wget -c https://github.com/rust-lang/mdBook/releases/download/v0.3.5/mdbook-v0.3.5-x86_64-unknown-linux-gnu.tar.gz;tar -vzxf mdbook*.tar.gz
           ./mdbook init --force docs;cp -varf `ls | grep -v docs` docs/src/;mv -v docs/src/book.toml docs/
           cd docs/;../mdbook build
           sudo npm install -g surge
           surge book --token $SURGE_TOKEN
-      - run: |
+      - run:
+          name: Compilação do Compton
+          command: |
           sudo apt update
           sudo apt install -y checkinstall git build-essential
           git clone https://github.com/tryone144/compton
@@ -22,7 +26,9 @@ jobs:
           make docs
           sudo checkinstall -D -y --install=no --maintainer rauldipeas@mail.com --pkgversion 0.1-beta2 --requires libconfig9
           curl -k -T compton*.deb -u "$NEXTCLOUD_ID" -H "X-Requested-With: XMLHttpRequest" https://my.opendesktop.org/public.php/webdav/compton.deb
-      - run: |
+      - run:
+          name: Compilação do libinput-gestures
+          command: |
           sudo apt install -y libinput-tools
           git clone https://github.com/bulletmark/libinput-gestures.git
           cd libinput-gestures
@@ -35,4 +41,4 @@ workflows:
       - build
 notify:
   webhooks:
-    - url: $GITTER_WEBHOOK
+    - url: "$GITTER_WEBHOOK"
