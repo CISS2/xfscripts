@@ -8,6 +8,7 @@ wget -O ~/.config/tint2/tint2rc http://my.opendesktop.org/s/EGoHb5XDttH4DLr/down
 wget -O ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml http://my.opendesktop.org/s/x6LP7Cs5foxmF5G/download #update-link
 wget -O ~/.local/share/scripts/tint2-panel-auto-opaque.sh http://my.opendesktop.org/s/rQJWi764p7FxXoj/download #update-link
 wget -O ~/.local/share/scripts/xfce4-appfinder.sh http://my.opendesktop.org/s/P59aF6BPP6QjnFA/download #update-link
+chmod +x -v ~/.local/share/scripts/tint2-panel-auto-opaque.sh ~/.local/share/scripts/xfce4-appfinder.sh
 wget -O ~/.local/share/xfce4-panel-profiles/Raul\ Dipeas.tar.bz2 http://my.opendesktop.org/s/DerCwxX84qstx7n/download #update-link
 xfce4-panel-profiles load ~/.local/share/xfce4-panel-profiles/Raul\ Dipeas.tar.bz2
 ```
