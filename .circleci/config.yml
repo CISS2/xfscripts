@@ -1,16 +1,8 @@
 version: 2.1
-executors:
-  bionic:
-    docker:
-      - image: buildpack-deps:bionic
-    working_directory: /tmp
-  node:
-    docker:
-      - image: node:latest
-    working_directory: /tmp    
 jobs:
-  build:
-    executor: bionic
+  build_and_deploy:
+    docker:
+      - image: circleci/buildpack-deps:bionic
     steps:
       - checkout
       - run: 
@@ -19,17 +11,13 @@ jobs:
             wget -c https://github.com/rust-lang/mdBook/releases/download/v0.3.5/mdbook-v0.3.5-x86_64-unknown-linux-gnu.tar.gz;tar -vzxf mdbook*.tar.gz
             ./mdbook init --force docs;cp -varf `ls | grep -v docs` docs/src/;mv -v docs/src/book.toml docs/
             cd docs/;../mdbook build
-  upload:
-    executor: node
-    steps:
-      - checkout
-      - run: 
-          name: Deploy no Surge
-          command: |
+            sudo apt update
+            sudo apt install npm
             sudo npm install -g surge
-            surge docs/book --token $SURGE_TOKEN
+            surge book --token $SURGE_TOKEN
   debs:
-    executor: bionic
+    docker:
+      - image: circleci/buildpack-deps:bionic
     steps:
       - run:
           name: Compilação do Compton
@@ -54,12 +42,9 @@ jobs:
             curl -k -T libinput*.deb -u "$NEXTCLOUD_ID" -H "X-Requested-With: XMLHttpRequest" https://my.opendesktop.org/public.php/webdav/libinput-gestures.deb
 workflows:
   version: 2.1
-  build_upload_and_debs:
+  build_and_deploy_and_debs:
     jobs:
-      - build
-      - upload:
-          requires:
-            - build
+      - build_and_deploy
       - debs
 notify:
   webhooks:
