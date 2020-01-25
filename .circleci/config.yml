@@ -2,18 +2,17 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: circleci/node:latest
+      - image: circleci/buildpack-deps:bionic
     steps:
       - checkout
       - run: |
           wget -c https://github.com/rust-lang/mdBook/releases/download/v0.3.5/mdbook-v0.3.5-x86_64-unknown-linux-gnu.tar.gz;tar -vzxf mdbook*.tar.gz
           ./mdbook init --force docs;cp -varf `ls | grep -v docs` docs/src/;mv -v docs/src/book.toml docs/
           cd docs/;../mdbook build
-          sudo apt update
-          sudo apt install npm
           sudo npm install -g surge
           surge book --token $SURGE_TOKEN
       - run: |
+          sudo apt update
           sudo apt install -y checkinstall git build-essential
           git clone https://github.com/tryone144/compton
           cd compton
