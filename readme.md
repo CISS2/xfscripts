@@ -14,7 +14,7 @@ Para uma execução correta dos scripts, você deve copiar e colar uma linha por
 
 Crie um _**fork**_ e envie um _**pull-request**_ com as suas sugestões de melhorias para este repositório, elas são muito bem vindas!
 
-## Fale comigo
+## Dúvidas
 
 A forma mais fácil de tirar todas as suas dúvidas é através do chat no [**Gitter**](https://gitter.im/xfscripts/comunidade).
 
