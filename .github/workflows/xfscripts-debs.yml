@@ -32,7 +32,5 @@ jobs:
         sudo checkinstall -D -y --install=no --maintainer rauldipeas@mail.com --pkgname libinput-gestures --pkgversion `./list-version-hashes | tail -1 | awk '{print $1}'` --provides libinput-gestures
         curl -k -T libinput*.deb -u "${{ secrets.NEXTCLOUD_ID }}" -H "X-Requested-With: XMLHttpRequest" https://my.opendesktop.org/public.php/webdav/libinput-gestures.deb
     - name: Gitter webhook
-      uses: joelwmale/webhook-action@master
-      env:
-        WEBHOOK_URL: https://webhooks.gitter.im/e/0f7f7dc4bc02129b9662
-        data: "{'deployment': 'finished', 'project': 'actions'}"
+      run: curl --data-urlencode "message=_Compilação_ dos pacotes deb concluída com sucesso no **GitHub Actions**" ${{ secrets.GITTER_WEBHOOK }}
+      

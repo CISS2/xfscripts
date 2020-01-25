@@ -21,8 +21,4 @@ jobs:
           cd docs/
           ../mdbook build
       - run: surge docs/book --token ${{ secrets.SURGE_TOKEN }}
-      - name: Gitter webhook
-        uses: joelwmale/webhook-action@master
-        env:
-          WEBHOOK_URL: https://webhooks.gitter.im/e/0f7f7dc4bc02129b9662
-          data: "{'deployment': 'finished', 'project': 'actions'}"
+      - run: curl --data-urlencode "message=_Deploy_ do **XFScripts** concluído com sucesso no **GitHub Actions**" ${{ secrets.GITTER_WEBHOOK }}
