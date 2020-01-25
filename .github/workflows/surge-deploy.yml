@@ -1,0 +1,28 @@
+name: Surge
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Deploy no Surge
+    steps:
+      - uses: actions/checkout@v1
+      - name: Instalação do mdBook/Surge e deploy do site
+        uses: actions/setup-node@v1
+      - run: |
+          wget -c https://github.com/rust-lang/mdBook/releases/download/v0.3.5/mdbook-v0.3.5-x86_64-unknown-linux-gnu.tar.gz
+          tar -vzxf mdbook*.tar.gz
+      - run: npm install -g surge
+      - run: |
+          ./mdbook init --force docs;cp -varf `ls | grep -v docs` docs/src/
+          mv -v docs/src/book.toml docs/
+      - run: |
+          cd docs/
+          ../mdbook build
+      - run: surge docs/book --token ${{ secrets.SURGE_TOKEN }}
+      - name: Gitter webhook
+        uses: joelwmale/webhook-action@master
+          env:
+          WEBHOOK_URL: https://webhooks.gitter.im/e/0f7f7dc4bc02129b9662
+          data: "{'deployment': 'finished', 'project': 'actions'}"

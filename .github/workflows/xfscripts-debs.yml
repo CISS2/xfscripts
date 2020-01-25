@@ -1,0 +1,38 @@
+name: XFScripts(debs)
+on:
+  push:
+    branches-ignore:
+      - 'releases/**'
+    paths-ignore:
+      - '_config.yml'
+      - 'readme.md'
+      - 'images/**'
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: actions/checkout@v1
+    - name: compton
+      run: |
+        sudo apt update
+        sudo apt install -y checkinstall git build-essential
+        git clone https://github.com/tryone144/compton
+        cd compton
+        sudo apt install -y libx11-dev libxcomposite-dev libxdamage-dev libxrender-dev libxrandr-dev libxinerama-dev libconfig-dev libdbus-1-dev libdrm-dev libgl1-mesa-dev libpcre3-dev 
+        make
+        sudo apt install -y --no-install-recommends asciidoc docbook-xml xsltproc xmlto
+        make docs
+        sudo checkinstall -D -y --install=no --maintainer rauldipeas@mail.com --pkgversion 0.1-beta2 --requires libconfig9
+        curl -k -T compton*.deb -u "${{ secrets.NEXTCLOUD_ID }}" -H "X-Requested-With: XMLHttpRequest" https://my.opendesktop.org/public.php/webdav/compton.deb
+    - name: linput-gestures
+      run: |
+        sudo apt install -y libinput-tools
+        git clone https://github.com/bulletmark/libinput-gestures.git
+        cd libinput-gestures
+        sudo checkinstall -D -y --install=no --maintainer rauldipeas@mail.com --pkgname libinput-gestures --pkgversion `./list-version-hashes | tail -1 | awk '{print $1}'` --provides libinput-gestures
+        curl -k -T libinput*.deb -u "${{ secrets.NEXTCLOUD_ID }}" -H "X-Requested-With: XMLHttpRequest" https://my.opendesktop.org/public.php/webdav/libinput-gestures.deb
+    - name: Gitter webhook
+        uses: joelwmale/webhook-action@master
+          env:
+          WEBHOOK_URL: https://webhooks.gitter.im/e/0f7f7dc4bc02129b9662
+          data: "{'deployment': 'finished', 'project': 'actions'}"
