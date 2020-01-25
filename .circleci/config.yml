@@ -1,9 +1,17 @@
 version: 2.1
-jobs:
-  build:
+executors:
+  bionic:
     docker:
-      - image: circleci/buildpack-deps:bionic
+      - image: buildpack-deps:bionic
     working_directory: /tmp
+executors:
+  node:
+    docker:
+      - image: node:latest
+    working_directory: /tmp    
+jobs:
+  flow:
+    executor: bionic
     steps:
       - checkout
       - run: 
@@ -12,10 +20,9 @@ jobs:
             wget -c https://github.com/rust-lang/mdBook/releases/download/v0.3.5/mdbook-v0.3.5-x86_64-unknown-linux-gnu.tar.gz;tar -vzxf mdbook*.tar.gz
             ./mdbook init --force docs;cp -varf `ls | grep -v docs` docs/src/;mv -v docs/src/book.toml docs/
             cd docs/;../mdbook build
-  upload:
-    docker:
-      - image: circleci/node:latest
-    working_directory: /tmp
+upload:
+  flow:
+    executor: node
     steps:
       - checkout
       - run: 
@@ -23,9 +30,9 @@ jobs:
           command: |
             sudo npm install -g surge
             surge docs/book --token $SURGE_TOKEN
-  debs:
-    docker:
-      - image: circleci/buildpack-deps:bionic
+debs:
+  flow:
+    executor: bionic
     steps:
       - run:
           name: Compilação do Compton
