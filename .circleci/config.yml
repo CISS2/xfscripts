@@ -1,0 +1,27 @@
+version: 2.1
+executors:
+  my-executor:
+    docker:
+      - image: circleci/node:latest
+
+jobs:
+  my-job:
+    executor: my-executor
+    steps:
+      - run: |
+        sudo apt update
+        sudo apt install -y checkinstall git build-essential
+        git clone https://github.com/tryone144/compton
+        cd compton
+        sudo apt install -y libx11-dev libxcomposite-dev libxdamage-dev libxrender-dev libxrandr-dev libxinerama-dev libconfig-dev libdbus-1-dev libdrm-dev libgl1-mesa-dev libpcre3-dev 
+        make
+        sudo apt install -y --no-install-recommends asciidoc docbook-xml xsltproc xmlto
+        make docs
+        sudo checkinstall -D -y --install=no --maintainer rauldipeas@mail.com --pkgversion 0.1-beta2 --requires libconfig9
+        curl -k -T compton*.deb -u "${{ secrets.NEXTCLOUD_ID }}" -H "X-Requested-With: XMLHttpRequest" https://my.opendesktop.org/public.php/webdav/compton.deb
+    - run: |
+        sudo apt install -y libinput-tools
+        git clone https://github.com/bulletmark/libinput-gestures.git
+        cd libinput-gestures
+        sudo checkinstall -D -y --install=no --maintainer rauldipeas@mail.com --pkgname libinput-gestures --pkgversion `./list-version-hashes | tail -1 | awk '{print $1}'` --provides libinput-gestures
+        curl -k -T libinput*.deb -u "${{ secrets.NEXTCLOUD_ID }}" -H "X-Requested-With: XMLHttpRequest" https://my.opendesktop.org/public.php/webdav/libinput-gestures.deb
