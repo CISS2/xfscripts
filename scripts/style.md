@@ -7,7 +7,7 @@ aptinst -y breeze-cursor-theme hardcode-tray papirus-icon-theme plata-theme qt5c
 xfconf-query -c xfce4-appfinder -np /always-center -t bool -s true
 xfconf-query -c xfce4-appfinder -np /category-icon-size -t int -s 2
 xfconf-query -c xfce4-appfinder -np /icon-view -t bool -s true
-xfconf-query -c xfce4-appfinder -np /item-icon-size -t int 4
+xfconf-query -c xfce4-appfinder -np /item-icon-size -t int -s 4
 xfconf-query -c xfce4-appfinder -np /last/window-height -t int -s 5000
 xfconf-query -c xfce4-appfinder -np /last/window-width -t int -s 5000
 xfconf-query -c xfce4-notifyd -np /theme -t string -s Plata
