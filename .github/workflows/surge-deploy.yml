@@ -24,5 +24,5 @@ jobs:
       - name: Gitter webhook
         uses: joelwmale/webhook-action@master
           env:
-          WEBHOOK_URL: https://webhooks.gitter.im/e/0f7f7dc4bc02129b9662
-          data: "{'deployment': 'finished', 'project': 'actions'}"
+            WEBHOOK_URL: https://webhooks.gitter.im/e/0f7f7dc4bc02129b9662
+            data: "{'deployment': 'finished', 'project': 'actions'}"
