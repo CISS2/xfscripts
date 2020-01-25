@@ -4,7 +4,6 @@ executors:
     docker:
       - image: buildpack-deps:bionic
     working_directory: /tmp
-executors:
   node:
     docker:
       - image: node:latest
