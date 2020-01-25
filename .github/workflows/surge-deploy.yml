@@ -7,19 +7,19 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Instalação do mdBook
-          run: |
-            wget -c https://github.com/rust-lang/mdBook/releases/download/v0.3.5/mdbook-v0.3.5-x86_64-unknown-linux-gnu.tar.gz
-            tar -vzxf mdbook*.tar.gz
+        run: |
+          wget -c https://github.com/rust-lang/mdBook/releases/download/v0.3.5/mdbook-v0.3.5-x86_64-unknown-linux-gnu.tar.gz
+          tar -vzxf mdbook*.tar.gz
       - name: Build do mdBook
-          run: |
-            ./mdbook init --force docs;cp -varf `ls | grep -v docs` docs/src/
-            mv -v docs/src/book.toml docs/
-            cd docs/
-            ../mdbook build
+        run: |
+          ./mdbook init --force docs;cp -varf `ls | grep -v docs` docs/src/
+          mv -v docs/src/book.toml docs/
+          cd docs/
+          ../mdbook build
       - uses: actions/setup-node@v1
       - name: Instalação do Surge
-          run: npm install -g surge
+        run: npm install -g surge
       - name: Deploy no Surge
-          run: surge docs/book --token ${{ secrets.SURGE_TOKEN }}
+        run: surge docs/book --token ${{ secrets.SURGE_TOKEN }}
       - name: Gitter webhook
-          run: curl --data-urlencode "message=_Deploy_ do **XFScripts** no **Surge** concluído com sucesso através **GitHub Actions**" ${{ secrets.GITTER_WEBHOOK }}
+        run: curl --data-urlencode "message=_Deploy_ do **XFScripts** no **Surge** concluído com sucesso através **GitHub Actions**" ${{ secrets.GITTER_WEBHOOK }}
