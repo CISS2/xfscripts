@@ -5,5 +5,6 @@ echo 'deb http://packages.elementary.io/appcenter bionic main' | sudo tee /etc/a
 aptupd
 ```
 [**AppCenter**](https://appcenter.elementary.io/)
+ - [**Color picker**](http://apt.ubuntu.com/p/com.github.ronnydo.colorpicker)
 
 ![eos-appcenter](../images/eos-appcenter-repo.png)

@@ -5,7 +5,6 @@
  - [**Discos**](http://apt.ubuntu.com/p/gnome-disk-utility)
  - [**Fonts EmojiOne**](http://apt.ubuntu.com/p/fonts-emojione)
  - [**GNOME characters**](http://apt.ubuntu.com/p/gnome-characters) `--no-install-recommends`
- - [**GPick**](http://apt.ubuntu.com/p/gpick)
  - [**MPlayer**](http://apt.ubuntu.com/p/mplayer)
  - [**Nextcloud**](http://apt.ubuntu.com/p/nextcloud-desktop)
  - [**Neofetch**](http://apt.ubuntu.com/p/neofetch)
