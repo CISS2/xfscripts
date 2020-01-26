@@ -9,11 +9,11 @@
  - [**GIMP**](http://apt.ubuntu.com/p/feedgimpreader)
  - [**GNOME characters**](http://apt.ubuntu.com/p/gnome-characters) `--no-install-recommends`
  - [**MPlayer**](http://apt.ubuntu.com/p/mplayer)
- - [**Nextcloud**](http://apt.ubuntu.com/p/nextcloud-desktop)
  - [**Neofetch**](http://apt.ubuntu.com/p/neofetch)
+ - [**Nextcloud**](http://apt.ubuntu.com/p/nextcloud-desktop)
  - [**OpenSSH server**](http://apt.ubuntu.com/p/openssh-server)
- - [**Redshift-gtk**](http://apt.ubuntu.com/p/redshift-gtk)
  - [**RAR**](http://apt.ubuntu.com/p/rar)
+ - [**Redshift-gtk**](http://apt.ubuntu.com/p/redshift-gtk)
  - [**Remmina**](http://apt.ubuntu.com/p/remmina)
  - [**SMPlayer**](http://apt.ubuntu.com/p/smplayer)
 ```bash
