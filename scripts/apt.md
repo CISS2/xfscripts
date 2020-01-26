@@ -1,5 +1,6 @@
 # Apt 
- - [**Deluge-gtk**](http://apt.ubuntu.com/p/deluge-gtk) - [**Deluged**](https://apt.ubuntu.com/p/deluged)
+ - [**Deluge-gtk**](http://apt.ubuntu.com/p/deluge-gtk)
+ - [**Deluged**](https://apt.ubuntu.com/p/deluged)
  - [**Diodon**](http://apt.ubuntu.com/p/diodon)
  - [**Discos**](http://apt.ubuntu.com/p/gnome-disk-utility)
  - [**Dropbox**](http://apt.ubuntu.com/p/thunar-dropbox-plugin) #import_files
