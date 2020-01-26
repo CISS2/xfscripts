@@ -1,10 +1,11 @@
 # Apt 
  - [**Deluge-gtk**](http://apt.ubuntu.com/p/deluge-gtk) - [**Deluged**](https://apt.ubuntu.com/p/deluged)
  - [**Diodon**](http://apt.ubuntu.com/p/diodon)
- - [**FeedReader**](http://apt.ubuntu.com/p/feedreader) #sync_settings
- - [**GIMP**](http://apt.ubuntu.com/p/feedgimpreader)
  - [**Discos**](http://apt.ubuntu.com/p/gnome-disk-utility)
+ - [**Dropbox**](http://apt.ubuntu.com/p/thunar-dropbox-plugin) #import_files
+ - [**FeedReader**](http://apt.ubuntu.com/p/feedreader) #sync_settings
  - [**Fonts EmojiOne**](http://apt.ubuntu.com/p/fonts-emojione)
+ - [**GIMP**](http://apt.ubuntu.com/p/feedgimpreader)
  - [**GNOME characters**](http://apt.ubuntu.com/p/gnome-characters) `--no-install-recommends`
  - [**MPlayer**](http://apt.ubuntu.com/p/mplayer)
  - [**Nextcloud**](http://apt.ubuntu.com/p/nextcloud-desktop)
@@ -14,7 +15,6 @@
  - [**RAR**](http://apt.ubuntu.com/p/rar)
  - [**Remmina**](http://apt.ubuntu.com/p/remmina)
  - [**SMPlayer**](http://apt.ubuntu.com/p/smplayer)
- - [**Vokoscreen**](http://apt.ubuntu.com/p/vokoscreen)
 ```bash
 mkdir -pv ~/.config/smplayer
 echo '2345 	
@@ -27,8 +27,8 @@ styles\primarycolor\argb=fffff100' > ~/.config/smplayer/smplayer.ini
 ```
  - [**Steam**](http://apt.ubuntu.com/p/steam-installer) #import_files
  - [**Synaptic**](http://apt.ubuntu.com/p/synaptic)
- - [**Dropbox**](http://apt.ubuntu.com/p/thunar-dropbox-plugin) #import_files
  - [**Timeshift**](http://apt.ubuntu.com/p/timeshift)
+ - [**Vokoscreen**](http://apt.ubuntu.com/p/vokoscreen)
  - [**VolumeIcon ALSA**](http://apt.ubuntu.com/p/volumeicon-alsa)
 ```bash
 mkdir -pv ~/.config/autostart ~/.config/volumeicon
