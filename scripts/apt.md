@@ -9,12 +9,12 @@
  - [**MPlayer**](http://apt.ubuntu.com/p/mplayer)
  - [**Nextcloud**](http://apt.ubuntu.com/p/nextcloud-desktop)
  - [**Neofetch**](http://apt.ubuntu.com/p/neofetch)
- - [**OBS studio**](http://apt.ubuntu.com/p/obs-studio) `--no-install-recommends`
  - [**OpenSSH server**](http://apt.ubuntu.com/p/openssh-server)
  - [**Redshift-gtk**](http://apt.ubuntu.com/p/redshift-gtk)
  - [**RAR**](http://apt.ubuntu.com/p/rar)
  - [**Remmina**](http://apt.ubuntu.com/p/remmina)
  - [**SMPlayer**](http://apt.ubuntu.com/p/smplayer)
+ - [**Vokoscreen**](http://apt.ubuntu.com/p/vokoscreen)
 ```bash
 mkdir -pv ~/.config/smplayer
 echo '2345 	
