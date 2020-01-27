@@ -3,7 +3,7 @@
 mkdir -pv ~/.config/autostart
 aptinst -y xcape
 echo '[Desktop Entry]
-Exec=xcape -e "Super_L=Super_L|r"
+Exec=xcape -e "Super_L=Super_L|x"
 Name=Xcape
 Type=Application
 OnlyShowIn=XFCE;' > ~/.config/autostart/xcape.desktop
