@@ -10,4 +10,4 @@ wget -O ~/.themes/xfdashboard-blue/xfdashboard-1.0/xfdashboard-blue.css http://m
 wget -O ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml http://my.opendesktop.org/s/x6LP7Cs5foxmF5G/download #update-link
 
 ```
-![jack](../images/xfdashboard.png)
+![xfdashboard](../images/xfdashboard.png)
