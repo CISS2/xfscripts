@@ -12,6 +12,7 @@
     - [Resolve](scripts/resolve.md)
     - [Gestos](scripts/gestures.md)
     - [Rolagem natural](scripts/natural-scrolling.md)
+    - [XFDashboard](scripts/xfdashboard.md)
     - [XCape](scripts/xcape.md)
     - [DockbarX](scripts/dockbarx.md)
     - [Painel](scripts/panel.md)
