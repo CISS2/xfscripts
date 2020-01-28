@@ -12,7 +12,8 @@ WINE_RT=15
 WINE_SRV_RT=10
 STAGING_WRITECOPY=1
 STAGING_SHARED_MEMORY=1
-WINE_ENABLE_PIPE_SYNC_FOR_APP=1' >> ~/.profile
+WINE_ENABLE_PIPE_SYNC_FOR_APP=1' >> ~/.profile #manual-cleanup-on-reinstall
+
 #wine vcrun2013
 ```
 ![wine](../images/wine.png)

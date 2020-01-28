@@ -14,11 +14,11 @@ sed -i 's/bobby/powerline/g' ~/.bashrc
 echo '
 # Undistract-me
 . /usr/share/undistract-me/long-running.bash
-notify_when_long_running_commands_finish_install' >> ~/.bashrc
+notify_when_long_running_commands_finish_install' >> ~/.bashrc #manual-cleanup-on-reinstall
 echo "
 # Autocompletar pelo histórico
 bind '\"\\e[A\": history-search-backward'
-bind '\"\\e[B\": history-search-forward'" >> ~/.bashrc
+bind '\"\\e[B\": history-search-forward'" >> ~/.bashrc #manual-cleanup-on-reinstall
 sudo sed -i 's/took/levou/g' /usr/share/undistract-me/long-running.bash
 sudo sed -i 's/dialog-information/xterm/g' /usr/share/undistract-me/long-running.bash
 sudo sed -i 's/Long\ command\ completed/Comando\ concluído\!/g' /usr/share/undistract-me/long-running.bash
