@@ -11,7 +11,7 @@ enable_daemon=true
 %23%20monitor_mounted_filesystems=false" > ~/.config/appimagelauncher.cfg
 ```
  - [**Crow translate**](https://github.com/crow-translate/crow-translate/releases)
- - [**GColor2**](http://mirrors.kernel.org/ubuntu/pool/universe/g/gcolor2/gcolor2_0.4-2.1ubuntu1_amd64.deb)
+ - [**GColor2**](https://packages.ubuntu.com/xenial/amd64/gcolor2/download) [#direct-link](http://mirrors.kernel.org/ubuntu/pool/universe/g/gcolor2/gcolor2_0.4-2.1ubuntu1_amd64.deb)
  ```bash
  sudo sed -i 's/\/usr\/share\/pixmaps\/gcolor2\/gcolor2.xpm/gcolor2/g' /usr/share/applications/gcolor2.desktop
  ```
@@ -27,3 +27,7 @@ phoronix-test-suite default-benchmark openarena xonotic tesseract gputest unigin
  - [**Rambox**](https://github.com/ramboxapp/community-edition/releases) #sync_settings
  - [**Stremio**](https://www.stremio.com/br/downloads) `--no-install-recommends` #sync_settings
  - [**ToneLib ZOOM**](https://www.tonelib.net/download/)
+ - [**VirtualBox**](https://www.virtualbox.org/wiki/Linux_Downloads)
+```bash
+sudo sed -i 's/Exec=VirtualBox/Exec=VirtualBox -style fusion/g' /usr/share/applications/virtualbox.desktop
+```
