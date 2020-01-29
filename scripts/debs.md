@@ -11,6 +11,10 @@ enable_daemon=true
 %23%20monitor_mounted_filesystems=false" > ~/.config/appimagelauncher.cfg
 ```
  - [**Crow translate**](https://github.com/crow-translate/crow-translate/releases)
+ - [**GColor2**](http://mirrors.kernel.org/ubuntu/pool/universe/g/gcolor2/gcolor2_0.4-2.1ubuntu1_amd64.deb)
+ ```bash
+ sudo sed -i 's/\/usr\/share\/pixmaps\/gcolor2\/gcolor2.xpm/gcolor2/g' /usr/share/applications/gcolor2.desktop
+ ```
  - [**Mailspring**](https://github.com/Foundry376/Mailspring/releases) #sync_settings
  - [**Megasync**](https://mega.nz/sync) #sync_files
  - [**Phoronix test suit**](https://github.com/phoronix-test-suite/phoronix-test-suite/releases)
