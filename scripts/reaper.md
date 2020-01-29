@@ -44,4 +44,6 @@ Icon=text-x-plain" | tee -a ~/.local/share/applications/cockos-reaper.desktop
 ```
  - [**LinVST**](https://github.com/osxmidi/LinVst/releases)
 
+[![bashrun](../images/bashrun.png)](br:reaper)
+
 ![reaper](../images/reaper.png)

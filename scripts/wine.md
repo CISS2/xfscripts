@@ -16,4 +16,6 @@ WINE_ENABLE_PIPE_SYNC_FOR_APP=1' >> ~/.profile #manual-cleanup-on-reinstall
 
 #wine vcrun2013
 ```
+[![bashrun](../images/bashrun.png)](br:wine)
+
 ![wine](../images/wine.png)

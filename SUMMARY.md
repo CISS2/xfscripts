@@ -1,6 +1,7 @@
 # Summary
 
 - [XFScripts](./book.md)
+- [Bashrun](./bashrun.md)
 - [Pós instalação](./postinst.md)
     - [Bash-it](scripts/bash-it.md)
     - [GRUB](scripts/grub.md)

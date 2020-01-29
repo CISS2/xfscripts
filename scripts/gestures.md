@@ -25,4 +25,6 @@ gesture swipe left 4 wmctrl -c :ACTIVE:
 gesture swipe up 3 x-terminal-emulator
 gesture swipe down 3 xdotool getactivewindow windowminimize' > ~/.config/libinput-gestures.conf
 ```
+[![bashrun](../images/bashrun.png)](br:gestures)
+
 ![gestures](../images/gestures.png)

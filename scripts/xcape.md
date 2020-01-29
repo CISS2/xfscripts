@@ -8,3 +8,4 @@ Name=Xcape
 Type=Application
 OnlyShowIn=XFCE;' > ~/.config/autostart/xcape.desktop
 ```
+[![bashrun](../images/bashrun.png)](br:xcape)

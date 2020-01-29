@@ -5,3 +5,4 @@ echo 'RESUME=none' | sudo tee /etc/initramfs-tools/conf.d/resume
 echo 'FRAMEBUFFER=y' | sudo tee /etc/initramfs-tools/conf.d/splash
 sudo update-initramfs -u -k all;sudo update-grub
 ```
+[![bashrun](../images/bashrun.png)](br:grub)

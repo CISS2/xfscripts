@@ -10,4 +10,6 @@ chmod +x -v ~/.local/share/scripts/tint2-panel-auto-opaque.sh ~/.local/share/scr
 wget -O ~/.local/share/xfce4-panel-profiles/Raul\ Dipeas.tar.bz2 http://my.opendesktop.org/s/DerCwxX84qstx7n/download #update-link
 xfce4-panel-profiles load ~/.local/share/xfce4-panel-profiles/Raul\ Dipeas.tar.bz2
 ```
+[![bashrun](../images/bashrun.png)](br:panel)
+
 ![panel](../images/panel.png)

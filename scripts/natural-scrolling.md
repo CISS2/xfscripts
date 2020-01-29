@@ -11,5 +11,6 @@ OnlyShowIn=XFCE;
 StartupNotify=false
 Terminal=false
 Hidden=false
-Icon=mouse' > ~/.config/autostart/naturalscrolling.desktop
+Icon=mouse' | tee ~/.config/autostart/naturalscrolling.desktop
 ```
+[![bashrun](../images/bashrun.png)](br:natural-scrolling)

@@ -7,4 +7,6 @@ aptupd
 [**AppCenter**](https://appcenter.elementary.io/)
  - [**Color picker**](http://apt.ubuntu.com/p/com.github.ronnydo.colorpicker)
 
+[![bashrun](../images/bashrun.png)](br:eos-appcenter-repo)
+
 ![eos-appcenter](../images/eos-appcenter-repo.png)

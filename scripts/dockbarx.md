@@ -11,4 +11,6 @@ wget -O dockbarx.xml http://my.opendesktop.org/index.php/s/yFiAkRaPHqGkk9o/downl
 gconftool --load dockbarx.xml
 rm -rfv dockbarx.xml
 ```
+[![bashrun](../images/bashrun.png)](br:dockbarx)
+
 ![dockbarx](../images/dockbarx.png)
