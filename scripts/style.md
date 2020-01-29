@@ -3,7 +3,7 @@
 sudo add-apt-repository -yn ppa:papirus/hardcode-tray
 sudo add-apt-repository -yn ppa:papirus/papirus-dev
 sudo add-apt-repository -y ppa:tista/plata-theme
-aptinst -y breeze-cursor-theme hardcode-tray papirus-icon-theme plata-theme qt5ct qt5-gtk2-platformtheme
+aptinst -y breeze-cursor-theme hardcode-tray papirus-icon-theme plata-theme qt5ct qt5-style-plugins
 xfconf-query -c xfce4-appfinder -np /always-center -t bool -s true
 xfconf-query -c xfce4-appfinder -np /category-icon-size -t int -s 2
 xfconf-query -c xfce4-appfinder -np /icon-view -t bool -s true
