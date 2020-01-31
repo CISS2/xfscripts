@@ -16,6 +16,7 @@
  - [**Remmina**](http://apt.ubuntu.com/p/remmina)
  - [**Rygel**](http://apt.ubuntu.com/p/rygel-preferences)
  - [**SMPlayer**](http://apt.ubuntu.com/p/smplayer)
+ - [**SMPlayer themes**](http://apt.ubuntu.com/p/smplayer-themes)
 ```bash
 mkdir -pv ~/.config/smplayer
 echo '2345 	
