@@ -4,7 +4,7 @@ sudo usermod -aG audio $USER
 sudo usermod -aG video $USER
 echo jackd2 jackd/tweak_rt_limits string true | sudo debconf-set-selections
 #sudo add-apt-repository ppa:ubuntustudio-ppa/backports
-aptinst --no-install-recommends ubuntustudio-controls patchage
+aptinst -y --no-install-recommends ubuntustudio-controls patchage
 mkdir -pv ~/.config/autostart
 echo '[Desktop Entry]
 Type=Application
