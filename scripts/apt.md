@@ -6,7 +6,7 @@
  - [**Dropbox**](http://apt.ubuntu.com/p/thunar-dropbox-plugin) #import_files
  - [**FeedReader**](http://apt.ubuntu.com/p/feedreader) #sync_settings
  - [**Fonts EmojiOne**](http://apt.ubuntu.com/p/fonts-emojione)
- - [**GIMP**](http://apt.ubuntu.com/p/feedgimpreader)
+ - [**GIMP**](http://apt.ubuntu.com/p/gimp)
  - [**GNOME characters**](http://apt.ubuntu.com/p/gnome-characters) `--no-install-recommends`
  - [**MPlayer**](http://apt.ubuntu.com/p/mplayer)
  - [**Neofetch**](http://apt.ubuntu.com/p/neofetch)
