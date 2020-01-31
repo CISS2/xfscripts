@@ -2,7 +2,7 @@
 ```bash
 wget -c http://mirrors.edge.kernel.org/ubuntu/pool/universe/x/xfdashboard/xfdashboard_0.7.7-0ubuntu1_amd64.deb
 wget -c http://mirrors.edge.kernel.org/ubuntu/pool/universe/x/xfdashboard/xfdashboard-plugins_0.7.7-0ubuntu1_amd64.deb
-aptinst ./xfdashboar*.deb;rm -rfv xfdashboard*.deb
+aptinst -y ./xfdashboar*.deb;rm -rfv xfdashboard*.deb
 mkdir -pv ~/.themes/
 cp -varf /usr/share/themes/xfdashboard-blue ~/.themes
 wget -O ~/.themes/xfdashboard-blue/xfdashboard-1.0/xfdashboard.xml http://my.opendesktop.org/s/TMt7jjEM5JG9J2i/download #update-link
