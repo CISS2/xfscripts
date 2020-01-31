@@ -14,6 +14,7 @@
  - [**RAR**](http://apt.ubuntu.com/p/rar)
  - [**Redshift-gtk**](http://apt.ubuntu.com/p/redshift-gtk)
  - [**Remmina**](http://apt.ubuntu.com/p/remmina)
+ - [**Rygel**](http://apt.ubuntu.com/p/rygel-preferences)
  - [**SMPlayer**](http://apt.ubuntu.com/p/smplayer)
 ```bash
 mkdir -pv ~/.config/smplayer
