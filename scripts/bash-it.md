@@ -43,11 +43,10 @@ exit
 ```
 [![bashrun](../images/bashrun.png)](br:bash-it)
 
-#### APT alias:
+#### APT alias(execute manualmente):
 ```bash
 bash_it enable alias apt
 exit
 ```
-[![bashrun](../images/bashrun.png)](br:bash-it_apt-alias)
 
 ![bash-it](../images/bash-it.png)
