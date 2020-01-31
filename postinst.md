@@ -1,8 +1,8 @@
 # Script de pós instalação do Xubuntu 19.10
  - [**Bash-it**](scripts/bash-it.md) (_workflow_)
- - [**GRUB**](scripts/grub.md) (_desktop_)
  - [**Kernel de baixa latência**](scripts/lowlatency-kernel.md) (_workflow_)
  - [**NVIDIA DRM modeset**](scripts/nvidia-drm-modeset.md) (_workflow_)
+ - [**GRUB**](scripts/grub.md) (_desktop_)
  - [**JACK**](scripts/jack.md) (_studio_)
  - [**WINE**](scripts/wine.md) (_studio_)
  - [**REAPER**](scripts/reaper.md) (_studio_)
