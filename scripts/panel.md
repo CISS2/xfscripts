@@ -9,7 +9,7 @@ wget -O ~/.local/share/scripts/tint2-panel-auto-opaque.sh http://my.opendesktop.
 chmod +x -v ~/.local/share/scripts/tint2-panel-auto-opaque.sh ~/.local/share/scripts/xfce4-appfinder.sh
 wget -O ~/.local/share/xfce4-panel-profiles/Raul\ Dipeas.tar.bz2 http://my.opendesktop.org/s/DerCwxX84qstx7n/download #update-link
 xfce4-panel-profiles load ~/.local/share/xfce4-panel-profiles/Raul\ Dipeas.tar.bz2
-tint2&bash ~/.local/share/scripts/tint2-panel-auto-opaque.sh
+tint2&bash ~/.local/share/scripts/tint2-panel-auto-opaque.sh&
 ```
 [![bashrun](../images/bashrun.png)](br:panel)
 
