@@ -1,6 +1,9 @@
 # Script de pós instalação do Xubuntu 19.10
  - [**Bash-it**](scripts/bash-it.md) (_workflow_)
  - [**Kernel de baixa latência**](scripts/lowlatency-kernel.md) (_workflow_)
+ - [**XanMod**](scripts/xanmod.md) (_workflow_)
+ - [**ALSA firmware**](scripts/alsa-firmware.md) (_workflow_)
+ - [**MESA PPA**](scripts/mesa-ppa.md) (_workflow_)
  - [**NVIDIA DRM modeset**](scripts/nvidia-drm-modeset.md) (_workflow_)
  - [**GRUB**](scripts/grub.md) (_desktop_)
  - [**JACK**](scripts/jack.md) (_studio_)
@@ -20,10 +23,8 @@
  - [**Compton**](scripts/compton.md) (_desktop_)
  - [**Lutris**](scripts/lutris.md) (_games_)
  - [**Xubuntu extras**](scripts/xubuntu-extras.md) (_extras_)
- - [**Elementary OS AppCenter repo**](scipts/eos-appcenter-repo.md) (_extras_)
  - [**Syncthing**](scripts/syncthing.md) (_extras_)
- - [**XanMod**](scripts/xanmod.md) (_extras_)
- - [**ALSA firmware**](scripts/alsa-firmware.md) (_extras_)
+ - [**Elementary OS AppCenter repo**](scipts/eos-appcenter-repo.md) (_extras_)
 
 #### Desktop
 ![desktop](images/desktop.png)
