@@ -11,6 +11,6 @@ OnlyShowIn=XFCE;
 StartupNotify=false
 Terminal=false
 Hidden=false
-Icon=mouse' > ~/.config/autostart/palmdetection.desktop
+Icon=mouse' | tee ~/.config/autostart/palmdetection.desktop
 ```
 [![bashrun](../images/bashrun.png)](br:palmdetection)
