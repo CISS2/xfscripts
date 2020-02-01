@@ -1,4 +1,4 @@
-# Syncthing
+# XanMod
 ```bash
 wget https://dl.xanmod.org/xanmod-repository.deb
 aptinst ./xanmod-repository.deb

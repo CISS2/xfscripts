@@ -23,6 +23,7 @@
  - [**Elementary OS AppCenter repo**](scipts/eos-appcenter-repo.md) (_extras_)
  - [**Syncthing**](scripts/syncthing.md) (_extras_)
  - [**XanMod**](scripts/xanmod.md) (_extras_)
+ - [**ALSA firmware**](scripts/alsa-firmware.md) (_extras_)
 
 #### Desktop
 ![desktop](images/desktop.png)
