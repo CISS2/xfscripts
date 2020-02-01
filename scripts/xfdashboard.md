@@ -10,6 +10,9 @@ wget -O ~/.themes/xfdashboard-blue/xfdashboard-1.0/xfdashboard-blue.css http://m
 killall -9 xfconfd
 wget -O ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml http://my.opendesktop.org/s/x6LP7Cs5foxmF5G/download #update-link
 wget -O ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfdashboard.xml http://my.opendesktop.org/s/z9wM75YJFGzQfYo/download #update-link
+mkdir -pv ~/.config/autostart
+cp -varf /etc/xdg/autostart/xfdashboard-autostart.desktop .config/autostart/
+sed -i 's/Hidden=true/Hidden=false/g' ~/.config/autostart/xfdashboard-autostart.desktop 
 
 ```
 [![bashrun](../images/bashrun.png)](br:xfdashboard)
