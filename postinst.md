@@ -20,6 +20,7 @@
  - [**Lutris**](scripts/lutris.md) (_games_)
  - [**Xubuntu extras**](scripts/xubuntu-extras.md) (_extras_)
  - [**Elementary OS AppCenter repo**](scipts/eos-appcenter-repo.md) (_extras_)
+ - [**Syncthing**](scipts/syncthing.md) (_extras_)
 
 #### Desktop
 ![desktop](images/desktop.png)

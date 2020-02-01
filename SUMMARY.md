@@ -24,3 +24,4 @@
     - [Lutris](scripts/lutris.md)
     - [Xubuntu extras](scripts/xubuntu-extras.md)
     - [AppCenter](scripts/eos-appcenter-repo.md)
+    - [Syncthing](scripts/syncthing.md)
