@@ -8,6 +8,7 @@
  - [**REAPER**](scripts/reaper.md) (_studio_)
  - [**Resolve**](scripts/resolve.md) (_studio_)
  - [**Gestos**](scripts/gestures.md) (_workflow_)
+ - [**Detecção de palma da mão**](scripts/palmdetection.md) (_workflow_)
  - [**Rolagem natural**](scripts/natural-scrolling.md) (_workflow_)
  - [**XFDashboard**](scripts/xfdashboard.md) (_workflow_)
  - [**XCape**](scripts/xcape.md) (_workflow_)

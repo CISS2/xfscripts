@@ -12,6 +12,7 @@
     - [REAPER](scripts/reaper.md)
     - [Resolve](scripts/resolve.md)
     - [Gestos](scripts/gestures.md)
+    - [Deteção de palma da mão](scripts/palmdetection.md)
     - [Rolagem natural](scripts/natural-scrolling.md)
     - [XFDashboard](scripts/xfdashboard.md)
     - [XCape](scripts/xcape.md)
