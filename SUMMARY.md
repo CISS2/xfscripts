@@ -26,3 +26,4 @@
     - [Xubuntu extras](scripts/xubuntu-extras.md)
     - [AppCenter](scripts/eos-appcenter-repo.md)
     - [Syncthing](scripts/syncthing.md)
+    - [XanMod](scripts/xanmod.md)
