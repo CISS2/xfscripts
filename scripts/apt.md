@@ -8,6 +8,7 @@
  - [**Fonts EmojiOne**](http://apt.ubuntu.com/p/fonts-emojione)
  - [**GeoClue 2**](http://apt.ubuntu.com/p/geoclue-2.0)
  - [**GNOME characters**](http://apt.ubuntu.com/p/gnome-characters) `--no-install-recommends`
+ - [**GNOME system log**](http://apt.ubuntu.com/p/gnome-system-log)
  - [**MPlayer**](http://apt.ubuntu.com/p/mplayer)
  - [**Neofetch**](http://apt.ubuntu.com/p/neofetch)
  - [**Nextcloud**](http://apt.ubuntu.com/p/nextcloud-desktop)
