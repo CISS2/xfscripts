@@ -5,6 +5,7 @@
  - [**ALSA firmware**](scripts/alsa-firmware.md) (_workflow_)
  - [**MESA PPA**](scripts/mesa-ppa.md) (_extras_)
  - [**Pop!_OS PPA**](scripts/pop_os-ppa.md) (_extras_)
+ - [**NVIDIA PPA**](scripts/nvidia-ppa.md) (_extras_)
  - [**NVIDIA DRM modeset**](scripts/nvidia-drm-modeset.md) (_workflow_)
  - [**GRUB**](scripts/grub.md) (_desktop_)
  - [**JACK**](scripts/jack.md) (_studio_)
