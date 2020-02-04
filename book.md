@@ -17,3 +17,5 @@ Crie um [_**fork**_](https://github.com/rauldipeas/xfscripts) e envie um _**pull
 ## Dúvidas
 
 A forma mais fácil de tirar todas as suas dúvidas é através do chat no [**Gitter**](https://gitter.im/xfscripts/comunidade).
+
+![xfscripts](images/xfscripts.png)
