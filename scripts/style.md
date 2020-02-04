@@ -4,6 +4,9 @@ sudo add-apt-repository -yn ppa:papirus/hardcode-tray
 sudo add-apt-repository -yn ppa:papirus/papirus-dev
 sudo add-apt-repository -y ppa:tista/plata-theme
 aptinst -y breeze-cursor-theme hardcode-tray papirus-icon-theme plata-theme qt5ct qt5-style-plugins
+xfconf-query -c thunar -p /last-location-bar -t string -s ThunarLocationButtons
+xfconf-query -c thunar -p /last-window-height -t int -s 580
+xfconf-query -c thunar -p /last-window-width -t int -s 800
 xfconf-query -c xfce4-appfinder -np /always-center -t bool -s true
 xfconf-query -c xfce4-appfinder -np /category-icon-size -t int -s 2
 xfconf-query -c xfce4-appfinder -np /icon-view -t bool -s true
@@ -12,6 +15,9 @@ xfconf-query -c xfce4-appfinder -np /last/window-height -t int -s 5000
 xfconf-query -c xfce4-appfinder -np /last/window-width -t int -s 5000
 xfconf-query -c xfce4-notifyd -np /theme -t string -s Plata
 xfconf-query -c xfce4-power-manager -np /xfce4-power-manager/show-tray-icon -t bool -s true
+xfconf-query -c xfwm4 -p /general/cycle_draw_frame -t bool -s false
+xfconf-query -c xfwm4 -p /general/placement_ratio -t int -s 100
+xfconf-query -c xfwm4 -p /general/easy_click -t string -s Super
 xfconf-query -c xfwm4 -p /general/theme -s Plata-Noir
 xfconf-query -c xsettings -p /Gtk/CursorThemeName -s Breeze_Snow
 xfconf-query -c xsettings -p /Gtk/MonospaceFontName -s 'Monaco 10'
