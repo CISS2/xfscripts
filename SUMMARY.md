@@ -19,7 +19,7 @@
     - [Gestos](scripts/gestures.md)
     - [Deteção de palma da mão](scripts/palmdetection.md)
     - [Rolagem natural](scripts/natural-scrolling.md)
-    - [XFDashboard](scripts/xfdashboard.md)
+    - [Rofi](scripts/rofi.md)
     - [XCape](scripts/xcape.md)
     - [DockbarX](scripts/dockbarx.md)
     - [Debs](scripts/debs.md)
