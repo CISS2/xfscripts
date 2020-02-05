@@ -31,7 +31,7 @@ styles\primarycolor\argb=fffff100' > ~/.config/smplayer/smplayer.ini
  - [**Steam**](http://apt.ubuntu.com/p/steam-installer) #import_files
  - [**Synaptic**](http://apt.ubuntu.com/p/synaptic)
  - [**Thunar Dropbox**](http://apt.ubuntu.com/p/thunar-dropbox-plugin) #sync_files
- - [**Thunar Megasync**](http://apt.ubuntu.com/p/thunar-megasync-plugin) #sync_files
+ - [**Thunar Megasync**](http://apt.ubuntu.com/p/thunar-megasync) #sync_files
  - [**Thunar VCS**](http://apt.ubuntu.com/p/thunar-vcs-plugin)
  - [**Timeshift**](http://apt.ubuntu.com/p/timeshift)
  - [**Vokoscreen**](http://apt.ubuntu.com/p/vokoscreen)
