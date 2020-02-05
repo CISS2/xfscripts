@@ -44,7 +44,7 @@ style=gtk2
 
 [Fonts]
 fixed=@Variant(\0\0\0@\0\0\0\f\0M\0o\0n\0\x61\0\x63\0o@$\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)
-general=@Variant(\0\0\0@\0\0\0\x12\0N\0o\0t\0o\0 \0S\0\x61\0n\0s@\"\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10' > ~/.config/qt5ct/qt5ct.conf
+general=@Variant(\0\0\0@\0\0\0\x12\0N\0o\0t\0o\0 \0S\0\x61\0n\0s@\"\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)' > ~/.config/qt5ct/qt5ct.conf
 echo '[greeter]
 background = /usr/share/xfce4/backdrops/xubuntu-zesty.png
 theme-name = Plata-Noir
