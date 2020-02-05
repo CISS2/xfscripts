@@ -13,6 +13,10 @@ xfconf-query -c xfce4-appfinder -np /icon-view -t bool -s true
 xfconf-query -c xfce4-appfinder -np /item-icon-size -t int -s 4
 xfconf-query -c xfce4-appfinder -np /last/window-height -t int -s 5000
 xfconf-query -c xfce4-appfinder -np /last/window-width -t int -s 5000
+xfconf-query -c xfce4-desktop -p /desktop-icons/file-icons/show-filesystem -t bool -s false
+xfconf-query -c xfce4-desktop -p /desktop-icons/file-icons/show-home -t bool -s false
+xfconf-query -c xfce4-desktop -p /desktop-icons/file-icons/show-removable -t bool -s false
+xfconf-query -c xfce4-desktop -p /desktop-icons/file-icons/show-trash -t bool -s false
 xfconf-query -c xfce4-notifyd -np /theme -t string -s Plata
 xfconf-query -c xfce4-power-manager -np /xfce4-power-manager/show-tray-icon -t bool -s true
 xfconf-query -c xfwm4 -p /general/cycle_draw_frame -t bool -s false
