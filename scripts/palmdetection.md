@@ -1,4 +1,4 @@
-# Palm detection
+# Detecção de palma da mão
 ```bash
 mkdir -p ~/.config/autostart
 echo '[Desktop Entry]
