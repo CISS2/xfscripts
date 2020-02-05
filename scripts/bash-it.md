@@ -36,6 +36,7 @@ DropdownHeight=70
 DropdownWidth=70
 DropdownOpacity=90
 DropdownKeepAbove=FALSE
+DropdownStatusIcon=FALSE
 ScrollingOnOutput=FALSE
 BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
 BackgroundDarkness=0,930000' > ~/.config/xfce4/terminal/terminalrc
