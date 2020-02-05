@@ -3,7 +3,6 @@
  - [**Deluged**](http://apt.ubuntu.com/p/deluged)
  - [**Diodon**](http://apt.ubuntu.com/p/diodon)
  - [**Discos**](http://apt.ubuntu.com/p/gnome-disk-utility)
- - [**Dropbox**](http://apt.ubuntu.com/p/thunar-dropbox-plugin) #import_files
  - [**FeedReader**](http://apt.ubuntu.com/p/feedreader) #sync_settings
  - [**Fonts EmojiOne**](http://apt.ubuntu.com/p/fonts-emojione)
  - [**GeoClue 2**](http://apt.ubuntu.com/p/geoclue-2.0)
@@ -31,6 +30,8 @@ styles\primarycolor\argb=fffff100' > ~/.config/smplayer/smplayer.ini
 ```
  - [**Steam**](http://apt.ubuntu.com/p/steam-installer) #import_files
  - [**Synaptic**](http://apt.ubuntu.com/p/synaptic)
+ - [**Thunar Dropbox**](http://apt.ubuntu.com/p/thunar-dropbox-plugin) #sync_files
+ - [**Thunar VCS**](http://apt.ubuntu.com/p/thunar-vcs-plugin)
  - [**Timeshift**](http://apt.ubuntu.com/p/timeshift)
  - [**Vokoscreen**](http://apt.ubuntu.com/p/vokoscreen)
  - [**VolumeIcon ALSA**](http://apt.ubuntu.com/p/volumeicon-alsa)
