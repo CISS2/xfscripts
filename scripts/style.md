@@ -27,6 +27,7 @@ xfconf-query -c xsettings -p /Gtk/CursorThemeName -s Breeze_Snow
 xfconf-query -c xsettings -p /Gtk/MonospaceFontName -s 'Monaco 10'
 xfconf-query -c xsettings -p /Net/IconThemeName -s Papirus-Dark
 xfconf-query -c xsettings -p /Net/ThemeName -s Plata-Noir
+sed -i 's/elementary/colibre/g' ~/.config/libreoffice/4/user/registrymodifications.xcu 
 echo '{
     "blacklist": ["steam"],
     "icons": {
