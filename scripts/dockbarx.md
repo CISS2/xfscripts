@@ -4,7 +4,8 @@ sudo add-apt-repository -y ppa:xuzhen666/dockbarx
 aptinst -y --no-install-recommends gconf2 xfce4-dockbarx-plugin
 git clone https://github.com/Xseba360/DockBarX-Windows10
 cd DockBarX-Windows10
-sudo ./install.sh
+sed -i 's/-16/-10/g' config
+sudo tar -czf /usr/share/dockbarx/themes/win10.tar.gz pixmaps info config
 cd ..
 rm -rfv DockBarX-Windows10
 wget -O dockbarx.xml http://my.opendesktop.org/index.php/s/yFiAkRaPHqGkk9o/download #update-link
