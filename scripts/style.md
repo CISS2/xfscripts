@@ -35,6 +35,7 @@ echo '{
     "backup_ignore": true
 }' > ~/.config/hardcode-tray.json
 sudo hardcode-tray --apply
+sudo sed -i 's/export QT/#export QT/g' /etc/X11/Xsession.d/56xubuntu-session
 mkdir -pv ~/.config/qt5ct
 echo '[Appearance]
 icon_theme=Papirus-Dark
