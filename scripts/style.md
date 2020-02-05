@@ -2,8 +2,9 @@
 ```bash
 sudo add-apt-repository -yn ppa:papirus/hardcode-tray
 sudo add-apt-repository -yn ppa:papirus/papirus-dev
-sudo add-apt-repository -y ppa:tista/plata-theme
-aptinst -y breeze-cursor-theme hardcode-tray papirus-icon-theme plata-theme qt5ct qt5-style-plugins
+sudo add-apt-repository -yn ppa:tista/plata-theme
+sudo add-apt-repository -y ppa:daniruiz/flat-remix
+aptinst -y breeze-cursor-theme flat-remix-gtk hardcode-tray papirus-icon-theme plata-theme qt5ct qt5-style-plugins
 xfconf-query -c thunar -p /last-location-bar -t string -s ThunarLocationButtons
 xfconf-query -c thunar -p /last-window-height -t int -s 580
 xfconf-query -c thunar -p /last-window-width -t int -s 800
