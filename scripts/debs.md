@@ -30,5 +30,5 @@ phoronix-test-suite default-benchmark openarena xonotic tesseract gputest unigin
  - [**ToneLib ZOOM**](https://www.tonelib.net/download/)
  - [**VirtualBox**](https://www.virtualbox.org/wiki/Linux_Downloads)
 ```bash
-sudo sed -i 's/Exec=VirtualBox/Exec=VirtualBox -style fusion/g' /usr/share/applications/virtualbox.desktop
+sudo sed -i 's/Exec=VirtualBox %U/Exec=VirtualBox -style fusion %U/g' /usr/share/applications/virtualbox.desktop
 ```
