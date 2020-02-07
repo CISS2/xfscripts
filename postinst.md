@@ -12,6 +12,7 @@
  - [**WINE**](scripts/wine.md) (_studio_)
  - [**REAPER**](scripts/reaper.md) (_studio_)
  - [**Resolve**](scripts/resolve.md) (_studio_)
+ - [**KDEnLive**](scripts/kdenlive.md) (_studio_)
  - [**Gestos**](scripts/gestures.md) (_workflow_)
  - [**Detecção de palma da mão**](scripts/palmdetection.md) (_workflow_)
  - [**Rolagem natural**](scripts/natural-scrolling.md) (_workflow_)
