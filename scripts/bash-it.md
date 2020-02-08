@@ -40,14 +40,10 @@ DropdownStatusIcon=FALSE
 ScrollingOnOutput=FALSE
 BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
 BackgroundDarkness=0,930000' > ~/.config/xfce4/terminal/terminalrc
-exit
+source ~/.bashrc
+bash_it enable alias apt
+source ~/.bashrc
 ```
 [![bashrun](../images/bashrun.png)](br:bash-it)
-
-#### APT alias ( _execute manualmente_ ):
-```bash
-bash_it enable alias apt
-exit
-```
 
 ![bash-it](../images/bash-it.png)
