@@ -5,4 +5,4 @@ echo 'deb https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/repos/debs/ v
 aptupd
 aptinst -y codium
 ```
-[![bashrun](../images/bashrun.png)](br:codium)
+[![bashrun](../images/bashrun.png)](br:vscodium)
