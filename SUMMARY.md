@@ -16,6 +16,7 @@
     - [WINE](scripts/wine.md)
     - [REAPER](scripts/reaper.md)
     - [Resolve](scripts/resolve.md)
+    - [OpenShot](scripts/openshot.md)
     - [KDEnLive](scripts/kdenlive.md)
     - [Gestos](scripts/gestures.md)
     - [Deteção de palma da mão](scripts/palmdetection.md)
