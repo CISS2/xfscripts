@@ -1,5 +1,6 @@
 # Debs
  - [**4kVideoDownloader**](https://www.4kdownload.com/pt-br/products/product-videodownloader)
+ - [**4kStogram**](https://www.4kdownload.com/pt-br/products/product-stogram)
  - [**AppImageLauncher**](https://github.com/TheAssassin/AppImageLauncher/releases)
 ```bash
 echo "[AppImageLauncher]
