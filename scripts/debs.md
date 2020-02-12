@@ -18,7 +18,6 @@ enable_daemon=true
 %23%20additional_directories_to_watch=~/otherApplications:/even/more/applications
 %23%20monitor_mounted_filesystems=false" > ~/.config/appimagelauncher.cfg
 ```
- - [**AsarUI**](https://github.com/myazarc/AsarUI/releases)
  - [**Crow translate**](https://github.com/crow-translate/crow-translate/releases)
  - [**Dropbox**](https://www.dropbox.com/install)
  - [**GColor2**](https://packages.ubuntu.com/xenial/amd64/gcolor2/download) [#direct-link](http://mirrors.kernel.org/ubuntu/pool/universe/g/gcolor2/gcolor2_0.4-2.1ubuntu1_amd64.deb)
