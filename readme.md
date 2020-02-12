@@ -18,6 +18,6 @@ Crie um _**fork**_ e envie um _**pull-request**_ com as suas sugestões de melho
 
 ## Dúvidas
 
-A forma mais fácil de tirar todas as suas dúvidas é através do chat no [**Gitter**](https://gitter.im/xfscripts/comunidade).
+A forma mais fácil de tirar todas as suas dúvidas é através do [**Skype**](https://join.skype.com/invite/ul0ArXNBCjGW).
 
-[![gitter-banner](images/gitter-banner.png)](https://gitter.im/xfscripts/comunidade)
+[![skype](images/skype.png)](https://join.skype.com/invite/ul0ArXNBCjGW)
