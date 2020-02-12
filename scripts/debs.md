@@ -1,6 +1,12 @@
 # Debs
  - [**4kVideoDownloader**](https://www.4kdownload.com/pt-br/products/product-videodownloader)
+```bash
+sudo sed -i 's/.png//g' /usr/share/applications/4k*
+```
  - [**4kStogram**](https://www.4kdownload.com/pt-br/products/product-stogram)
+```bash
+sudo sed -i 's/.png//g' /usr/share/applications/4k*
+```
  - [**AppImageLauncher**](https://github.com/TheAssassin/AppImageLauncher/releases)
 ```bash
 echo "[AppImageLauncher]
