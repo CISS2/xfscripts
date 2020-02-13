@@ -4,6 +4,8 @@
 
 Este repositório contém scripts de personalização otimizados para o [**Xubuntu**](https://xubuntu.org) [**19.10**](https://xubuntu.org/release/19-10/).
 
+![xfscripts](images/xfscripts.png)
+
 ## Instalação
 
 **Você pode seguir a ordem recomendada de execução dos scripts, através do arquivo de [pós instalação](postinst.md)**.
@@ -18,6 +20,6 @@ Crie um _**fork**_ e envie um _**pull-request**_ com as suas sugestões de melho
 
 ## Dúvidas
 
-A forma mais fácil de tirar todas as suas dúvidas é através do [**Skype**](https://join.skype.com/invite/ul0ArXNBCjGW).
+A forma mais fácil de tirar todas as suas dúvidas é através do [**Skype**](https://join.skype.com/iEOcZT974GMw).
 
 [![skype](images/skype.png)](https://join.skype.com/invite/ul0ArXNBCjGW)
