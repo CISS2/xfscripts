@@ -21,5 +21,5 @@ jobs:
         run: npm install -g surge
       - name: Deploy no Surge
         run: surge docs/book --token ${{ secrets.SURGE_TOKEN }}
-      - name: Gitter webhook
-        run: curl --data-urlencode "message=_Deploy_ do **XFScripts** no **Surge** concluído com sucesso através **GitHub Actions** | https://xfscripts.rauldipeas.tk" ${{ secrets.GITTER_WEBHOOK }}
+#      - name: Gitter webhook
+#        run: curl --data-urlencode "message=_Deploy_ do **XFScripts** no **Surge** concluído com sucesso através **GitHub Actions** | https://xfscripts.rauldipeas.tk" ${{ secrets.GITTER_WEBHOOK }}
