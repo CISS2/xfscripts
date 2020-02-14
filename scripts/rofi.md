@@ -24,9 +24,11 @@ sudo rm -rfv rofi*
 mkdir -pv ~/.config/rofi
 wget -O ~/.config/rofi/config http://my.opendesktop.org/s/smkePRgsYJSDmCM/download #update-link
 wget -O ~/.config/rofi/fullscreen.rasi http://my.opendesktop.org/s/jzSpr9PYXYmQR2G/download #update-link
+wget -O ~/.config/rofi/sidebar.rasi http://my.opendesktop.org/s/K4QbRoyZDJ2g9wF/download #update-link
 killall -9 xfconfd
 wget -O ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml http://my.opendesktop.org/s/x6LP7Cs5foxmF5G/download #update-link
 ```
 [![bashrun](../images/bashrun.png)](br:rofi)
 
-![xfdashboard](../images/rofi.png)
+![rofi](../images/rofi.png)
+![rofi-sidebar](../images/rofi-sidebar.png)
