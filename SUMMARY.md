@@ -28,6 +28,7 @@
     - [Debs](scripts/debs.md)
     - [Apt](scripts/apt.md)
     - [Temas](scripts/style.md)
+    - [LightDM webkit2 greeter](scripts/lightdm-webkit2-greeter.md)
     - [Painel](scripts/panel.md)
     - [Compton](scripts/compton.md)
     - [Lutris](scripts/lutris.md)

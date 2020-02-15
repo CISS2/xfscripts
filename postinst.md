@@ -24,6 +24,7 @@
  - [**Debs**](scripts/debs.md) (_miscelânea_)
  - [**Apt**](scripts/apt.md) (_miscelânea_)
  - [**Temas**](scripts/style.md) (_desktop_)
+ - [**LightDM webkit2 greeter**](scripts/lightdm-webkit2-greeter.md) (_desktop_)
  - [**Painel**](scripts/panel.md) (_desktop_)
  - [**Compton**](scripts/compton.md) (_desktop_)
  - [**Lutris**](scripts/lutris.md) (_games_)
