@@ -1,6 +1,6 @@
 # Painel
 ```bash
-aptinst -y tint2
+aptinst -y tint2 xdotool
 mkdir -pv ~/.config/autostart ~/.config/tint2 ~/.local/share/scripts ~/.local/share/xfce4-panel-profiles
 wget -O ~/.config/autostart/tint2-panel-auto-opaque.desktop http://my.opendesktop.org/s/2RsfZMzP3rWx8Q8/download #update-link
 wget -O ~/.config/autostart/tint2.desktop http://my.opendesktop.org/s/2xX5W3pDadnaN8C/download #update-link
