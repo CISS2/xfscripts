@@ -5,9 +5,9 @@ sudo add-apt-repository -yn ppa:papirus/papirus-dev
 sudo add-apt-repository -yn ppa:tista/plata-theme
 sudo add-apt-repository -y ppa:daniruiz/flat-remix
 aptinst -y breeze-cursor-theme flat-remix-gtk hardcode-tray papirus-icon-theme plata-theme qt5ct qt5-style-plugins
-xfconf-query -c thunar -p /last-location-bar -t string -s ThunarLocationButtons
-xfconf-query -c thunar -p /last-window-height -t int -s 586
-xfconf-query -c thunar -p /last-window-width -t int -s 900
+xfconf-query -c thunar -np /last-location-bar -t string -s ThunarLocationButtons
+xfconf-query -c thunar -np /last-window-height -t int -s 586
+xfconf-query -c thunar -np /last-window-width -t int -s 900
 xfconf-query -c xfce4-appfinder -np /always-center -t bool -s true
 xfconf-query -c xfce4-appfinder -np /category-icon-size -t int -s 2
 xfconf-query -c xfce4-appfinder -np /icon-view -t bool -s true
