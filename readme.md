@@ -22,4 +22,4 @@ Crie um _**fork**_ e envie um _**pull-request**_ com as suas sugestões de melho
 
 A forma mais fácil de tirar todas as suas dúvidas é através do [**Skype**](https://join.skype.com/iEOcZT974GMw).
 
-[![skype](images/skype.png)](https://join.skype.com/invite/ul0ArXNBCjGW)
+[![skype](images/skype.png)](https://join.skype.com/iEOcZT974GMw)

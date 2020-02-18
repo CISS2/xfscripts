@@ -21,3 +21,5 @@ Crie um [_**fork**_](https://github.com/rauldipeas/xfscripts) e envie um _**pull
 ## Dúvidas
 
 A forma mais fácil de tirar todas as suas dúvidas é através do [**Skype**](https://join.skype.com/iEOcZT974GMw).
+
+[![skype](images/skype.png)](https://join.skype.com/iEOcZT974GMw)
