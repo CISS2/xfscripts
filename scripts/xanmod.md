@@ -4,6 +4,6 @@ wget https://dl.xanmod.org/xanmod-repository.deb
 aptinst ./xanmod-repository.deb
 rm -rfv xanmod-repository.deb
 aptupd
-aptinst -y linux-image-5.3.8-xanmod6 linux-headers-5.3.8-xanmod6
+aptinst -y linux-xanmod-edge
 ```
 [![bashrun](../images/bashrun.png)](br:xanmod)
