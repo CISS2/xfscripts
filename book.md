@@ -1,3 +1,5 @@
+![xfscripts](images/xfscripts-mdbook.png)
+
 ## Bem vindo!
 
 Esta documentação contém scripts de personalização otimizados para o [**Xubuntu**](https://xubuntu.org) [**19.10**](https://xubuntu.org/release/19-10/).
