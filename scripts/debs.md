@@ -36,6 +36,10 @@ phoronix-test-suite default-benchmark openarena xonotic tesseract gputest unigin
 ```
  - [**Rambox**](https://github.com/ramboxapp/community-edition/releases) #sync_settings
  - [**Skype**](https://www.skype.com/pt-br/get-skype/)
+ - [**Simple weather indicator**](https://github.com/kasramp/UbuntuIndicatorWeather/releases)
+```bash
+sudo sed -i 's/Icon=\/usr\/share\/icons\/hicolor\/64x64\/apps\/indicator-weather.png/Icon=indicator-weather/g' $HOME/Unity-XP/chroot/usr/share/applications/indicator-weather.desktop
+```
  - [**Stremio**](https://www.stremio.com/br/downloads) `--no-install-recommends` #sync_settings
  - [**ToneLib ZOOM**](https://www.tonelib.net/download/)
  - [**VirtualBox**](https://www.virtualbox.org/wiki/Linux_Downloads)
