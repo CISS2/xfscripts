@@ -40,7 +40,7 @@ phoronix-test-suite default-benchmark openarena xonotic tesseract gputest unigin
 ```bash
 sudo sed -i 's/Icon=\/usr\/share\/icons\/hicolor\/64x64\/apps\/indicator-weather.png/Icon=indicator-weather/g' /usr/share/applications/indicator-weather.desktop
 ```
- - [**Stremio**](https://www.stremio.com/br/downloads) `--no-install-recommends` #sync_settings
+ - [**Stremio**](https://www.stremio.com/downloads) `--no-install-recommends` #sync_settings
  - [**ToneLib ZOOM**](https://www.tonelib.net/download/)
  - [**VirtualBox**](https://www.virtualbox.org/wiki/Linux_Downloads)
 ```bash
