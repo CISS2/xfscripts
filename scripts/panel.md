@@ -1,4 +1,5 @@
 # Painel
+#### **(Em revisão)**
 ```bash
 aptinst -y tint2 xdotool
 mkdir -pv ~/.config/autostart ~/.config/tint2 ~/.local/share/scripts ~/.local/share/xfce4-panel-profiles
