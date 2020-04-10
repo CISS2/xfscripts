@@ -24,8 +24,8 @@ enable_daemon=true
  ```bash
  sudo sed -i 's/\/usr\/share\/pixmaps\/gcolor2\/gcolor2.xpm/gcolor2/g' /usr/share/applications/gcolor2.desktop
  ```
- - [**Mailspring**](https://github.com/Foundry376/Mailspring/releases) #sync_settings
  - [**Megasync**](https://mega.nz/sync) #sync_files
+ - [**NoMachine**](https://www.nomachine.com/download/linux&id=1)
  - [**Notable**](https://github.com/notable/notable/releases) #sync_files
  - [**!** Phoronix test suit](https://github.com/phoronix-test-suite/phoronix-test-suite/releases)
 ```bash
@@ -36,13 +36,5 @@ phoronix-test-suite default-benchmark openarena xonotic tesseract gputest unigin
 ```
  - [**Rambox**](https://github.com/ramboxapp/community-edition/releases) #sync_settings
  - [**Skype**](https://www.skype.com/pt-br/get-skype/)
- - [**Simple weather indicator**](https://github.com/kasramp/UbuntuIndicatorWeather/releases)
-```bash
-sudo sed -i 's/Icon=\/usr\/share\/icons\/hicolor\/64x64\/apps\/indicator-weather.png/Icon=indicator-weather/g' /usr/share/applications/indicator-weather.desktop
-```
  - [**Stremio**](https://www.stremio.com/downloads) `--no-install-recommends` #sync_settings
  - [**ToneLib ZOOM**](https://www.tonelib.net/download/)
- - [**VirtualBox**](https://www.virtualbox.org/wiki/Linux_Downloads)
-```bash
-sudo sed -i 's/Exec=VirtualBox %U/Exec=VirtualBox -style fusion %U/g' /usr/share/applications/virtualbox.desktop
-```

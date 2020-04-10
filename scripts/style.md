@@ -4,7 +4,7 @@ sudo add-apt-repository -yn ppa:papirus/hardcode-tray
 sudo add-apt-repository -yn ppa:papirus/papirus-dev
 sudo add-apt-repository -yn ppa:tista/plata-theme
 sudo add-apt-repository -y ppa:daniruiz/flat-remix
-aptinst -y breeze-cursor-theme flat-remix-gtk hardcode-tray papirus-icon-theme plata-theme qt5ct qt5-style-plugins
+aptinst -y breeze-cursor-theme flat-remix-gtk hardcode-tray papirus-icon-theme plata-theme plymouth-theme-spinner qt5ct qt5-style-plugins
 xfconf-query -c thunar -np /last-location-bar -t string -s ThunarLocationButtons
 xfconf-query -c thunar -np /last-window-height -t int -s 586
 xfconf-query -c thunar -np /last-window-width -t int -s 900
@@ -29,6 +29,7 @@ xfconf-query -c xsettings -p /Gtk/MonospaceFontName -s 'Monaco 10'
 xfconf-query -c xsettings -p /Net/IconThemeName -s Papirus-Dark
 xfconf-query -c xsettings -p /Net/ThemeName -s Plata-Noir
 sudo update-alternatives --set x-cursor-theme /etc/X11/cursors/Breeze_Snow.theme
+sudo update-alternatives --set default.plymouth /usr/share/plymouth/themes/bgrt/bgrt.plymouth
 sed -i 's/elementary/colibre/g' ~/.config/libreoffice/4/user/registrymodifications.xcu 
 echo '{
     "blacklist": ["steam"],

@@ -2,7 +2,7 @@
 
 ## Bem vindo!
 
-Esta documentação contém scripts de personalização otimizados para o [**Xubuntu**](https://xubuntu.org) [**19.10**](https://xubuntu.org/release/19-10/).
+Esta documentação contém scripts de personalização otimizados para o [**Xubuntu**](https://xubuntu.org) [**20.04**](https://xubuntu.org/release/20-04/).
 
 Saiba mais sobre os scripts através das postagens nesse [**blog**](https://blog.rauldipeas.tk/xfscripts).
 

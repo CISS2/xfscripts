@@ -2,7 +2,7 @@
 
 ## Bem vindo!
 
-Este repositório contém scripts de personalização otimizados para o [**Xubuntu**](https://xubuntu.org) [**19.10**](https://xubuntu.org/release/19-10/).
+Este repositório contém scripts de personalização otimizados para o [**Xubuntu**](https://xubuntu.org) [**20.04**](https://xubuntu.org/release/20-04/).
 
 Saiba mais sobre os scripts através das postagens nesse [**blog**](https://blog.rauldipeas.tk/xfscripts).
 

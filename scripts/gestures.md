@@ -16,7 +16,7 @@ cd ../..
 sudo rm -rfv libinput-gestures* /usr/share/applications/libinput-gestures.desktop
 sudo sed -i 's/org.cunidev.gestures/libinput-gestures/g' /usr/share/applications/org.cunidev.gestures.desktop
 echo '# Swipe threshold (0-100)
-swipe_threshold 0
+swipe_threshold 100
 # Gestures
 gesture pinch in 2 wmctrl -r :ACTIVE: -b remove,maximized_vert,maximized_horz
 gesture pinch out 2 wmctrl -r :ACTIVE: -b add,maximized_vert,maximized_horz

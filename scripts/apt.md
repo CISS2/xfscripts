@@ -5,6 +5,7 @@
  - [**Discos**](http://apt.ubuntu.com/p/gnome-disk-utility)
  - [**FeedReader**](http://apt.ubuntu.com/p/feedreader) #sync_settings
  - [**Fonts EmojiOne**](http://apt.ubuntu.com/p/fonts-emojione)
+ - [**Geart**](http://apt.ubuntu.com/p/geary)
  - [**GeoClue 2**](http://apt.ubuntu.com/p/geoclue-2.0)
  - [**GNOME characters**](http://apt.ubuntu.com/p/gnome-characters) `--no-install-recommends`
  - [**GNOME system log**](http://apt.ubuntu.com/p/gnome-system-log)
@@ -48,3 +49,4 @@ OnlyShowIn=XFCE;' > ~/.config/autostart/volumeicon.desktop
 wget -O ~/.config/volumeicon/volumeicon http://my.opendesktop.org/index.php/s/tw8kNw3pjdQbfwB/download #update-link
 ```
  - [**XBoxDrv**](http://apt.ubuntu.com/p/xboxdrv)
+ - [**Virt Manager**](http://apt.ubuntu.com/p/virt-manager)
