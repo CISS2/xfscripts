@@ -7,6 +7,7 @@ git clone https://github.com/bulletmark/libinput-gestures.git
 cd libinput-gestures
 sudo make install #checkinstall
 libinput-gestures-setup autostart
+sed -i 's/NoDisplay/#NoDisplay/g' ~/.config/autostart/libinput-gestures.desktop
 aptinst -y python-gobject python3 python3-gi python3-setuptools wmctrl xdotool
 git clone https://gitlab.com/cunidev/gestures
 cd gestures
