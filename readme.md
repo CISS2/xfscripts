@@ -4,6 +4,8 @@
 
 Este repositório contém scripts de personalização otimizados para o [**Xubuntu**](https://xubuntu.org) [**19.10**](https://xubuntu.org/release/19-10/).
 
+Saiba mais sobre os scripts através das postagens nesse [**blog**](https://blog.rauldipeas.tk/xfscripts).
+
 ![xfscripts](images/xfscripts.png)
 
 ## Instalação
