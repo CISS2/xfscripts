@@ -6,7 +6,6 @@
     - [Bash-it](scripts/bash-it.md)
     - [XanMod](scripts/xanmod.md)
     - [ALSA firmware](scripts/alsa-firmware.md)
-    - [MESA PPA](scripts/mesa-ppa.md)
     - [NVIDIA PPA](scripts/nvidia-ppa.md)
     - [NVIDIA DRM modeset](scripts/nvidia-drm-modeset.md)
     - [GRUB](scripts/grub.md)

@@ -2,7 +2,6 @@
  - [**Bash-it**](scripts/bash-it.md) (_workflow_)
  - [**XanMod**](scripts/xanmod.md) (_workflow_)
  - [**ALSA firmware**](scripts/alsa-firmware.md) (_workflow_)
- - [**MESA PPA**](scripts/mesa-ppa.md) (_extras_)
  - [**NVIDIA PPA**](scripts/nvidia-ppa.md) (_extras_)
  - [**NVIDIA DRM modeset**](scripts/nvidia-drm-modeset.md) (_workflow_)
  - [**GRUB**](scripts/grub.md) (_desktop_)
