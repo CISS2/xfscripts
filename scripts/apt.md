@@ -11,6 +11,7 @@
  - [**GNOME characters**](http://apt.ubuntu.com/p/gnome-characters) `--no-install-recommends`
  - [**GNOME system log**](http://apt.ubuntu.com/p/gnome-system-log)
  - [**Inkscape**](http://apt.ubuntu.com/p/inkscape) `--no-install-recommends`
+ - [**MediaInfo GUI**](http://apt.ubuntu.com/p/mediainfo-gui)
  - [**MPlayer**](http://apt.ubuntu.com/p/mplayer)
  - [**Neofetch**](http://apt.ubuntu.com/p/neofetch)
  - [**Nextcloud**](http://apt.ubuntu.com/p/nextcloud-desktop)
