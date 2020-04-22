@@ -24,6 +24,17 @@ enable_daemon=true
  ```bash
  sudo sed -i 's/\/usr\/share\/pixmaps\/gcolor2\/gcolor2.xpm/gcolor2/g' /usr/share/applications/gcolor2.desktop
  ```
+ - [**Ksnip**](https://github.com/ksnip/ksnip/releases)
+```bash
+mkdir -pv ~/.config/ksnip
+echo "[Application]
+ApplicationStyle=gtk2
+UseTrayIcon=false
+
+[Painter]
+NumberFont=@Variant(\0\0\0@\0\0\0\x14\0Z\0\x30\0\x30\0\x33\0 \0[\0u\0r\0w\0]@>\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0K\x10)
+TextFont=@Variant(\0\0\0@\0\0\0\x12\0N\0o\0t\0o\0 \0S\0\x61\0n\0s@(\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)" > ~/.config/ksnip/ksnip.conf
+```
  - [**LAN Share**](https://github.com/abdularis/LAN-Share/releases)
  - [**Megasync**](https://mega.nz/sync) #sync_files
  - [**NoMachine**](https://www.nomachine.com/download/linux&id=1)
