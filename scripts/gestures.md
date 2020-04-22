@@ -23,7 +23,7 @@ gesture pinch out 2 wmctrl -r :ACTIVE: -b add,maximized_vert,maximized_horz
 gesture swipe left 3 xdotool key alt+Left
 gesture swipe right 3 xdotool key alt+Right
 gesture swipe left 4 wmctrl -c :ACTIVE:
-gesture swipe up 3 x-terminal-emulator
+gesture swipe up 3 xdotool key Super_L+s
 gesture swipe down 3 xdotool getactivewindow windowminimize' > ~/.config/libinput-gestures.conf
 ```
 [![bashrun](../images/bashrun.png)](br:gestures)
