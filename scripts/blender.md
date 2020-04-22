@@ -2,6 +2,7 @@
 ```bash
 wget -c https://ftp.nluug.nl/pub/graphics/blender/release/Blender2.82/blender-2.82a-linux64.tar.xz
 tar -xvf blender*.tar.xz
+rm -rfv $HOME/.local/share/blender/
 mv blender*/ $HOME/.local/share/blender/
 rm -rfv blender*.tar.xz
 mkdir -pv $HOME/.local/share/applications
