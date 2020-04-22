@@ -38,7 +38,7 @@ TextFont=@Variant(\0\0\0@\0\0\0\x12\0N\0o\0t\0o\0 \0S\0\x61\0n\0s@(\0\0\0\0\0\0\
  - [**LAN Share**](https://github.com/abdularis/LAN-Share/releases)
  - [**Megasync**](https://mega.nz/sync) #sync_files
  - [**NoMachine**](https://www.nomachine.com/download/linux&id=1)
- - [**Notable**](https://github.com/notable/notable/releases) #sync_files
+ - [**!** Notable](https://github.com/notable/notable/releases) #sync_files
  - [**Patchage**](https://packages.ubuntu.com/eoan/amd64/patchage/download) [#direct-link](http://mirrors.kernel.org/ubuntu/pool/universe/p/patchage/patchage_1.0.0~dfsg0-0.2_amd64.deb)
  - [**!** Phoronix test suit](https://github.com/phoronix-test-suite/phoronix-test-suite/releases)
 ```bash
