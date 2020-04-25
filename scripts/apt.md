@@ -39,7 +39,6 @@ styles\primarycolor\argb=fffff100' > ~/.config/smplayer/smplayer.ini
  - [**Thunar Dropbox**](http://apt.ubuntu.com/p/thunar-dropbox-plugin) #sync_files
  - [**Thunar Megasync**](http://apt.ubuntu.com/p/thunar-megasync) #sync_files
  - [**Thunar VCS**](http://apt.ubuntu.com/p/thunar-vcs-plugin)
- - [**Timeshift**](http://apt.ubuntu.com/p/timeshift)
  - [**Vokoscreen**](http://apt.ubuntu.com/p/vokoscreen)
  - [**VolumeIcon ALSA**](http://apt.ubuntu.com/p/volumeicon-alsa)
 ```bash
