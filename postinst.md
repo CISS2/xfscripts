@@ -30,7 +30,7 @@
  - [**Xubuntu extras**](scripts/xubuntu-extras.md) (_extras_)
  - [**Syncthing**](scripts/syncthing.md) (_extras_)
  - [**VSCodium**](scripts/vscodium.md) (_extras_)
- - [**Remover programas não usados/substituidos**](scripts/uninstall-duplicity.md) (_extras_)
+ - [**Remover substituídos**](scripts/uninstall-duplicity.md) (_extras_)
 
 #### Desktop
 ![desktop](images/desktop.png)

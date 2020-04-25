@@ -1,4 +1,4 @@
-# Remover programas não usados/substituidos
+# Remover programas substituídos
 ```bash
 aptpurge \
     gnome-mines \
