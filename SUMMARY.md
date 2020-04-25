@@ -34,4 +34,4 @@
     - [Xubuntu extras](scripts/xubuntu-extras.md)
     - [Syncthing](scripts/syncthing.md)
     - [VSCodium](scripts/vscodium.md)
-    - [Remover programas substituídos](scripts/uninstall-duplicity.md)
+    - [CleanUp](scripts/uninstall-duplicity.md)

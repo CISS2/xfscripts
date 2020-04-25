@@ -1,6 +1,6 @@
-# Remover programas substituídos
+# CleanUp
 ```bash
-aptpurge \
+aptpurge -y \
     gnome-mines \
     gnome-sudoku \
     parole \
