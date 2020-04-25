@@ -7,7 +7,6 @@ wget -O ~/.config/autostart/tint2-panel-auto-opaque.desktop http://my.opendeskto
 wget -O ~/.config/autostart/tint2.desktop http://my.opendesktop.org/s/2xX5W3pDadnaN8C/download #update-link
 wget -O ~/.config/tint2/tint2rc http://my.opendesktop.org/s/EGoHb5XDttH4DLr/download #update-link
 wget -O ~/.local/share/scripts/tint2-panel-auto-opaque.sh http://my.opendesktop.org/s/rQJWi764p7FxXoj/download #update-link
-chmod +x -v ~/.local/share/scripts/tint2-panel-auto-opaque.sh
 wget -O Clima.zip http://my.opendesktop.org/s/B8wKfKsNEJN3dGe/download
 unzip Clima.zip
 sudo cp -rfv 20190419/Clima* /usr/share/xfce4/weather/icons/
