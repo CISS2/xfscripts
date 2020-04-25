@@ -1,7 +1,6 @@
 # Remover programas não usados/substituidos
 ```bash
 aptpurge \
-    gigolo \
     gnome-mines \
     gnome-sudoku \
     parole \
