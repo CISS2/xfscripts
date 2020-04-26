@@ -2,6 +2,7 @@
 ```bash
 sudo add-apt-repository -y ppa:xuzhen666/dockbarx
 aptinst -y --no-install-recommends xfce4-dockbarx-plugin
+aptinst -y dconf-cli
 git clone https://github.com/Xseba360/DockBarX-Windows10
 cd DockBarX-Windows10
 sed -i 's/-16/-10/g' config
