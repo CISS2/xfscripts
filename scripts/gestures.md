@@ -5,7 +5,7 @@ sudo gpasswd -a $USER input
 aptinst -y libinput-tools
 git clone https://github.com/bulletmark/libinput-gestures.git
 cd libinput-gestures
-sudo make install #checkinstall
+sudo make install #checkinstall #build-essentials
 libinput-gestures-setup autostart
 sed -i 's/NoDisplay/#NoDisplay/g' ~/.config/autostart/libinput-gestures.desktop
 aptinst -y python-gobject python3 python3-gi python3-setuptools wmctrl xdotool
