@@ -24,6 +24,7 @@ xfconf-query -c xfwm4 -p /general/cycle_draw_frame -t bool -s false
 xfconf-query -c xfwm4 -p /general/placement_ratio -t int -s 100
 xfconf-query -c xfwm4 -p /general/easy_click -t string -s Super
 xfconf-query -c xfwm4 -p /general/theme -s Plata-Noir
+xfconf-query -c xfwm4 -p /general/workspace_count -t int -s 1
 xfconf-query -c xsettings -p /Gtk/CursorThemeName -s Breeze_Snow
 xfconf-query -c xsettings -p /Gtk/MonospaceFontName -s 'Monaco 10'
 xfconf-query -c xsettings -p /Net/IconThemeName -s Papirus-Dark
