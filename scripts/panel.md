@@ -16,7 +16,7 @@ wget -O ~/.local/share/xfce4-panel-profiles/Raul\ Dipeas.tar.bz2 http://my.opend
 xfce4-panel-profiles load ~/.local/share/xfce4-panel-profiles/Raul\ Dipeas.tar.bz2
 tint2&bash ~/.local/share/scripts/tint2-panel-auto-opaque.sh&
 clear
-echo "### MANTENHA ESSA JANELA ABERTA ATÉ O REINICIAR A SESSÂO ###"
+echo "### MANTENHA ESSA JANELA ABERTA ATÉ O REINICIAR A SESSÂO ###" #review
 ```
 [![bashrun](../images/bashrun.png)](br:panel)
 

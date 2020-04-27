@@ -1,4 +1,5 @@
 # Bash-it
+#### **(Em revisão)**
 ```bash
 sudo apt update
 sudo apt install -y git fonts-powerline undistract-me

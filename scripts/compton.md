@@ -20,6 +20,6 @@ wget -O ~/.config/compton.conf http://my.opendesktop.org/index.php/s/SpcapKgySxm
 xfconf-query -c xfwm4 -p /general/use_compositing -T false
 compton&
 clear
-echo "### MANTENHA ESSA JANELA ABERTA ATÉ O REINICIAR A SESSÂO ###"
+echo "### MANTENHA ESSA JANELA ABERTA ATÉ O REINICIAR A SESSÂO ###" #review
 ```
 [![bashrun](../images/bashrun.png)](br:compton)

@@ -35,11 +35,11 @@ UseTrayIcon=false
 NumberFont=@Variant(\0\0\0@\0\0\0\x14\0Z\0\x30\0\x30\0\x33\0 \0[\0u\0r\0w\0]@>\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0K\x10)
 TextFont=@Variant(\0\0\0@\0\0\0\x12\0N\0o\0t\0o\0 \0S\0\x61\0n\0s@(\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)" > ~/.config/ksnip/ksnip.conf
 ```
- - [**LAN Share**](https://github.com/abdularis/LAN-Share/releases)
+ - [**LAN Share**](https://github.com/abdularis/LAN-Share/releases) #change to Send Anywhere
  - [**Megasync**](https://mega.nz/sync) #sync_files
  - [**NoMachine**](https://www.nomachine.com/download/linux&id=1)
  - [**!** Notable](https://github.com/notable/notable/releases) #sync_files
- - [**Patchage**](https://packages.ubuntu.com/eoan/amd64/patchage/download) [#direct-link](http://mirrors.kernel.org/ubuntu/pool/universe/p/patchage/patchage_1.0.0~dfsg0-0.2_amd64.deb)
+ - [**Patchage**](https://packages.ubuntu.com/eoan/amd64/patchage/download) [#direct-link](http://mirrors.kernel.org/ubuntu/pool/universe/p/patchage/patchage_1.0.0~dfsg0-0.2_amd64.deb) `--no-install-recommends`
  - [**!** Phoronix test suit](https://github.com/phoronix-test-suite/phoronix-test-suite/releases)
 ```bash
 aptinst -y libsdl1.2-dev libsdl-gfx1.2-dev libsdl-net1.2-dev libsdl-image1.2-dev libsdl-ttf2.0-dev libsdl-mixer1.2-dev libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev mesa-utils unzip apt-file

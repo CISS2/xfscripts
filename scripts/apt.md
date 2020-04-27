@@ -1,13 +1,13 @@
 # Apt
  - [**Analisador de uso de discos**](http://apt.ubuntu.com/p/baobab)
  - [**Deluge-gtk**](http://apt.ubuntu.com/p/deluge-gtk)
- - [**Deluged**](http://apt.ubuntu.com/p/deluged)
+ - [**DelugeD**](http://apt.ubuntu.com/p/deluged)
  - [**Diodon**](http://apt.ubuntu.com/p/diodon)
  - [**Discos**](http://apt.ubuntu.com/p/gnome-disk-utility)
  - [**Dropbear**](http://apt.ubuntu.com/p/dropbear)
  - [**FeedReader**](http://apt.ubuntu.com/p/feedreader) #sync_settings
  - [**Fonts EmojiOne**](http://apt.ubuntu.com/p/fonts-emojione)
- - [**Geary**](http://apt.ubuntu.com/p/geary)
+ - [**Geary**](http://apt.ubuntu.com/p/geary) #remove
  - [**GeoClue 2**](http://apt.ubuntu.com/p/geoclue-2.0)
  - [**GNOME characters**](http://apt.ubuntu.com/p/gnome-characters) `--no-install-recommends`
  - [**GNOME system log**](http://apt.ubuntu.com/p/gnome-system-log)
@@ -19,9 +19,9 @@
  - [**OpenSSH SFTP server**](http://apt.ubuntu.com/p/openssh-sftp-server)
  - [**RAR**](http://apt.ubuntu.com/p/rar)
  - [**Redshift-gtk**](http://apt.ubuntu.com/p/redshift-gtk)
- - [**Remmina**](http://apt.ubuntu.com/p/remmina)
+ - [**Remmina**](http://apt.ubuntu.com/p/remmina) #remove
  - [**Restic**](http://apt.ubuntu.com/p/restic)
- - [**Rygel**](http://apt.ubuntu.com/p/rygel-preferences)
+ - [**Rygel**](http://apt.ubuntu.com/p/rygel-preferences) #review
  - [**SMPlayer**](http://apt.ubuntu.com/p/smplayer)
  - [**SMPlayer themes**](http://apt.ubuntu.com/p/smplayer-themes)
 ```bash
@@ -37,7 +37,7 @@ styles\primarycolor\argb=fffff100' > ~/.config/smplayer/smplayer.ini
  - [**Steam**](http://apt.ubuntu.com/p/steam-installer) #import_files
  - [**Synaptic**](http://apt.ubuntu.com/p/synaptic)
  - [**Thunar Dropbox**](http://apt.ubuntu.com/p/thunar-dropbox-plugin) #sync_files
- - [**Thunar Megasync**](http://apt.ubuntu.com/p/thunar-megasync) #sync_files
+ - [**Thunar Megasync**](http://apt.ubuntu.com/p/thunar-megasync) #sync_files #remove
  - [**Thunar VCS**](http://apt.ubuntu.com/p/thunar-vcs-plugin)
  - [**Vokoscreen**](http://apt.ubuntu.com/p/vokoscreen)
  - [**VolumeIcon ALSA**](http://apt.ubuntu.com/p/volumeicon-alsa)

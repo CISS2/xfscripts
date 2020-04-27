@@ -1,6 +1,6 @@
 # WINE
 ```bash
-echo 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main' | sudo tee /etc/apt/sources.list.d/winehq.list
+echo 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main' | sudo tee /etc/apt/sources.list.d/winehq.list #update-to-focal
 wget -O- https://dl.winehq.org/wine-builds/winehq.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/winehq.gpg
 aptupd
 aptinst -y q4wine winehq-staging winetricks

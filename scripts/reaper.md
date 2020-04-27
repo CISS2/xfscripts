@@ -42,7 +42,7 @@ Name[pt_BR]=Licença e contrato de usuário
 Exec=xdg-open $HOME/.local/share/reaper_linux_x86_64/REAPER/license.txt
 Icon=text-x-plain" | tee -a ~/.local/share/applications/cockos-reaper.desktop
 ```
- - [**LinVST**](https://github.com/osxmidi/LinVst/releases)
+ - [**LinVST**](https://github.com/osxmidi/LinVst/releases) #review + LinVST3
 
 [![bashrun](../images/bashrun.png)](br:reaper)
 
