@@ -18,6 +18,7 @@ aptpurge -y \
     thunderbird-locale-pt-br \
     xfburn \
     xfce4-notes \
-    xfce4-notes-plugin
+    xfce4-notes-plugin \
+    xfce4-screenshoter
 ```
 [![bashrun](../images/bashrun.png)](br:uninstall-duplicity)
