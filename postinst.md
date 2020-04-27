@@ -29,6 +29,7 @@
  - [**QOwnNotes**](scripts/qownnotes.md) (_extras_)
  - [**Xubuntu extras**](scripts/xubuntu-extras.md) (_extras_)
  - [**Syncthing**](scripts/syncthing.md) (_extras_)
+ - [**Google Drive**](scripts/google-drive.md) (_extras_)
  - [**VSCodium**](scripts/vscodium.md) (_extras_)
  - [**CleanUp**](scripts/uninstall-duplicity.md) (_extras_)
 
