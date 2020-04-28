@@ -7,16 +7,16 @@ wget -O ~/.config/autostart/tint2-panel-auto-opaque.desktop http://my.opendeskto
 wget -O ~/.config/autostart/tint2.desktop http://my.opendesktop.org/s/2xX5W3pDadnaN8C/download #update-link
 wget -O ~/.config/tint2/tint2rc http://my.opendesktop.org/s/EGoHb5XDttH4DLr/download #update-link
 wget -O ~/.local/share/scripts/tint2-panel-auto-opaque.sh http://my.opendesktop.org/s/rQJWi764p7FxXoj/download #update-link
-wget -O Clima.zip http://my.opendesktop.org/s/B8wKfKsNEJN3dGe/download
+wget -O Clima.zip http://my.opendesktop.org/s/B8wKfKsNEJN3dGe/download #update-link
 unzip Clima.zip
 sudo cp -rfv 20190419/Clima* /usr/share/xfce4/weather/icons/
 rm -rfv Clima.zip 20190419
-wget -O ~/.config/xfce4/panel/weather-8.rc http://my.opendesktop.org/s/77x94myzedArZit/download
+wget -O ~/.config/xfce4/panel/weather-8.rc http://my.opendesktop.org/s/77x94myzedArZit/download #update-link
 wget -O ~/.local/share/xfce4-panel-profiles/Raul\ Dipeas.tar.bz2 http://my.opendesktop.org/s/DerCwxX84qstx7n/download #update-link
 xfce4-panel-profiles load ~/.local/share/xfce4-panel-profiles/Raul\ Dipeas.tar.bz2
-tint2&bash ~/.local/share/scripts/tint2-panel-auto-opaque.sh&
 clear
-echo "### MANTENHA ESSA JANELA ABERTA ATÉ O REINICIAR A SESSÂO ###" #review
+echo "### MANTENHA ESSA JANELA ABERTA ATÉ REINICIAR A SESSÂO ###" &
+tint2&bash ~/.local/share/scripts/tint2-panel-auto-opaque.sh
 ```
 [![bashrun](../images/bashrun.png)](br:panel)
 
