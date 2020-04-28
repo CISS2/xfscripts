@@ -14,7 +14,8 @@ STAGING_WRITECOPY=1
 STAGING_SHARED_MEMORY=1
 WINE_ENABLE_PIPE_SYNC_FOR_APP=1' >> ~/.profile #manual-cleanup-on-reinstall
 
-#wine vcrun2013
+# winetricks dxvk gdiplus vcrun2013 win10#d2d1
+
 ```
 [![bashrun](../images/bashrun.png)](br:wine)
 
