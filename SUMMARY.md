@@ -31,7 +31,6 @@
     - [Compton](scripts/compton.md)
     - [Lutris](scripts/lutris.md)
     - [QOwnNotes](scripts/qownnotes.md)
-    - [Xubuntu extras](scripts/xubuntu-extras.md)
     - [Syncthing](scripts/syncthing.md)
     - [Google Drive](scripts/google-drive.md)
     - [VSCodium](scripts/vscodium.md)
