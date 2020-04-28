@@ -1,4 +1,4 @@
-# Pop!_OS PPA
+# NVIDIA PPA
 ```bash
 sudo add-apt-repository -y ppa:graphics-drivers/ppa
 ```
