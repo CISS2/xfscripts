@@ -1,4 +1,4 @@
-# Kernel de baixa latência
+# **!** Kernel de baixa latência **!**
 ```bash
 aptinst -y linux-lowlatency
 ```
