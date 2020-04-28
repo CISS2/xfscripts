@@ -1,9 +1,9 @@
 # LightDM webkit2 greeter
 ```bash
-wget -c https://provo-mirror.opensuse.org/repositories/home:/antergos/xUbuntu_17.10/amd64/lightdm-webkit2-greeter_2.2.5-1+15.31_amd64.deb
+wget -c https://provo-mirror.opensuse.org/repositories/home:/antergos/xUbuntu_17.10/amd64/lightdm-webkit2-greeter_2.2.5-1+15.31_amd64.deb #update-link
 aptinst ./lightdm-webkit2-greeter*.deb
 rm -rfv lightdm-webkit2-greeter*.deb
-wget -c https://github.com/Litarvan/lightdm-webkit-theme-litarvan/releases/download/v3.0.0/lightdm-webkit-theme-litarvan-3.0.0.tar.gz
+wget -c https://github.com/Litarvan/lightdm-webkit-theme-litarvan/releases/download/v3.1.0/lightdm-webkit-theme-litarvan-3.1.0.tar.gz #update-link
 sudo mkdir -pv /usr/share/lightdm-webkit/themes/litarvan
 sudo tar -vzxf lightdm-webkit-theme-litarvan*.tar.gz -C /usr/share/lightdm-webkit/themes/litarvan
 rm -rfv lightdm-webkit-theme-litarvan*.tar.gz
