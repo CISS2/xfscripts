@@ -1,6 +1,6 @@
  # Blender
 ```bash
-wget -c https://ftp.nluug.nl/pub/graphics/blender/release/Blender2.82/blender-2.82a-linux64.tar.xz
+wget -c https://ftp.nluug.nl/pub/graphics/blender/release/Blender2.82/blender-2.82a-linux64.tar.xz #update-link
 tar -xvf blender*.tar.xz
 rm -rfv $HOME/.local/share/blender/
 mv blender*/ $HOME/.local/share/blender/
