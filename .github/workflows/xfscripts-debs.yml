@@ -23,7 +23,7 @@ jobs:
           sudo apt install -y checkinstall git build-essential
           git clone https://github.com/tryone144/compton
           cd compton
-          sudo apt install -y libx11-dev libxcomposite-dev libxdamage-dev libxrender-dev libxrandr-dev libxinerama-dev libconfig-dev libdbus-1-dev libdrm-dev libgl1-mesa-dev libpcre3-dev libjpeg-dev
+          sudo apt install -y libx11-dev libxcomposite-dev libxdamage-dev libxrender-dev libxrandr-dev libxinerama-dev libconfig-dev libdbus-1-dev libdrm-dev libgl1-mesa-dev libpcre3-dev
           make
           sudo apt install -y --no-install-recommends asciidoc docbook-xml xsltproc xmlto
           make docs
@@ -38,7 +38,7 @@ jobs:
           curl -k -T libinput*.deb -u "${{ secrets.NEXTCLOUD_ID }}" -H "X-Requested-With: XMLHttpRequest" https://my.opendesktop.org/public.php/webdav/libinput-gestures.deb
       - name: Check(libcheck)
         run: |
-          sudo apt install -y autoconf automake autopoint bison debhelper dh-autoreconf dh-strip-nondeterminism flex gir1.2-harfbuzz-0.0 icu-devtools libbison-dev libcairo-script-interpreter2 libcairo2-dev libfile-stripnondeterminism-perl libgdk-pixbuf2.0-dev libgraphite2-dev libharfbuzz-dev libharfbuzz-gobject0 libice-dev libicu-dev libicu-le-hb-dev libicu-le-hb0 libpango1.0-dev libpixman-1-dev libpthread-stubs0-dev librsvg2-dev libsm-dev libstartup-notification0-dev libx11-dev libxau-dev libxcb-ewmh-dev libxcb-icccm4-dev libxcb-randr0-dev libxcb-render0-dev libxcb-shm0-dev libxcb-util-dev libxcb-util0-dev libxcb-xinerama0-dev libxcb-xkb-dev libxcb-xrm-dev libxcb1-dev libxdmcp-dev libxext-dev libxft-dev libxkbcommon-dev libxkbcommon-x11-dev libxrender-dev m4 po-debconf texinfo x11proto-core-dev x11proto-dev x11proto-xext-dev xorg-sgml-doctools xtrans-dev  
+          sudo apt install -y autoconf automake autopoint bison debhelper dh-autoreconf dh-strip-nondeterminism flex gir1.2-harfbuzz-0.0 icu-devtools libbison-dev libcairo-script-interpreter2 libcairo2-dev libfile-stripnondeterminism-perl libgdk-pixbuf2.0-dev libgraphite2-dev libharfbuzz-dev libharfbuzz-gobject0 libice-dev libicu-dev libicu-le-hb-dev libicu-le-hb0 libpango1.0-dev libpixman-1-dev libpthread-stubs0-dev librsvg2-dev libsm-dev libstartup-notification0-dev libx11-dev libxau-dev libxcb-ewmh-dev libxcb-icccm4-dev libxcb-randr0-dev libxcb-render0-dev libxcb-shm0-dev libxcb-util-dev libxcb-util0-dev libxcb-xinerama0-dev libxcb-xkb-dev libxcb-xrm-dev libxcb1-dev libxdmcp-dev libxext-dev libxft-dev libxkbcommon-dev libxkbcommon-x11-dev libxrender-dev m4 po-debconf texinfo x11proto-core-dev x11proto-dev x11proto-xext-dev xorg-sgml-doctools xtrans-dev libjpeg-dev
           git clone https://github.com/libcheck/check
           cd check
           autoreconf -i
