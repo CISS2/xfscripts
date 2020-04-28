@@ -1,7 +1,7 @@
 # Bash-it
 #### **(Em revisão)**
 ```bash
-sudo apt update
+aptupd
 sudo apt install -y git fonts-powerline undistract-me
 mkdir -pv ~/.fonts
 wget -cO ~/.fonts/Monaco-Linux.ttf https://github.com/hbin/top-programming-fonts/raw/master/Monaco-Linux.ttf #update-link

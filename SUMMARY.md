@@ -30,6 +30,7 @@
     - [Painel](scripts/panel.md)
     - [Compton](scripts/compton.md)
     - [Lutris](scripts/lutris.md)
+    - [MellowPlayer](scripts/mellowplayer.md)
     - [QOwnNotes](scripts/qownnotes.md)
     - [Syncthing](scripts/syncthing.md)
     - [Google Drive](scripts/google-drive.md)

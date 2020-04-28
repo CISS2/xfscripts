@@ -26,6 +26,7 @@
  - [**Painel**](scripts/panel.md) (_desktop_)
  - [**Compton**](scripts/compton.md) (_desktop_)
  - [**Lutris**](scripts/lutris.md) (_games_)
+ - [**MellowPlayer**](scripts/mellowplayer.md) (_extras_)
  - [**QOwnNotes**](scripts/qownnotes.md) (_extras_)
  - [**Syncthing**](scripts/syncthing.md) (_extras_)
  - [**Google Drive**](scripts/google-drive.md) (_extras_)

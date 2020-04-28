@@ -5,6 +5,6 @@ echo '# POP!_OS PPA
 Package: *
 Pin: release o=LP-PPA-system76-pop
 Pin-Priority: 100' | sudo tee /etc/apt/preferences.d/pop_os
-sudo apt update
+aptupd
 ```
 [![bashrun](../images/bashrun.png)](br:mesa-ppa)
