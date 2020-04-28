@@ -4,7 +4,8 @@ sudo add-apt-repository -yn ppa:papirus/hardcode-tray
 sudo add-apt-repository -yn ppa:papirus/papirus-dev
 sudo add-apt-repository -yn ppa:tista/plata-theme
 sudo add-apt-repository -y ppa:daniruiz/flat-remix
-aptinst -y breeze-cursor-theme flat-remix-gtk hardcode-tray papirus-icon-theme plata-theme plymouth-theme-spinner qt5ct qt5-style-plugins #fix-mate-calc
+aptinst -y breeze-cursor-theme flat-remix-gtk hardcode-tray papirus-icon-theme plata-theme plymouth-theme-spinner qt5ct qt5-style-plugins
+sudo sed -i 's/Icon\[pt_BR\]/#Icon\[pt_BR\]/g' /usr/share/applications/mate-calc.desktop
 xfconf-query -c thunar -np /last-location-bar -t string -s ThunarLocationButtons
 xfconf-query -c thunar -np /last-window-height -t int -s 586
 xfconf-query -c thunar -np /last-window-width -t int -s 900
@@ -53,7 +54,7 @@ echo '[greeter]
 background = /usr/share/xfce4/backdrops/xubuntu-zesty.png
 theme-name = Plata-Noir
 icon-theme-name = Papirus-Dark' | sudo tee /etc/lightdm/lightdm-gtk-greeter.conf
-sudo wget -O /usr/share/plymouth/themes/xubuntu-logo/logo.png http://my.opendesktop.org/s/7cJJBjzN3Zdi8zr/download
+sudo wget -O /usr/share/plymouth/themes/xubuntu-logo/logo.png http://my.opendesktop.org/s/7cJJBjzN3Zdi8zr/download #update-link
 sudo update-initramfs -u -k all
 ```
 [![bashrun](../images/bashrun.png)](br:style)
