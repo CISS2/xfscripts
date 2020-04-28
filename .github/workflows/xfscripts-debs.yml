@@ -7,7 +7,6 @@ on:
       - '_config.yml'
       - 'book.md'
       - 'book.tml'
-      - 'chat.html'
       - 'CNAME'
       - 'favicon.png'
       - 'readme.md'
