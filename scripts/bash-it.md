@@ -4,8 +4,8 @@
 sudo apt update
 sudo apt install -y git fonts-powerline undistract-me
 mkdir -pv ~/.fonts
-wget -cO ~/.fonts/Monaco-Linux.ttf https://github.com/hbin/top-programming-fonts/raw/master/Monaco-Linux.ttf
-wget -c https://github.com/ryanoasis/nerd-fonts/releases/download/v2.0.0/DroidSansMono.zip
+wget -cO ~/.fonts/Monaco-Linux.ttf https://github.com/hbin/top-programming-fonts/raw/master/Monaco-Linux.ttf #update-link
+wget -c https://github.com/ryanoasis/nerd-fonts/releases/download/v2.0.0/DroidSansMono.zip #update-link
 unzip DroidSansMono.zip -d ~/.fonts
 rm -rfv DroidSansMono.zip
 fc-cache -fv
