@@ -18,8 +18,7 @@ echo 'OnlyShowIn=XFCE;' >> ~/.config/autostart/compton.desktop
 sed -i 's/TryExec/#TryExec/g' ~/.config/autostart/compton.desktop
 wget -O ~/.config/compton.conf http://my.opendesktop.org/index.php/s/SpcapKgySxmHmzG/download #update-link
 xfconf-query -c xfwm4 -p /general/use_compositing -T false
-clear
-echo "### MANTENHA ESSA JANELA ABERTA ATÉ REINICIAR A SESSÂO ###" &
+zenity --title "XFScripts | Compton" --info --text="MANTENHA O TERMINAL ABERTO ATÉ REINICIAR A SESSÃO!" --no-wrap
 compton
 ```
 [![bashrun](../images/bashrun.png)](br:compton)
