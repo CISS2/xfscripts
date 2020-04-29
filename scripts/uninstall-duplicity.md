@@ -19,6 +19,6 @@ aptpurge -y \
     xfburn \
     xfce4-notes \
     xfce4-notes-plugin \
-    xfce4-screenshoter
+    xfce4-screenshooter
 ```
 [![bashrun](../images/bashrun.png)](br:uninstall-duplicity)
