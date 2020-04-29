@@ -26,8 +26,8 @@ xdg-mime default gdebi.desktop application/vnd.debian.binary-package
  - [**Redshift-gtk**](http://apt.ubuntu.com/p/redshift-gtk)
  - [**Restic**](http://apt.ubuntu.com/p/restic) #backup-script
  - [**Rygel**](http://apt.ubuntu.com/p/rygel-preferences) #review
- - [**SMPlayer**](http://apt.ubuntu.com/p/smplayer)
-     - [**MPlayer**](http://apt.ubuntu.com/p/mplayer)
+ - [**MPlayer**](http://apt.ubuntu.com/p/mplayer)
+     - [**SMPlayer**](http://apt.ubuntu.com/p/smplayer)
      - [**SMPlayer themes**](http://apt.ubuntu.com/p/smplayer-themes)
 ```bash
 mkdir -pv ~/.config/smplayer
