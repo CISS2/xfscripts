@@ -8,6 +8,12 @@
  - [**Dropbear**](http://apt.ubuntu.com/p/dropbear)
      - [**OpenSSH SFTP server**](http://apt.ubuntu.com/p/openssh-sftp-server)
  - [**FeedReader**](http://apt.ubuntu.com/p/feedreader) #login (Feedly)
+ - [**GDebI**](http://apt.ubuntu.com/p/gdebi) `--no-install-recommends`
+```bash
+sudo sed -i 's/gdebi-gtk %f/sh -c "gdebi-gtk %f"/g' /usr/share/applications/gdebi.desktop
+echo DPkg::Post-Invoke \{\"wget -qO /usr/share/applications/gdebi.desktop http://my.opendesktop.org/s/FiZyQR6JYNo8cSr/download\"\;\}\; | sudo tee /etc/apt/apt.conf.d/100gdebi
+
+```
  - [**Geary**](http://apt.ubuntu.com/p/geary) #login (Mail/Outlook)
  - [**GNOME characters**](http://apt.ubuntu.com/p/gnome-characters) `--no-install-recommends`
     - [**Fonts EmojiOne**](http://apt.ubuntu.com/p/fonts-emojione)
