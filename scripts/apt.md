@@ -12,7 +12,7 @@
 ```bash
 sudo sed -i 's/gdebi-gtk %f/sh -c "gdebi-gtk %f"/g' /usr/share/applications/gdebi.desktop
 echo DPkg::Post-Invoke \{\"wget -qO /usr/share/applications/gdebi.desktop http://my.opendesktop.org/s/FiZyQR6JYNo8cSr/download\"\;\}\; | sudo tee /etc/apt/apt.conf.d/100gdebi
-
+xdg-mime default gdebi.desktop application/vnd.debian.binary-package
 ```
  - [**Geary**](http://apt.ubuntu.com/p/geary) #login (Mail/Outlook)
  - [**GNOME characters**](http://apt.ubuntu.com/p/gnome-characters) `--no-install-recommends`
@@ -38,6 +38,10 @@ qt_style=qt5ct-style
 [subtitles]
 styles\fontname=Sans Serif
 styles\primarycolor\argb=fffff100' > ~/.config/smplayer/smplayer.ini
+xdg-mime default smplayer.desktop video/mp4
+xdg-mime default smplayer.desktop video/quicktime
+xdg-mime default smplayer.desktop video/webm
+xdg-mime default smplayer.desktop video/x-matroska
 ```
  - [**Steam**](http://apt.ubuntu.com/p/steam-installer) #login #sync_files
      - [**XBoxDrv**](http://apt.ubuntu.com/p/xboxdrv)
