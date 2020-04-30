@@ -21,5 +21,16 @@ jobs:
         run: npm install -g surge
       - name: Deploy no Surge
         run: surge docs/book --token ${{ secrets.SURGE_TOKEN }}
+      - name: Toot
+        run: |
+          sudo apt install -y jq libreoffice-core-nogui
+          sudo ln -sv /usr/lib/libreoffice/program/uri-encode /usr/local/bin/
+          git clone https://github.com/cympfh/mastodon-cli
+          cd mastodon-cli/bin
+          wget -O mast-auth.zip http://my.opendesktop.org/s/z8inTWEmALDMmaA/download
+          unzip mast-auth.zip -d ~/
+          git clone https://github.com/rauldipeas/xfscripts
+          cd xfscripts
+          ../mast toot "Acabei de fazer uma _atualização_ no **XFScripts**, não deixe de conferir! `git log -1`"
 #      - name: Gitter webhook
 #        run: curl --data-urlencode "message=_Deploy_ do **XFScripts** no **Surge** concluído com sucesso através **GitHub Actions** | https://xfscripts.rauldipeas.tk" ${{ secrets.GITTER_WEBHOOK }}
