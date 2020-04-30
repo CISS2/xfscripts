@@ -33,6 +33,7 @@ jobs:
           git clone https://github.com/rauldipeas/xfscripts
           cd xfscripts
           ../mast toot "Acabei de fazer uma atualização no XFScripts, não deixe de conferir!
+            https://imgur.com/D5pjJXu
             `git log --oneline -1` https://github.com/rauldipeas/xfscripts/commit/`git log --pretty=format:'%h' -n 1`
             https://xfscripts.rauldipeas.tk #xubuntu #xfscripts"
 #      - name: Gitter webhook
