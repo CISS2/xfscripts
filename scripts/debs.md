@@ -41,7 +41,7 @@ TextFont=@Variant(\0\0\0@\0\0\0\x12\0N\0o\0t\0o\0 \0S\0\x61\0n\0s@(\0\0\0\0\0\0\
  - [**NoMachine**](https://www.nomachine.com/download/linux&id=1) #dark-theme
  - [**Patchage**](https://packages.ubuntu.com/eoan/amd64/patchage/download) [#direct-link](http://mirrors.kernel.org/ubuntu/pool/universe/p/patchage/patchage_1.0.0~dfsg0-0.2_amd64.deb) `--no-install-recommends`
  
- - [**Rambox**](https://github.com/ramboxapp/community-edition/releases) [#Temas](http://my.opendesktop.org/s/9Nq2Z9LffAwQCXm) #login #sync_accounts (Instagram DM/Messenger+CSS/Skype/Telegram+CSS/Tweetdeck)
+ - [**Rambox**](https://github.com/ramboxapp/community-edition/releases) [#Temas](http://my.opendesktop.org/s/9Nq2Z9LffAwQCXm) #login #sync_accounts (Instagram DM/Mastodon/Messenger+CSS/Skype/Telegram+CSS/Tweetdeck)
 ```bash
 aptinst -y npm
 sudo npm install -g asar
