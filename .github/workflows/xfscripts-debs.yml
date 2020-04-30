@@ -77,7 +77,7 @@ jobs:
           cd xfscripts
           ../mast toot "Pacotes novos do XFScripts acabam de ser compilados, atualize seu sistema!
             http://my.opendesktop.org/s/xsJkwQQqXzM5rBB
-            https://xfscripts.rauldipeas.tk"
+            https://xfscripts.rauldipeas.tk #xubuntu #xfscripts"
 #      - name: Gitter webhook
 #        run: curl --data-urlencode "message=_Compilação_ dos pacotes _deb_ concluída com sucesso através do **GitHub Actions**" ${{ secrets.GITTER_WEBHOOK }}
       
