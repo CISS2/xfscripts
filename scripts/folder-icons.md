@@ -19,3 +19,5 @@ echo '
 </actions>' >> ~/.config/Thunar/uca.xml
 ```
 [![bashrun](../images/bashrun.png)](br:folder-icons)
+
+![thunar-folder-icons](../images/thunar-folder-icons.png)
