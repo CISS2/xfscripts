@@ -32,10 +32,8 @@ jobs:
           unzip mast-auth.zip -d ~/
           git clone https://github.com/rauldipeas/xfscripts
           cd xfscripts
-          ../mast toot \
-              "Acabei de fazer uma atualização no XFScripts, não deixe de conferir!
-              `git log --oneline -1`
-              https://github.com/rauldipeas/xfscripts/commit/`git log --pretty=format:'%h' -n 1`
-              https://xfscripts.rauldipeas.tk"
+          ../mast toot "Acabei de fazer uma atualização no XFScripts, não deixe de conferir!
+            `git log --oneline -1` https://github.com/rauldipeas/xfscripts/commit/`git log --pretty=format:'%h' -n 1`
+            https://xfscripts.rauldipeas.tk"
 #      - name: Gitter webhook
 #        run: curl --data-urlencode "message=_Deploy_ do **XFScripts** no **Surge** concluído com sucesso através **GitHub Actions** | https://xfscripts.rauldipeas.tk" ${{ secrets.GITTER_WEBHOOK }}
