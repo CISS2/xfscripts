@@ -1,8 +1,8 @@
  # Ícones das pastas
 ```bash
 aptinst -y librsvg2-bin
-wget -O /usr/share/thumbnailers/folder.thumbnailer http://my.opendesktop.org/s/72T6aimS5dWikL6/download
-wget -O /usr/bin/folder-thumbnailer http://my.opendesktop.org/s/jbtRBMTc2bJeFAQ/download
+sudo wget -O /usr/share/thumbnailers/folder.thumbnailer http://my.opendesktop.org/s/72T6aimS5dWikL6/download
+sudo wget -O /usr/bin/folder-thumbnailer http://my.opendesktop.org/s/jbtRBMTc2bJeFAQ/download
 sudo chmod +x -v /usr/bin/folder-thumbnailer
 mkdir -pv ~/.config/Thunar
 echo '
