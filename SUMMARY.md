@@ -34,5 +34,6 @@
     - [QOwnNotes](scripts/qownnotes.md)
     - [Syncthing](scripts/syncthing.md)
     - [Google Drive](scripts/google-drive.md)
+    - [Ícones das pastas](scripts/folder-icons.md)
     - [VSCodium](scripts/vscodium.md)
     - [CleanUp](scripts/uninstall-duplicity.md)
