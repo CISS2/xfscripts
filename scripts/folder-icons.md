@@ -19,13 +19,3 @@ echo '
 </actions>' >> ~/.config/Thunar/uca.xml
 ```
 [![bashrun](../images/bashrun.png)](br:folder-icons)
-
-#### Exemplos ( _execute manualmente_ ):
-```bash
-cp /usr/share/icons/Papirus/64x64/places/folder-cyan-dropbox.svg $HOME/Dropbox/.folder.svg
-cp /usr/share/icons/Papirus/64x64/places/folder-violet-git.svg $HOME/Git/.folder.svg
-cp /usr/share/icons/Papirus/64x64/places/folder-teal-google-drive.svg $HOME/Google\ Drive/.folder.svg
-cp /usr/share/icons/Papirus/64x64/places/folder-red-mega.svg $HOME/MEGA/.folder.svg
-cp /usr/share/icons/Papirus/64x64/places/folder-indigo-nextcloud.svg $HOME/Nextcloud/.folder.svg
-cp /usr/share/icons/Papirus/64x64/places/folder-green-music.svg $HOME/Plugins\ VST/.folder.svg
-```
