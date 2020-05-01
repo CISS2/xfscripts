@@ -31,6 +31,7 @@
  - [**Syncthing**](scripts/syncthing.md) (_extras_)
  - [**Google Drive**](scripts/google-drive.md) (_extras_)
  - [**Ícones das pastas**](scripts/folder-icon.md) (_extras_)
+ - [**X Tile**](scripts/x-tile.md) (_extras_)
  - [**VSCodium**](scripts/vscodium.md) (_extras_)
  - [**PJeOffice**](scripts/pjeoffice.md) (_extras_)
  - [**CleanUp**](scripts/uninstall-duplicity.md) (_extras_)
