@@ -32,7 +32,7 @@ sed -i 's/remove --purge/autoremove --purge/g' ~/.bash_it/aliases/available/apt.
 mkdir -pv ~/.config/xfce4/terminal
 echo '[Configuration]
 FontName=Monaco 10
-MiscDefaultGeometry=85x25
+MiscDefaultGeometry=100x26
 DropdownHeight=70
 DropdownWidth=70
 DropdownOpacity=90

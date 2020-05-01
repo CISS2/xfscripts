@@ -3,7 +3,6 @@
  - [**DebOrphan**](http://apt.ubuntu.com/p/deborphan)
  - [**Deluge-gtk**](http://apt.ubuntu.com/p/deluge-gtk) #close-to-tray
     - [**DelugeD**](http://apt.ubuntu.com/p/deluged)
- - [**Diodon**](http://apt.ubuntu.com/p/diodon)
  - [**Discos**](http://apt.ubuntu.com/p/gnome-disk-utility)
  - [**Dropbear**](http://apt.ubuntu.com/p/dropbear)
      - [**OpenSSH SFTP server**](http://apt.ubuntu.com/p/openssh-sftp-server)
@@ -62,3 +61,4 @@ OnlyShowIn=XFCE;' > ~/.config/autostart/volumeicon.desktop
 wget -O ~/.config/volumeicon/volumeicon http://my.opendesktop.org/index.php/s/tw8kNw3pjdQbfwB/download #update-link
 ```
  - [**Virt Manager**](http://apt.ubuntu.com/p/virt-manager)
+ - [**XFCE Clipman**](http://apt.ubuntu.com/p/xfce4-clipman)
