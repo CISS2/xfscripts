@@ -19,3 +19,7 @@ Porém, se você quiser rodar de forma automatizada, pode instalar o [**Bashrun*
 ## Envolva-se
 
 Crie um _**fork**_ e envie um _**pull-request**_ com as suas sugestões de melhorias para este repositório, elas são muito bem vindas!
+
+Acompanhe as atualizações do projeto através do [**Mastodon**](https://mastodon.social/@raul_dipeas).
+
+[![mastodon](images/mastodon.png)](https://mastodon.social/@raul_dipeas)
