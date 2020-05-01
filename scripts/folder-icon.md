@@ -1,4 +1,4 @@
- # Ícones das pastas
+ # Ícones de pasta
 ```bash
 aptinst -y librsvg2-bin
 sudo wget -O /usr/share/thumbnailers/folder.thumbnailer http://my.opendesktop.org/s/72T6aimS5dWikL6/download
