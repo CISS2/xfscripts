@@ -11,10 +11,11 @@ mkdir -pv ~/.config/REAPER
 rm -rfv reaper*.tar.xz download.php
 cd ~/.local/share/reaper_linux*
 ./install-reaper.sh --quiet --integrate-desktop
-wget http://www.sws-extension.org/download/pre-release/sws-2.11.0.0-Linux-x86_64-08d3c6fc.tar.xz
+wget -O ~/.local/share/reaper_linux_x86_64/REAPER/libSwell.colortheme http://my.opendesktop.org/s/D4GcswAieYf6Kfx/download #update-link
+wget http://www.sws-extension.org/download/pre-release/sws-2.11.0.0-Linux-x86_64-08d3c6fc.tar.xz #update-link
 tar -xvf sws-2.11.0.0-Linux-x86_64-08d3c6fc.tar.xz -C ~/.config/REAPER
 rm -rfv sws-2.11.0.0-Linux-x86_64-08d3c6fc.tar.xz
-wget -c https://github.com/cfillion/reapack/releases/download/v1.2.1/reaper_reapack64.so -O ~/.config/REAPER/UserPlugins/reaper_reapack64.so
+wget -c https://github.com/cfillion/reapack/releases/download/v1.2.1/reaper_reapack64.so -O ~/.config/REAPER/UserPlugins/reaper_reapack64.so #update-link
 echo "
 Actions=NewProject;ShowAudioConfig;ReaMote;WhatsNew;License;
 [Desktop Action NewProject]
