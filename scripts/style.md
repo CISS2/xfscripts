@@ -32,7 +32,19 @@ xfconf-query -c xsettings -p /Net/IconThemeName -s Papirus-Dark
 xfconf-query -c xsettings -p /Net/ThemeName -s Plata-Noir
 sudo update-alternatives --set x-cursor-theme /etc/X11/cursors/Breeze_Snow.theme
 sudo update-alternatives --set default.plymouth /usr/share/plymouth/themes/bgrt/bgrt.plymouth
-sed -i 's/elementary/colibre/g' ~/.config/libreoffice/4/user/registrymodifications.xcu 
+sed -i 's/elementary/colibre/g' ~/.config/libreoffice/4/user/registrymodifications.xcu
+echo '
+<actions>
+<action>
+	<icon>find</icon>
+	<name>Pesquisar com Catfish...</name>
+	<unique-id>2346767568356824-1</unique-id>
+	<command>catfish %F</command>
+	<description>Pesquisar arquivos na pasta indicada</description>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+</actions>' >> ~/.config/Thunar/uca.xml
 echo '{
     "blacklist": ["steam"],
     "icons": {
