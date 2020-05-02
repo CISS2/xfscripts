@@ -19,12 +19,6 @@ xdg-mime default gdebi.desktop application/vnd.debian.binary-package
  - [**GNOME system log**](http://apt.ubuntu.com/p/gnome-system-log)
  - [**Inkscape**](http://apt.ubuntu.com/p/inkscape) `--no-install-recommends`
  - [**MediaInfo GUI**](http://apt.ubuntu.com/p/mediainfo-gui)
- - [**Neofetch**](http://apt.ubuntu.com/p/neofetch) #ascii-logo (Xubuntu)
- - [**Nextcloud**](http://apt.ubuntu.com/p/nextcloud-desktop) #login #sync-files
- - [**RAR**](http://apt.ubuntu.com/p/rar)
- - [**Redshift-gtk**](http://apt.ubuntu.com/p/redshift-gtk)
- - [**Restic**](http://apt.ubuntu.com/p/restic) #backup-script
- - [**Rygel**](http://apt.ubuntu.com/p/rygel-preferences) #review
  - [**MPlayer**](http://apt.ubuntu.com/p/mplayer)
      - [**SMPlayer**](http://apt.ubuntu.com/p/smplayer)
      - [**SMPlayer themes**](http://apt.ubuntu.com/p/smplayer-themes)
@@ -42,6 +36,13 @@ xdg-mime default smplayer.desktop video/quicktime
 xdg-mime default smplayer.desktop video/webm
 xdg-mime default smplayer.desktop video/x-matroska
 ```
+ - [**Neofetch**](http://apt.ubuntu.com/p/neofetch) #ascii-logo (Xubuntu)
+ - [**Nextcloud**](http://apt.ubuntu.com/p/nextcloud-desktop) #login #sync-files
+ - [**RAR**](http://apt.ubuntu.com/p/rar)
+ - [**Redshift-gtk**](http://apt.ubuntu.com/p/redshift-gtk)
+ - [**Restic**](http://apt.ubuntu.com/p/restic) #backup-script
+     - [**SSHPass**](http://apt.ubuntu.com/p/sshpass)
+ - [**Rygel**](http://apt.ubuntu.com/p/rygel-preferences) #review
  - [**Steam**](http://apt.ubuntu.com/p/steam-installer) #login #sync_files
      - [**XBoxDrv**](http://apt.ubuntu.com/p/xboxdrv)
  - [**Synaptic**](http://apt.ubuntu.com/p/synaptic)
