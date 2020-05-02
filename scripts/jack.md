@@ -7,7 +7,8 @@ echo jackd2 jackd/tweak_rt_limits string true | sudo debconf-set-selections
 aptinst -y --no-install-recommends ubuntustudio-controls
 sudo sed -i 's/256/224/g' /usr/share/ubuntustudio-controls/ubuntustudio-controls.glade
 echo DPkg::Post-Invoke \{\"sed -i \'s/256/224/g\' /usr/share/ubuntustudio-controls/ubuntustudio-controls.glade\"\;\}\; | sudo tee /etc/apt/apt.conf.d/100ubuntustudio-controls
-mkdir -pv ~/.config/autostart
+mkdir -pv ~/.config/autostart ~/.config/qastools
+wget -O ~/.config/qastools/qasmixer.conf http://my.opendesktop.org/s/Cb8QQ9jjk3no52r/download
 echo '[Desktop Entry]
 Type=Application
 Terminal=false
