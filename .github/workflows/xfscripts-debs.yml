@@ -7,14 +7,12 @@ on:
       - '_config.yml'
       - 'book.md'
       - 'book.tml'
-      - 'CNAME'
       - 'favicon.png'
       - 'readme.md'
       - 'images/**'
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Compilação dos pacotes no formato deb
     steps:
       - uses: actions/checkout@v1
       - name: tryone144/compton
@@ -82,8 +80,7 @@ jobs:
         with:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
-          format: markdown
           message: |
-            Pacotes novos do **XFScripts** acabam de ser compilados, atualize seu sistema!
+            Pacotes novos do XFScripts acabam de ser compilados... Atualize seu sistema!
             http://my.opendesktop.org/s/xsJkwQQqXzM5rBB
             https://xfscripts.rauldipeas.tk

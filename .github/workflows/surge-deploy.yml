@@ -38,6 +38,6 @@ jobs:
           photo: images/desktop.png
           format: markdown
           message: |
-            Acabei de fazer uma atualização no **XFScripts**, não deixe de conferir!
+            Acabei de fazer uma atualização no XFScripts... Não deixe de conferir!
             https://github.com/rauldipeas/xfscripts/commit
             https://xfscripts.rauldipeas.tk
