@@ -38,5 +38,5 @@ jobs:
           photo: https://blog.rauldipeas.tk/images/covers/xfscripts.png
           message: |
             Acabei de fazer uma atualização no XFScripts, não deixe de conferir!
-              ${{ commit_ref }} ${{ github.event_name }} https://github.com/rauldipeas/xfscripts/commit/${{ github.event_path }}
+              ${{ github.event_name }} https://github.com/rauldipeas/xfscripts/commit/${{ github.event_path }}
               https://xfscripts.rauldipeas.tk #xubuntu #xfscripts
