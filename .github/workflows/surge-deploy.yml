@@ -20,6 +20,4 @@ jobs:
       - uses: rzr/fediverse-action@master
         with:
           access-token: ${{ secrets.MASTODON_ACCESS_TOKEN }}
-          message: "Acabei de fazer uma atualização no XFScripts, não deixe de conferir!
-            `git log --oneline -1` https://github.com/rauldipeas/xfscripts/commit/`git log --pretty=format:'%h' -n 1`
-            https://xfscripts.rauldipeas.tk #xubuntu #xfscripts ${{ steps.log.outputs.message }} ~ #FediVerseAction"
+          message: "Acabei de fazer uma atualização no XFScripts, não deixe de conferir! `git log --oneline -1` https://github.com/rauldipeas/xfscripts/commit/`git log --pretty=format:'%h' -n 1` https://xfscripts.rauldipeas.tk #xubuntu #xfscripts ${{ steps.log.outputs.message }} ~ #FediVerseAction"
