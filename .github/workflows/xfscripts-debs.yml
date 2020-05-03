@@ -7,7 +7,6 @@ on:
       - '_config.yml'
       - 'book.md'
       - 'book.tml'
-      - 'docs'
       - 'favicon.png'
       - 'readme.md'
       - 'images/**'
