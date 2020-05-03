@@ -3,37 +3,23 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Deploy no Surge
     steps:
       - uses: actions/checkout@v1
-      - name: Instalação do mdBook
-        run: |
-          wget -c https://github.com/rust-lang/mdBook/releases/download/v0.3.5/mdbook-v0.3.5-x86_64-unknown-linux-gnu.tar.gz
-          tar -vzxf mdbook*.tar.gz
-      - name: Build do mdBook
-        run: |
-          ./mdbook init --force docs;cp -varf `ls | grep -v docs` docs/src/
+      - uses: peaceiris/actions-mdbook@v1
+      - run: |
+          mdbook init --force docs;cp -varf `ls | grep -v docs` docs/src/
           mv -v docs/src/book.toml docs/
           cd docs/
-          ../mdbook build
-      - uses: actions/setup-node@v1
-      - name: Instalação do Surge
-        run: npm install -g surge
-      - name: Deploy no Surge
-        run: surge docs/book --token ${{ secrets.SURGE_TOKEN }}
-      - name: Toot
-        run: |
-          sudo add-apt-repository -y ppa:libreoffice/ppa
-          sudo apt install -y jq libreoffice-core-nogui
-          sudo ln -sv /usr/lib/libreoffice/program/uri-encode /usr/local/bin/
-          git clone https://github.com/cympfh/mastodon-cli
-          cd mastodon-cli/bin
-          wget -O mast-auth.zip http://my.opendesktop.org/s/z8inTWEmALDMmaA/download
-          unzip mast-auth.zip -d ~/
-          git clone https://github.com/rauldipeas/xfscripts
-          cd xfscripts
-          ../mast toot -f ../../../images/xfscripts-mdbook.png "Acabei de fazer uma atualização no XFScripts, não deixe de conferir!
+          mdbook build
+      - uses: dswistowski/surge-sh-action@v1
+        with:
+          domain: 'xfscripts.rauldipeas.tk'
+          project: 'docs/book'
+          login: ${{ secrets.SURGE_LOGIN }}
+          token: ${{ secrets.SURGE_TOKEN }}
+      - uses: rzr/fediverse-action@master
+        with:
+          access-token: ${{ secrets.MASTODON_ACCESS_TOKEN }}
+          message: "Acabei de fazer uma atualização no XFScripts, não deixe de conferir!
             `git log --oneline -1` https://github.com/rauldipeas/xfscripts/commit/`git log --pretty=format:'%h' -n 1`
-            https://xfscripts.rauldipeas.tk #xubuntu #xfscripts"
-#      - name: Gitter webhook
-#        run: curl --data-urlencode "message=_Deploy_ do **XFScripts** no **Surge** concluído com sucesso através **GitHub Actions** | https://xfscripts.rauldipeas.tk" ${{ secrets.GITTER_WEBHOOK }}
+            https://xfscripts.rauldipeas.tk #xubuntu #xfscripts ${{ steps.log.outputs.message }} ~ #FediVerseAction"
