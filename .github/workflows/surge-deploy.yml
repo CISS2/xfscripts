@@ -36,7 +36,6 @@ jobs:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
           photo: https://blog.rauldipeas.tk/images/covers/xfscripts.png
-          message: |
-            Acabei de fazer uma atualização no XFScripts, não deixe de conferir!
-              ${{ commit.ref }} ${{ github.event_name }} https://github.com/rauldipeas/xfscripts/commit/${{ github.event.path }}
-              https://xfscripts.rauldipeas.tk #xubuntu #xfscripts
+          message: "Acabei de fazer uma atualização no XFScripts, não deixe de conferir!
+            ${{ commit.ref }} ${{ github.event_name }} https://github.com/rauldipeas/xfscripts/commit/${{ github.event.path }}
+            https://xfscripts.rauldipeas.tk #xubuntu #xfscripts"
