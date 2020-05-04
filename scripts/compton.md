@@ -1,6 +1,7 @@
 # Compton
 #### **(Em revisão)**
-#### [checkinstall-build](http://my.opendesktop.org/index.php/s/qZWn7PQ2iNXFW6a/download)
+#### <a href="http://my.opendesktop.org/index.php/s/qZWn7PQ2iNXFW6a/download" target="_blank">checkinstall-build</a>
+
 ```bash
 git clone https://github.com/tryone144/compton
 cd compton

@@ -1,5 +1,6 @@
 # Gestos
-#### [checkinstall-build](http://my.opendesktop.org/index.php/s/i5g8XbQiAfmGWtj/download)
+#### <a href="http://my.opendesktop.org/index.php/s/i5g8XbQiAfmGWtj/download" target="_blank">checkinstall-build</a>
+
 ```bash
 sudo gpasswd -a $USER input
 aptinst -y build-essentials libinput-tools

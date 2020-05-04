@@ -1,26 +1,23 @@
-![xfscripts](images/xfscripts-mdbook.png)
+<img src="images/xfscripts-mdbook.png"/>
 
 ## Bem vindo!
 
-Esta documentação contém scripts de personalização otimizados para o [**Xubuntu**](https://xubuntu.org) [**20.04**](https://xubuntu.org/release/20-04/).
-
-Saiba mais sobre os scripts através das postagens nesse [**blog**](https://blog.rauldipeas.tk/xfscripts).
-
-![xfscripts](images/xfscripts.png)
+Esta documentação contém scripts de personalização otimizados para o <a href="https://xubuntu.org"><strong>Xubuntu</strong></a> <a href="https://xubuntu.org/release/20-04/"><strong>20.04</strong></a>.
+Saiba mais sobre os scripts através das postagens nesse <a href="https://blog.rauldipeas.tk/xfscripts"><strong>blog</strong></a>.
+<img src="images/xfscripts.png"> 
 
 ## Instalação
 
-**Você pode seguir a ordem recomendada de execução dos scripts, através do arquivo de [pós instalação](postinst.md)**.
+<strong>Você pode seguir a ordem recomendada de execução dos scripts, através do arquivo de <a href="postinst.md">pós instalação</a></strong>.
 
 Para uma execução correta dos scripts, você deve copiar e colar uma linha por vez no terminal, para poder acompanhar detalhadamente o processo, dessa forma, qualquer tipo de problema pode ser detectado com maior facilidade.
 
-Porém, se você quiser rodar de forma automatizada, pode instalar o [**Bashrun**](./bashrun.md), que permite a execução dos scripts ao clicar no botão _**Run**_.
+Porém, se você quiser rodar de forma automatizada, pode instalar o <a href="./bashrun.md"><strong>Bashrun</strong></a>, que permite a execução dos scripts ao clicar no botão <em><strong>Run</strong></em>.
 
 ## Envolva-se
 
-Crie um [_**fork**_](https://github.com/rauldipeas/xfscripts) e envie um _**pull-request**_ com as suas sugestões de melhorias para este repositório, elas são muito bem vindas!
-
-Acompanhe as atualizações do projeto através do canal no [**Telegram**](https://t.me/xfscripts) e do [**Mastodon**](https://mastodon.social/@raul_dipeas).
+Crie um <a href="https://github.com/rauldipeas/xfscripts"><em><strong>fork</strong></em></a> e envie um <em><strong>pull-request</strong></em> com as suas sugestões de melhorias para este repositório, elas são muito bem vindas!
+Acompanhe as atualizações do projeto através do canal no <a href="https://t.me/xfscripts"><strong>Telegram</strong></a> e do <a href="https://mastodon.social/@raul_dipeas"><strong>Mastodon</strong></a>.
 
 <a href=https://mastodon.social/@raul_dipeas target="_blank" rel="me"><img src="images/mastodon.png"></a>
 

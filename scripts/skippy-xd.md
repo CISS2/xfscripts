@@ -1,5 +1,6 @@
 # Skippy-XD
-#### [checkinstall-build](http://my.opendesktop.org/s/pP2mHk5iDLj4GYt/download)
+#### <a href="http://my.opendesktop.org/s/pP2mHk5iDLj4GYt/download" target="_blank"><strong>checkinstall-build</strong></a>
+
 ```bash
 aptinst -y libimlib2-dev libfontconfig1-dev libfreetype6-dev libx11-dev libxext-dev libxft-dev libxrender-dev zlib1g-dev libxinerama-dev libxcomposite-dev libxdamage-dev libxfixes-dev libxmu-dev
 git clone https://github.com/dreamcat4/skippy-xd.git

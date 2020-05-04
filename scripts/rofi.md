@@ -1,6 +1,8 @@
 # Rofi
-#### [checkinstall-build](http://cloud.opendesktop.org/s/HG7mJyAX9SaZsrJ/download) (_check_)
-#### [checkinstall-build](http://cloud.opendesktop.org/s/EK4FkKGqdJdEeFg/download) (_rofi_)
+#### <a href="http://cloud.opendesktop.org/s/HG7mJyAX9SaZsrJ/download" target="_blank"><strong>checkinstall-build</strong></a> (<em>check</em>)
+
+#### <a href="http://cloud.opendesktop.org/s/EK4FkKGqdJdEeFg/download" target="_blank"><strong>checkinstall-build</strong></a> (<em>rofi</em>)
+
 ```bash
 git clone https://github.com/davatorium/rofi
 cd rofi

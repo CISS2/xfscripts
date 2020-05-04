@@ -1,27 +1,27 @@
 # Apt
- - [**Analisador de uso de discos**](http://apt.ubuntu.com/p/baobab)
- - [**DebOrphan**](http://apt.ubuntu.com/p/deborphan)
- - [**Deluge-gtk**](http://apt.ubuntu.com/p/deluge-gtk) #close-to-tray
-    - [**DelugeD**](http://apt.ubuntu.com/p/deluged)
- - [**Discos**](http://apt.ubuntu.com/p/gnome-disk-utility)
- - [**Dropbear**](http://apt.ubuntu.com/p/dropbear)
-     - [**OpenSSH SFTP server**](http://apt.ubuntu.com/p/openssh-sftp-server)
- - [**FeedReader**](http://apt.ubuntu.com/p/feedreader) #login (Feedly)
- - [**GDebI**](http://apt.ubuntu.com/p/gdebi) `--no-install-recommends`
+ - <a href="http://apt.ubuntu.com/p/baobab" target="_blank"><strong>Analisador de uso de discos</strong></a>
+ - <a href="http://apt.ubuntu.com/p/deborphan" target="_blank"><strong>DebOrphan</strong></a>
+ - <a href="http://apt.ubuntu.com/p/deluge-gtk" target="_blank"><strong>Deluge-gtk</strong></a> #close-to-tray
+     - <a href="http://apt.ubuntu.com/p/deluged" target="_blank"><strong>DelugeD</strong></a>
+ - <a href="http://apt.ubuntu.com/p/gnome-disk-utility" target="_blank"><strong>Discos</strong></a>
+ - <a href="http://apt.ubuntu.com/p/dropbear" target="_blank"><strong>Dropbear</strong></a>
+    - <a href="http://apt.ubuntu.com/p/openssh-sftp-server" target="_blank"><strong>OpenSSH SFTP server</strong></a>
+ - <a href="http://apt.ubuntu.com/p/feedreader" target="_blank"><strong>FeedReader</strong></a> #login (Feedly)
+ - <a href="http://apt.ubuntu.com/p/gdebi" target="_blank"><strong>GDebI</strong></a> `--no-install-recommends`
 ```bash
 sudo sed -i 's/gdebi-gtk %f/sh -c "gdebi-gtk %f"/g' /usr/share/applications/gdebi.desktop
 echo DPkg::Post-Invoke \{\"wget -qO /usr/share/applications/gdebi.desktop http://my.opendesktop.org/s/FiZyQR6JYNo8cSr/download\"\;\}\; | sudo tee /etc/apt/apt.conf.d/100gdebi
 xdg-mime default gdebi.desktop application/vnd.debian.binary-package
 ```
- - [**Geary**](http://apt.ubuntu.com/p/geary) #login (Mail/Outlook)
- - [**GNOME characters**](http://apt.ubuntu.com/p/gnome-characters) `--no-install-recommends`
-    - [**Fonts EmojiOne**](http://apt.ubuntu.com/p/fonts-emojione)
- - [**GNOME system log**](http://apt.ubuntu.com/p/gnome-system-log)
- - [**Inkscape**](http://apt.ubuntu.com/p/inkscape) `--no-install-recommends`
- - [**MediaInfo GUI**](http://apt.ubuntu.com/p/mediainfo-gui)
- - [**MPlayer**](http://apt.ubuntu.com/p/mplayer)
-     - [**SMPlayer**](http://apt.ubuntu.com/p/smplayer)
-     - [**SMPlayer themes**](http://apt.ubuntu.com/p/smplayer-themes)
+ - <a href="http://apt.ubuntu.com/p/geary" target="_blank"><strong>Geary</strong></a> #login (Mail/Outlook)
+ - <a href="http://apt.ubuntu.com/p/gnome-characters" target="_blank"><strong>GNOME characters</strong></a> `--no-install-recommends`
+ - <a href="http://apt.ubuntu.com/p/fonts-emojione" target="_blank"><strong>Fonts EmojiOne</strong></a>
+ - <a href="http://apt.ubuntu.com/p/gnome-system-log" target="_blank"><strong>GNOME system log</strong></a>
+ - <a href="http://apt.ubuntu.com/p/inkscape" target="_blank"><strong>Inkscape</strong></a> `--no-install-recommends`
+ - <a href="http://apt.ubuntu.com/p/mediainfo-gui" target="_blank"><strong>MediaInfo GUI</strong></a>
+ - <a href="http://apt.ubuntu.com/p/mplayer" target="_blank"><strong>MPlayer</strong></a>
+ - <a href="http://apt.ubuntu.com/p/smplayer" target="_blank"><strong>SMPlayer</strong></a>
+ - <a href="http://apt.ubuntu.com/p/smplayer-themes" target="_blank"><strong>SMPlayer themes</strong></a>
 ```bash
 mkdir -pv ~/.config/smplayer
 echo '2345 	
@@ -36,21 +36,21 @@ xdg-mime default smplayer.desktop video/quicktime
 xdg-mime default smplayer.desktop video/webm
 xdg-mime default smplayer.desktop video/x-matroska
 ```
- - [**Neofetch**](http://apt.ubuntu.com/p/neofetch) #ascii-logo (Xubuntu)
- - [**Nextcloud**](http://apt.ubuntu.com/p/nextcloud-desktop) #login #sync-files
- - [**RAR**](http://apt.ubuntu.com/p/rar)
- - [**Redshift-gtk**](http://apt.ubuntu.com/p/redshift-gtk)
- - [**Restic**](http://apt.ubuntu.com/p/restic) #backup-script
-     - [**SSHPass**](http://apt.ubuntu.com/p/sshpass)
- - [**Rygel**](http://apt.ubuntu.com/p/rygel-preferences) #review
- - [**Steam**](http://apt.ubuntu.com/p/steam-installer) #login #sync_files
-     - [**XBoxDrv**](http://apt.ubuntu.com/p/xboxdrv)
- - [**Synaptic**](http://apt.ubuntu.com/p/synaptic)
- - [**Thunar Dropbox**](http://apt.ubuntu.com/p/thunar-dropbox-plugin) #review
- - [**Thunar Megasync**](http://apt.ubuntu.com/p/thunar-megasync) #review
- - [**Thunar VCS**](http://apt.ubuntu.com/p/thunar-vcs-plugin) #review
- - [**Vokoscreen**](http://apt.ubuntu.com/p/vokoscreen)
- - [**VolumeIcon ALSA**](http://apt.ubuntu.com/p/volumeicon-alsa)
+ - <a href="http://apt.ubuntu.com/p/neofetch" target="_blank"><strong>Neofetch</strong></a> #ascii-logo (Xubuntu)
+ - <a href="http://apt.ubuntu.com/p/nextcloud-desktop" target="_blank"><strong>Nextcloud</strong></a> #login #sync-files
+ - <a href="http://apt.ubuntu.com/p/rar" target="_blank"><strong>RAR</strong></a>
+ - <a href="http://apt.ubuntu.com/p/redshift-gtk" target="_blank"><strong>Redshift-gtk</strong></a>
+ - <a href="http://apt.ubuntu.com/p/restic" target="_blank"><strong>Restic</strong></a> #backup-script
+    - <a href="http://apt.ubuntu.com/p/sshpass" target="_blank"><strong>SSHPass</strong></a>
+ - <a href="http://apt.ubuntu.com/p/rygel-preferences" target="_blank"><strong>Rygel</strong></a> #review
+ - <a href="http://apt.ubuntu.com/p/steam-installer" target="_blank"><strong>Steam</strong></a> #login #sync_files
+    - <a href="http://apt.ubuntu.com/p/xboxdrv" target="_blank"><strong>XBoxDrv</strong></a>
+ - <a href="http://apt.ubuntu.com/p/synaptic" target="_blank"><strong>Synaptic</strong></a>
+ - <a href="http://apt.ubuntu.com/p/thunar-dropbox-plugin" target="_blank"><strong>Thunar Dropbox</strong></a> #review
+ - <a href="http://apt.ubuntu.com/p/thunar-megasync" target="_blank"><strong>Thunar Megasync</strong></a> #review
+ - <a href="http://apt.ubuntu.com/p/thunar-vcs-plugin" target="_blank"><strong>Thunar VCS</strong></a> #review
+ - <a href="http://apt.ubuntu.com/p/vokoscreen" target="_blank"><strong>Vokoscreen</strong></a>
+ - <a href="http://apt.ubuntu.com/p/volumeicon-alsa" target="_blank"><strong>VolumeIcon ALSA</strong></a>
 ```bash
 mkdir -pv ~/.config/autostart ~/.config/volumeicon
 echo '[Desktop Entry]
@@ -61,5 +61,5 @@ NoDisplay=false
 OnlyShowIn=XFCE;' > ~/.config/autostart/volumeicon.desktop
 wget -O ~/.config/volumeicon/volumeicon http://my.opendesktop.org/index.php/s/tw8kNw3pjdQbfwB/download #update-link
 ```
- - [**Virt Manager**](http://apt.ubuntu.com/p/virt-manager)
- - [**XFCE Clipman**](http://apt.ubuntu.com/p/xfce4-clipman)
+ - <a href="http://apt.ubuntu.com/p/virt-manager" target="_blank"><strong>Virt Manager</strong></a>
+ - <a href="http://apt.ubuntu.com/p/xfce4-clipman" target="_blank"><strong>XFCE Clipman</strong></a>
