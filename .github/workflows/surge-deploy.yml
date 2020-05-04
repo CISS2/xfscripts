@@ -35,7 +35,7 @@ jobs:
         with:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
-          photo: images/xfscripts.png
+          photo: images/desktop.png
           format: markdown
           message: |
             Acabei de fazer uma atualização no XFScripts... Não deixe de conferir!
