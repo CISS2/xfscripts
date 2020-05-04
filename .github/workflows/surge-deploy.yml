@@ -6,8 +6,6 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: peaceiris/actions-mdbook@v1
-        with:
-          mdbook-version: '0.3.7'
       - run: |
           mdbook init --force docs;cp -varf `ls | grep -v docs` docs/src/
           mv -v docs/src/book.toml docs/
