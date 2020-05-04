@@ -3,6 +3,7 @@
 ## Bem vindo!
 
 Esta documentação contém scripts de personalização otimizados para o <a href="https://xubuntu.org" target="_blank"><strong>Xubuntu</strong></a> <a href="https://xubuntu.org/release/20-04/" target="_blank"><strong>20.04</strong></a>.
+
 Saiba mais sobre os scripts através das postagens nesse <a href="https://blog.rauldipeas.tk/xfscripts" target="_blank"><strong>blog</strong></a>.
 
 <img src="images/xfscripts.png"> 
