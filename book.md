@@ -34,3 +34,19 @@ Acompanhe as atualizações do projeto através do canal no <a href="https://t.m
   logged_in_greeting="Em que posso te ajudar?"
   logged_out_greeting="Em que posso te ajudar?">
 </div>
+
+<script>
+window.fbAsyncInit = function() {
+  FB.init({
+    xfbml            : true,
+    version          : 'v6.0'
+  });
+};
+(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/pt_BR/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
