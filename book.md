@@ -24,30 +24,14 @@ Acompanhe as atualizações do projeto através do canal no [**Telegram**](https
 
 <a href=https://mastodon.social/@raul_dipeas target="_blank" rel="me"><img src="images/mastodon.png"></a>
 
-  <!-- Load Facebook SDK for JavaScript -->
-  <div id="fb-root"></div>
-  <script>
-    window.fbAsyncInit = function() {
-      FB.init({
-        xfbml            : true,
-        version          : 'v6.0'
-      });
-    };
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
 
-    (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/pt_BR/sdk/xfbml.customerchat.js';
-    fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-  </script>
-
-  <!-- Your customer chat code -->
-  <div class="fb-customerchat"
-    attribution=setup_tool
-    page_id="100113718305981"
-    greeting_dialog_display="hide"
-    logged_in_greeting="Em que posso te ajudar?"
-    logged_out_greeting="Em que posso te ajudar?">
-  </div>
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="100113718305981"
+  greeting_dialog_display="hide"
+  logged_in_greeting="Em que posso te ajudar?"
+  logged_out_greeting="Em que posso te ajudar?">
+</div>
