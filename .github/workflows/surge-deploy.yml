@@ -39,6 +39,9 @@ jobs:
           format: markdown
           message: |
             Acabei de fazer uma atualização no XFScripts... Não deixe de conferir!
-            ${{ github.event_path }}
+            GitHub ref: ${{ github.ref }} 
+            GitHub commit: ${{ github.sha }} 
+            GitHub ref: {{ commit.ref }} 
+            GitHub commit: {{ commit.sha }} 
             https://xfscripts.rauldipeas.tk
             https://github.com/rauldipeas/xfscripts/commit
