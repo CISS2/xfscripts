@@ -39,5 +39,6 @@ jobs:
           format: markdown
           message: |
             Acabei de fazer uma atualização no XFScripts... Não deixe de conferir!
-            `git log --oneline -1` https://github.com/rauldipeas/xfscripts/commit/`git log --pretty=format:'%h' -n 1`
+            ${{ github.event_path }}
             https://xfscripts.rauldipeas.tk
+            https://github.com/rauldipeas/xfscripts/commit
