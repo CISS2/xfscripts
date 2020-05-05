@@ -39,3 +39,4 @@
     - [VSCodium](scripts/vscodium.md)
     - [PJeOffice](scripts/pjeoffice.md)
     - [CleanUp](scripts/uninstall-duplicity.md)
+    - [Update settings](scripts/update-settings.md)
