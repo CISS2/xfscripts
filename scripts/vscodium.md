@@ -4,5 +4,6 @@ wget -O- https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg
 echo 'deb https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/repos/debs/ vscodium main' | sudo tee /etc/apt/sources.list.d/vscodium.list 
 aptupd
 aptinst -y codium
+xdg-mime default thunar.desktop inode/directory
 ```
 [![bashrun](../images/bashrun.png)](br:vscodium)
