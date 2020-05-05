@@ -16,6 +16,10 @@ Para uma execução correta dos scripts, você deve copiar e colar uma linha por
 
 Porém, se você quiser rodar de forma automatizada, pode instalar o <a href="bashrun.md"><strong>Bashrun</strong></a>, que permite a execução dos scripts ao clicar no botão <em><strong>Run</strong></em>.
 
+Para atualizar os arquivos de configuração do usuário, execute os comandos indicados <a href="scripts/update-settings.md"><strong>aqui</strong></a>.
+
+
+
 ## Envolva-se
 
 Crie um <a href="https://github.com/rauldipeas/xfscripts" target="_blank"><em><strong>fork</strong></em></a> e envie um <em><strong>pull-request</strong></em> com as suas sugestões de melhorias para este repositório, elas são muito bem vindas!

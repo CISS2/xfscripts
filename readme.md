@@ -14,7 +14,9 @@ Saiba mais sobre os scripts através das postagens [**neste blog**](https://blog
 
 Para uma execução correta dos scripts, você deve copiar e colar uma linha por vez no terminal, para poder acompanhar detalhadamente o processo, dessa forma, qualquer tipo de problema pode ser detectado com maior facilidade.
 
-Porém, se você quiser rodar de forma automatizada, pode instalar o [**Bashrun**](./bashrun.md), que permite a execução dos scripts ao clicar no botão _**Run**_.
+Porém, se você quiser rodar de forma automatizada, pode instalar o [**Bashrun**](bashrun.md), que permite a execução dos scripts ao clicar no botão _**Run**_.
+
+Para atualizar os arquivos de configuração do usuário, execute os comandos indicados [**aqui**](scripts/update-settings.md).
 
 ## Envolva-se
 
