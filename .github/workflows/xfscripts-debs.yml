@@ -65,7 +65,7 @@ jobs:
       - name: hanschen/ksuperkey
         run: |
           git clone https://github.com/hanschen/ksuperkey
-          aptinst -y gcc make libx11-dev libxtst-dev pkg-config
+          sudo apt install -y gcc make libx11-dev libxtst-dev pkg-config
           cd ksuperkey
           make
           sudo checkinstall -D -y --install=no --maintainer rauldipeas@mail.com --pkgversion 0.4-xfscripts
