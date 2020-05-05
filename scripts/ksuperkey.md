@@ -1,5 +1,5 @@
 # KSuperKey
-#### <a href="http://my.opendesktop.org/index.php/s/ID/download" target="_blank">checkinstall-build</a>
+#### <a href="http://my.opendesktop.org/s/GDDFMXzN4yR6KaQ/download" target="_blank">checkinstall-build</a>
 ```bash
 git clone https://github.com/hanschen/ksuperkey
 aptinst -y gcc make libx11-dev libxtst-dev pkg-config
