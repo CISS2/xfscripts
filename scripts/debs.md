@@ -36,6 +36,9 @@ UseTrayIcon=false
 [Painter]
 NumberFont=@Variant(\0\0\0@\0\0\0\x14\0Z\0\x30\0\x30\0\x33\0 \0[\0u\0r\0w\0]@>\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0K\x10)
 TextFont=@Variant(\0\0\0@\0\0\0\x12\0N\0o\0t\0o\0 \0S\0\x61\0n\0s@(\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)" > ~/.config/ksnip/ksnip.conf
+xfconf-query -c xfce4-keyboard-shortcuts -p /commands/custom/<Alt>Print -s "ksnip -a" -n -t string
+xfconf-query -c xfce4-keyboard-shortcuts -p /commands/custom/<Shift>Print -s "ksnip -r" -n -t string
+xfconf-query -c xfce4-keyboard-shortcuts -p /commands/custom/Print -s "ksnip -f" -n -t string
 ```
  - <a href="https://mega.nz/sync" target="_blank"><strong>Megasync</strong></a> #login #sync_files
  - <a href="https://www.nomachine.com/download/linux&amp;id=1" target="_blank"><strong>NoMachine</strong></a> #dark-theme
@@ -65,6 +68,8 @@ echo '
 asar p app app.asar
 sudo cp -rfv app.asar /opt/Rambox/resources/app.asar
 rm -rfv app app.asar
+xfconf-query -c xfce4-keyboard-shortcuts -p /commands/custom/XF86Messenger -s "rambox" -n -t string
+
 ```
  - <a href="https://www.rememberthemilk.com/services/linux/" target="_blank"><strong>Remember The Milk</strong></a> #login
  - <a href="https://send-anywhere.com/file-transfer" target="_blank"><strong>Send Anywhere</strong></a> #login

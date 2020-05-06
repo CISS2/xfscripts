@@ -41,6 +41,7 @@ DropdownStatusIcon=FALSE
 ScrollingOnOutput=FALSE
 BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
 BackgroundDarkness=0,930000' > ~/.config/xfce4/terminal/terminalrc
+xfconf-query -c xfce4-keyboard-shortcuts -p /commands/custom/Insert -s "xfce4-terminal --drop-down" -n -t string
 exit
 ```
 [![bashrun](../images/bashrun.png)](br:bash-it)

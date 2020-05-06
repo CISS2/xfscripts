@@ -20,8 +20,8 @@ xdg-mime default gdebi.desktop application/vnd.debian.binary-package
  - <a href="http://apt.ubuntu.com/p/inkscape" target="_blank"><strong>Inkscape</strong></a> `--no-install-recommends`
  - <a href="http://apt.ubuntu.com/p/mediainfo-gui" target="_blank"><strong>MediaInfo GUI</strong></a>
  - <a href="http://apt.ubuntu.com/p/mplayer" target="_blank"><strong>MPlayer</strong></a>
- - <a href="http://apt.ubuntu.com/p/smplayer" target="_blank"><strong>SMPlayer</strong></a>
- - <a href="http://apt.ubuntu.com/p/smplayer-themes" target="_blank"><strong>SMPlayer themes</strong></a>
+   - <a href="http://apt.ubuntu.com/p/smplayer" target="_blank"><strong>SMPlayer</strong></a>
+   - <a href="http://apt.ubuntu.com/p/smplayer-themes" target="_blank"><strong>SMPlayer themes</strong></a>
 ```bash
 mkdir -pv ~/.config/smplayer
 echo '2345 	
@@ -35,13 +35,15 @@ xdg-mime default smplayer.desktop video/mp4
 xdg-mime default smplayer.desktop video/quicktime
 xdg-mime default smplayer.desktop video/webm
 xdg-mime default smplayer.desktop video/x-matroska
+xfconf-query -c xfce4-keyboard-shortcuts -p /commands/custom/XF86Music -s "smplayer" -n -t string
+
 ```
  - <a href="http://apt.ubuntu.com/p/neofetch" target="_blank"><strong>Neofetch</strong></a> #ascii-logo (Xubuntu)
  - <a href="http://apt.ubuntu.com/p/nextcloud-desktop" target="_blank"><strong>Nextcloud</strong></a> #login #sync-files
  - <a href="http://apt.ubuntu.com/p/rar" target="_blank"><strong>RAR</strong></a>
  - <a href="http://apt.ubuntu.com/p/redshift-gtk" target="_blank"><strong>Redshift-gtk</strong></a>
  - <a href="http://apt.ubuntu.com/p/restic" target="_blank"><strong>Restic</strong></a> #backup-script
-    - <a href="http://apt.ubuntu.com/p/sshpass" target="_blank"><strong>SSHPass</strong></a>
+    - <a href="http://apt.ubuntu.com/p/putty-tools" target="_blank"><strong>Putty tools</strong></a>
  - <a href="http://apt.ubuntu.com/p/rygel-preferences" target="_blank"><strong>Rygel</strong></a> #review
  - <a href="http://apt.ubuntu.com/p/steam-installer" target="_blank"><strong>Steam</strong></a> #login #sync_files
     - <a href="http://apt.ubuntu.com/p/xboxdrv" target="_blank"><strong>XBoxDrv</strong></a>

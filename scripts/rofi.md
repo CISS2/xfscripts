@@ -28,7 +28,7 @@ wget -O ~/.config/rofi/config http://my.opendesktop.org/s/smkePRgsYJSDmCM/downlo
 wget -O ~/.config/rofi/fullscreen.rasi http://my.opendesktop.org/s/jzSpr9PYXYmQR2G/download #update-link
 wget -O ~/.config/rofi/sidebar.rasi http://my.opendesktop.org/s/K4QbRoyZDJ2g9wF/download #update-link
 killall -9 xfconfd
-wget -O ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml http://my.opendesktop.org/s/x6LP7Cs5foxmF5G/download #update-link
+xfconf-query -c xfce4-keyboard-shortcuts -p /commands/custom/<Super>x -s "rofi -show drun" -n -t string
 ```
 [![bashrun](../images/bashrun.png)](br:rofi)
 
