@@ -6,6 +6,6 @@ aptinst -y ./*.deb
 sudo cp pje-office.desktop /usr/share/applications/pje-office.desktop
 rm -rfv *.deb *.desktop *.zip
 ```
-[![bashrun](../images/bashrun.png)](br:pje-office)
+[![bashrun](../images/bashrun.png)](br:pjeoffice)
 
 ![pjeoffice](../images/pjeoffice.png)
