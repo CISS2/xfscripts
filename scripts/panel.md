@@ -15,7 +15,7 @@ wget -O ~/.config/xfce4/panel/weather-8.rc http://my.opendesktop.org/s/77x94myze
 wget -O ~/.local/share/xfce4-panel-profiles/Raul\ Dipeas.tar.bz2 http://my.opendesktop.org/s/DerCwxX84qstx7n/download #update-link
 xfce4-panel-profiles load ~/.local/share/xfce4-panel-profiles/Raul\ Dipeas.tar.bz2
 zenity --title "XFScripts | Painel" --info --text="MANTENHA O TERMINAL ABERTO ATÉ REINICIAR A SESSÃO!" --no-wrap
-bash -c "tint2&bash ~/.local/share/scripts/tint2-panel-auto-opaque.sh&killall xterm"
+bash -c "tint2&bash ~/.local/share/scripts/tint2-panel-auto-opaque.sh&exit"
 ```
 [![bashrun](../images/bashrun.png)](br:panel)
 
