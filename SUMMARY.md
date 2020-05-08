@@ -37,6 +37,7 @@
     - [Google Drive](scripts/google-drive.md)
     - [Ícones das pastas](scripts/folder-icon.md)
     - [X Tile](scripts/x-tile.md)
+    - [Telegram](scripts/telegram.md)
     - [VSCodium](scripts/vscodium.md)
     - [PJeOffice](scripts/pjeoffice.md)
     - [AdBlock](scripts/adblock.md)
