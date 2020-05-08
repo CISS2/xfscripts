@@ -29,7 +29,7 @@ jobs:
         run: |
           bash packages/libinput-gestures.sh
           curl -k -T \
-          libinput*.deb \
+          libinput-gestures/libinput*.deb \
           -u "${{ secrets.NEXTCLOUD_ID }}" \
           -H "X-Requested-With: XMLHttpRequest" \
           https://my.opendesktop.org/public.php/webdav/libinput-gestures.deb
@@ -37,7 +37,7 @@ jobs:
         run: |
           bash packages/check.sh
           curl -k -T \
-          check*.deb \
+          check/check*.deb \
           -u "${{ secrets.NEXTCLOUD_ID }}" \
           -H "X-Requested-With: XMLHttpRequest" \
           https://my.opendesktop.org/public.php/webdav/check.deb
@@ -45,7 +45,7 @@ jobs:
         run: |
           bash packages/rofi.sh
           curl -k -T \
-          rofi*.deb \
+          rofi/rofi*.deb \
           -u "${{ secrets.NEXTCLOUD_ID }}" \
           -H "X-Requested-With: XMLHttpRequest" \
           https://my.opendesktop.org/public.php/webdav/rofi.deb
@@ -53,7 +53,7 @@ jobs:
         run: |
           bash packages/skippy-xd.sh
           curl -k -T \
-          skippy-xd*.deb \
+          skippy-xd/skippy-xd*.deb \
           -u "${{ secrets.NEXTCLOUD_ID }}" \
           -H "X-Requested-With: XMLHttpRequest" \
           https://my.opendesktop.org/public.php/webdav/skippy-xd.deb
@@ -61,7 +61,7 @@ jobs:
         run: |
           bash packages/ksuperkey
           curl -k -T \
-          ksuperkey*.deb \
+          ksuperkey/ksuperkey*.deb \
           -u "${{ secrets.NEXTCLOUD_ID }}" \
           -H "X-Requested-With: XMLHttpRequest" \
           https://my.opendesktop.org/public.php/webdav/ksuperkey.deb
