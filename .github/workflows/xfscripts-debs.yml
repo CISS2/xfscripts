@@ -15,61 +15,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
+      - name: tools
+        run: bash packages/tools.sh
       - name: tryone144/compton
-        run: |
-          sudo apt update
-          sudo apt install -y checkinstall git build-essential
-          git clone https://github.com/tryone144/compton
-          cd compton
-          sudo apt install -y libx11-dev libxcomposite-dev libxdamage-dev libxrender-dev libxrandr-dev libxinerama-dev libconfig-dev libdbus-1-dev libdrm-dev libgl1-mesa-dev libpcre3-dev
-          make
-          sudo apt install -y --no-install-recommends asciidoc docbook-xml xsltproc xmlto
-          make docs
-          sudo checkinstall -D -y --install=no --maintainer rauldipeas@mail.com --pkgversion 0.1-beta2-xfscripts --requires libconfig9
-          curl -k -T compton*.deb -u "${{ secrets.NEXTCLOUD_ID }}" -H "X-Requested-With: XMLHttpRequest" https://my.opendesktop.org/public.php/webdav/compton.deb
+        run: bash packages/compton.sh
       - name: bulletmark/linput-gestures
-        run: |
-          sudo apt install -y libinput-tools
-          git clone https://github.com/bulletmark/libinput-gestures.git
-          cd libinput-gestures
-          sudo checkinstall -D -y --install=no --maintainer rauldipeas@mail.com --pkgname libinput-gestures --pkgversion `./list-version-hashes | tail -1 | awk '{print $1}'`-xfscripts --provides libinput-gestures
-          curl -k -T libinput*.deb -u "${{ secrets.NEXTCLOUD_ID }}" -H "X-Requested-With: XMLHttpRequest" https://my.opendesktop.org/public.php/webdav/libinput-gestures.deb
+        run: bash packages/libinput-gestures.sh
       - name: libcheck/check
-        run: |
-          sudo apt install -y autoconf automake autopoint bison debhelper dh-autoreconf dh-strip-nondeterminism flex gir1.2-harfbuzz-0.0 icu-devtools libbison-dev libcairo-script-interpreter2 libcairo2-dev libfile-stripnondeterminism-perl libgdk-pixbuf2.0-dev libgraphite2-dev libharfbuzz-dev libharfbuzz-gobject0 libice-dev libicu-dev libicu-le-hb-dev libicu-le-hb0 libpango1.0-dev libpixman-1-dev libpthread-stubs0-dev librsvg2-dev libsm-dev libstartup-notification0-dev libx11-dev libxau-dev libxcb-ewmh-dev libxcb-icccm4-dev libxcb-randr0-dev libxcb-render0-dev libxcb-shm0-dev libxcb-util-dev libxcb-util0-dev libxcb-xinerama0-dev libxcb-xkb-dev libxcb-xrm-dev libxcb1-dev libxdmcp-dev libxext-dev libxft-dev libxkbcommon-dev libxkbcommon-x11-dev libxrender-dev m4 po-debconf texinfo x11proto-core-dev x11proto-dev x11proto-xext-dev xorg-sgml-doctools xtrans-dev libjpeg-dev
-          git clone https://github.com/libcheck/check
-          cd check
-          autoreconf -i
-          ./configure
-          make
-          sudo checkinstall -D -y --install=no --maintainer rauldipeas@mail.com --pkgversion 0.14.0-xfscripts
-          curl -k -T check*.deb -u "${{ secrets.NEXTCLOUD_ID }}" -H "X-Requested-With: XMLHttpRequest" https://my.opendesktop.org/public.php/webdav/check.deb
+        run: bash packages/check.sh
       - name: davatorium/rofi
-        run: |
-          git clone https://github.com/davatorium/rofi
-          cd rofi
-          git submodule update --init
-          autoreconf -i
-          ./configure
-          make
-          sudo checkinstall -D -y --install=no --maintainer rauldipeas@mail.com --pkgversion 1.5.4-xfscripts --requires 'libxcb-ewmh2, libxcb-xrm0'
-          curl -k -T rofi*.deb -u "${{ secrets.NEXTCLOUD_ID }}" -H "X-Requested-With: XMLHttpRequest" https://my.opendesktop.org/public.php/webdav/rofi.deb
+        run: bash packages/rofi.sh
       - name: dreamcat4/skippy-xd
-        run: |
-          sudo apt install -y libimlib2-dev libfontconfig1-dev libfreetype6-dev libx11-dev libxext-dev libxft-dev libxrender-dev zlib1g-dev libxinerama-dev libxcomposite-dev libxdamage-dev libxfixes-dev libxmu-dev
-          git clone https://github.com/dreamcat4/skippy-xd.git
-          cd skippy-xd
-          make
-          sudo checkinstall -D -y --install=no --maintainer rauldipeas@mail.com --pkgname skippy-xd --pkgversion 2019.09.11-xfscripts --provides skippy-xd
-          curl -k -T skippy-xd*.deb -u "${{ secrets.NEXTCLOUD_ID }}" -H "X-Requested-With: XMLHttpRequest" https://my.opendesktop.org/public.php/webdav/skippy-xd.deb
+        run: bash packages/skippy-xd.sh
       - name: hanschen/ksuperkey
-        run: |
-          git clone https://github.com/hanschen/ksuperkey
-          sudo apt install -y gcc make libx11-dev libxtst-dev pkg-config
-          cd ksuperkey
-          make
-          sudo checkinstall -D -y --install=no --maintainer rauldipeas@mail.com --pkgversion 0.4-xfscripts
-          curl -k -T ksuperkey*.deb -u "${{ secrets.NEXTCLOUD_ID }}" -H "X-Requested-With: XMLHttpRequest" https://my.opendesktop.org/public.php/webdav/ksuperkey.deb
+        run: bash packages/ksuperkey
       - name: cympfh/mastodon-cli
         run: |
           sudo add-apt-repository -y ppa:libreoffice/ppa
