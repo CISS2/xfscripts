@@ -39,5 +39,6 @@
     - [X Tile](scripts/x-tile.md)
     - [VSCodium](scripts/vscodium.md)
     - [PJeOffice](scripts/pjeoffice.md)
+    - [AdBlock](scripts/adblock.md)
     - [CleanUp](scripts/uninstall-duplicity.md)
     - [Update settings](scripts/update-settings.md)

@@ -35,6 +35,7 @@
  - [**X Tile**](scripts/x-tile.md) (_extras_)
  - [**VSCodium**](scripts/vscodium.md) (_extras_)
  - [**PJeOffice**](scripts/pjeoffice.md) (_extras_)
+ - [**AdBlock**](scripts/adblock.md) (_extras_)
  - [**CleanUp**](scripts/uninstall-duplicity.md) (_extras_)
 
 #### Desktop

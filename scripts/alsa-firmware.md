@@ -1,6 +1,5 @@
 # ALSA firmware
 ```bash
-#!/bin/bash
 wget -c https://www.alsa-project.org/files/pub/firmware/alsa-firmware-1.2.1.tar.bz2 #update-link
 tar -xvf alsa-firmware-*.tar.bz2
 rm -rfv alsa-firmware-*.tar.bz2
