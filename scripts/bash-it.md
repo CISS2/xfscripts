@@ -31,16 +31,19 @@ sed -i 's/ -V//g' ~/.bash_it/aliases/available/apt.aliases.bash
 sed -i 's/remove --purge/autoremove --purge/g' ~/.bash_it/aliases/available/apt.aliases.bash
 mkdir -pv ~/.config/xfce4/terminal
 echo '[Configuration]
+BackgroundDarkness=0,930000
+BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
 FontName=Monaco 10
-MiscDefaultGeometry=100x26
+DropdownKeepAbove=FALSE
 DropdownHeight=70
 DropdownWidth=70
 DropdownOpacity=90
-DropdownKeepAbove=FALSE
 DropdownStatusIcon=FALSE
-ScrollingOnOutput=FALSE
-BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
-BackgroundDarkness=0,930000' > ~/.config/xfce4/terminal/terminalrc
+MiscDefaultGeometry=100x26
+MiscMenubarDefault=FALSE
+MiscToolbarDefault=TRUE
+ScrollingBar=TERMINAL_SCROLLBAR_NONE
+ScrollingOnOutput=FALSE' > ~/.config/xfce4/terminal/terminalrc
 xfconf-query -c xfce4-keyboard-shortcuts -p /commands/custom/Insert -s "xfce4-terminal --drop-down" -n -t string
 sudo wget -O /usr/local/bin/gef http://my.opendesktop.org/s/LcKks6gNqYXZokA/download #update-link
 sudo chmod +x -v /usr/local/bin/gef
