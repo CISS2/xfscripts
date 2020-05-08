@@ -18,17 +18,53 @@ jobs:
       - name: tools
         run: bash packages/tools.sh
       - name: tryone144/compton
-        run: bash packages/compton.sh
+        run: |
+          bash packages/compton.sh
+          curl -k -T \
+          compton/compton*.deb \
+          -u "${{ secrets.NEXTCLOUD_ID }}" \
+          -H "X-Requested-With: XMLHttpRequest" \
+          https://my.opendesktop.org/public.php/webdav/compton.deb
       - name: bulletmark/linput-gestures
-        run: bash packages/libinput-gestures.sh
+        run: |
+          bash packages/libinput-gestures.sh
+          curl -k -T \
+          libinput*.deb \
+          -u "${{ secrets.NEXTCLOUD_ID }}" \
+          -H "X-Requested-With: XMLHttpRequest" \
+          https://my.opendesktop.org/public.php/webdav/libinput-gestures.deb
       - name: libcheck/check
-        run: bash packages/check.sh
+        run: |
+          bash packages/check.sh
+          curl -k -T \
+          check*.deb \
+          -u "${{ secrets.NEXTCLOUD_ID }}" \
+          -H "X-Requested-With: XMLHttpRequest" \
+          https://my.opendesktop.org/public.php/webdav/check.deb
       - name: davatorium/rofi
-        run: bash packages/rofi.sh
+        run: |
+          bash packages/rofi.sh
+          curl -k -T \
+          rofi*.deb \
+          -u "${{ secrets.NEXTCLOUD_ID }}" \
+          -H "X-Requested-With: XMLHttpRequest" \
+          https://my.opendesktop.org/public.php/webdav/rofi.deb
       - name: dreamcat4/skippy-xd
-        run: bash packages/skippy-xd.sh
+        run: |
+          bash packages/skippy-xd.sh
+          curl -k -T \
+          skippy-xd*.deb \
+          -u "${{ secrets.NEXTCLOUD_ID }}" \
+          -H "X-Requested-With: XMLHttpRequest" \
+          https://my.opendesktop.org/public.php/webdav/skippy-xd.deb
       - name: hanschen/ksuperkey
-        run: bash packages/ksuperkey
+        run: |
+          bash packages/ksuperkey
+          curl -k -T \
+          ksuperkey*.deb \
+          -u "${{ secrets.NEXTCLOUD_ID }}" \
+          -H "X-Requested-With: XMLHttpRequest" \
+          https://my.opendesktop.org/public.php/webdav/ksuperkey.deb
       - name: cympfh/mastodon-cli
         run: |
           sudo add-apt-repository -y ppa:libreoffice/ppa

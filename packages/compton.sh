@@ -24,8 +24,3 @@ sudo checkinstall -D -y \
     --maintainer rauldipeas@mail.com \
     --pkgversion 0.1-beta2-xfscripts \
     --requires libconfig9
-curl -k -T \
-    compton*.deb \
-    -u "${{ secrets.NEXTCLOUD_ID }}" \
-    -H "X-Requested-With: XMLHttpRequest" \
-    https://my.opendesktop.org/public.php/webdav/compton.deb

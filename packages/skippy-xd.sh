@@ -22,8 +22,3 @@ sudo checkinstall -D -y \
     --pkgname skippy-xd \
     --pkgversion 2019.09.11-xfscripts \
     --provides skippy-xd
-curl -k -T \
-    skippy-xd*.deb \
-    -u "${{ secrets.NEXTCLOUD_ID }}" \
-    -H "X-Requested-With: XMLHttpRequest" \
-    https://my.opendesktop.org/public.php/webdav/skippy-xd.deb

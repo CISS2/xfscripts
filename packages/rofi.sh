@@ -63,8 +63,3 @@ sudo checkinstall -D -y \
     --maintainer rauldipeas@mail.com \
     --pkgversion 1.5.4-xfscripts \
     --requires 'libxcb-ewmh2, libxcb-xrm0'
-curl -k -T \
-    rofi*.deb \
-    -u "${{ secrets.NEXTCLOUD_ID }}" \
-    -H "X-Requested-With: XMLHttpRequest" \
-    https://my.opendesktop.org/public.php/webdav/rofi.deb
