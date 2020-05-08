@@ -22,6 +22,6 @@ Para atualizar os arquivos de configuração do usuário, execute os comandos in
 
 Crie um _**fork**_ e envie um _**pull-request**_ com as suas sugestões de melhorias para este repositório, elas são muito bem vindas!
 
-Acompanhe as atualizações do projeto através do canal no [**Telegram**](https://t.me/xfscripts) e do [**Mastodon**](https://mastodon.social/@raul_dipeas).
+Acompanhe as atualizações do projeto através do canal no [**Telegram**](https://t.me/s/xfscripts) e do [**Mastodon**](https://mastodon.social/@raul_dipeas).
 
 [![mastodon](images/mastodon.png)](https://mastodon.social/@raul_dipeas)

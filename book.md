@@ -24,7 +24,7 @@ Para atualizar os arquivos de configuração do usuário, execute os comandos in
 
 Crie um <a href="https://github.com/rauldipeas/xfscripts" target="_blank"><em><strong>fork</strong></em></a> e envie um <em><strong>pull-request</strong></em> com as suas sugestões de melhorias para este repositório, elas são muito bem vindas!
 
-Acompanhe as atualizações do projeto através do canal no <a href="https://t.me/xfscripts" target="_blank"><strong>Telegram</strong></a> e do <a href="https://mastodon.social/@raul_dipeas" target="_blank"><strong>Mastodon</strong></a>.
+Acompanhe as atualizações do projeto através do canal no <a href="https://t.me/s/xfscripts" target="_blank"><strong>Telegram</strong></a> e do <a href="https://mastodon.social/@raul_dipeas" target="_blank"><strong>Mastodon</strong></a>.
 
 <a href=https://mastodon.social/@raul_dipeas target="_blank" rel="me"><img src="images/mastodon.png"></a>
 
