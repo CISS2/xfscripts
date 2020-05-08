@@ -59,7 +59,7 @@ jobs:
           https://my.opendesktop.org/public.php/webdav/skippy-xd.deb
       - name: hanschen/ksuperkey
         run: |
-          bash packages/ksuperkey
+          bash packages/ksuperkey.sh
           curl -k -T \
           ksuperkey/ksuperkey*.deb \
           -u "${{ secrets.NEXTCLOUD_ID }}" \
