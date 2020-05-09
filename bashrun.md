@@ -6,3 +6,11 @@ sudo wget -O /usr/share/applications/bashrun-url.desktop http://my.opendesktop.o
 sudo chmod +x -v /usr/local/bin/bashrun-url
 sudo update-desktop-database
 ```
+<iframe
+    width="100%"
+    height="390"
+    src="https://www.youtube.com/embed/sBb5fApaeuo"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+></iframe>
