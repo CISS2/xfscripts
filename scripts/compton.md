@@ -20,6 +20,6 @@ sed -i 's/TryExec/#TryExec/g' ~/.config/autostart/compton.desktop
 wget -O ~/.config/compton.conf http://my.opendesktop.org/index.php/s/SpcapKgySxmHmzG/download #update-link
 xfconf-query -c xfwm4 -p /general/use_compositing -T false
 zenity --title "XFScripts | Compton" --info --text="MANTENHA O TERMINAL ABERTO ATÉ REINICIAR A SESSÃO!" --no-wrap
-bash -c "compton&exit"
+bash -c compton 2&1> /dev/null
 ```
 [![bashrun](../images/bashrun.png)](br:compton)
