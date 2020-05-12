@@ -77,3 +77,4 @@ xfconf-query -c xfce4-keyboard-shortcuts -p /commands/custom/XF86Messenger -s "r
  - <a href="https://www.stremio.com/downloads" target="_blank"><strong>Stremio</strong></a> `--no-install-recommends` #login
  - <a href="http://www.vst4free.com/free_vst.php?plugin=ToneLib-GFX&amp;id=3003" target="_blank"><strong>ToneLib GFX</strong></a> <a href="http://www.vst4free.com/get_plug.php?linux=ToneLib-GFX-amd64.deb" target="_blank">#direct-link</a>
  - <a href="https://www.tonelib.net/download/" target="_blank"><strong>ToneLib ZOOM</strong></a>
+ - <a href="https://github.com/winunix/unetbootin-focal" target="_blank"><strong>UNetbootin</strong></a> <a href="https://github.com/winunix/debian/raw/master/pool/main/u/unetbootin-focal/unetbootin-focal_677-1~focal1_amd64.deb" target="_blank">#direct-link</a>
