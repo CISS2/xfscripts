@@ -14,7 +14,7 @@
  - [**Gestos**](scripts/gestures.md) (_workflow_)
  - [**Detecção de palma da mão**](scripts/palmdetection.md) (_workflow_)
  - [**Rolagem natural**](scripts/natural-scrolling.md) (_workflow_)
- - [**KSuperKey**](scripts/ksuperkey.md) (_workflow_)
+ - [**XCAPE**](scripts/xcape.md) (_workflow_)
  - [**Rofi**](scripts/rofi.md) (_workflow_)
  - [**Skippy-XD**](scripts/skippy-xd.md) (_workflow_)
  - [**Central de notificações**](scripts/deadd-notification-center.md) (_desktop_)
