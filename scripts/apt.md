@@ -19,6 +19,7 @@ xdg-mime default gdebi.desktop application/vnd.debian.binary-package
  - <a href="http://apt.ubuntu.com/p/gnome-system-log" target="_blank"><strong>GNOME system log</strong></a>
  - <a href="http://apt.ubuntu.com/p/inkscape" target="_blank"><strong>Inkscape</strong></a> `--no-install-recommends`
  - <a href="http://apt.ubuntu.com/p/mediainfo-gui" target="_blank"><strong>MediaInfo GUI</strong></a>
+ - <a href="http://apt.ubuntu.com/p/meld" target="_blank"><strong>Meld</strong></a>
  - <a href="http://apt.ubuntu.com/p/mplayer" target="_blank"><strong>MPlayer</strong></a>
    - <a href="http://apt.ubuntu.com/p/smplayer" target="_blank"><strong>SMPlayer</strong></a>
    - <a href="http://apt.ubuntu.com/p/smplayer-themes" target="_blank"><strong>SMPlayer themes</strong></a>
