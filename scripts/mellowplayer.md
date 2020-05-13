@@ -9,5 +9,13 @@ xfconf-query -c xfce4-keyboard-shortcuts -p /commands/custom/XF86AudioNext -s "p
 xfconf-query -c xfce4-keyboard-shortcuts -p /commands/custom/XF86AudioPrev -s "playerctl previous" -n -t string
 xfconf-query -c xfce4-keyboard-shortcuts -p /commands/custom/"<Shift>"AudioNext -s "playerctl selection 1+" -n -t string
 xfconf-query -c xfce4-keyboard-shortcuts -p /commands/custom/"<Shift>"AudioPrev -s "playerctl selection 1-" -n -t string
+mkdir -pv ~/.config/MellowPlayer
+echo '[appearance]
+custom-tray-icon=/usr/share/icons/Papirus/24x24/panel/mellowplayer-panel.svg
+show-tray-icon=true
+theme=Default
+
+[main]
+close-to-tray=true' > ~/.config/MelloyPlayer/MellowPlayer3.conf
 ```
 [![bashrun](../images/bashrun.png)](br:mellowplayer)
