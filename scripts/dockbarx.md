@@ -12,6 +12,10 @@ rm -rfv DockBarX-Windows10
 wget -O dockbarx.dconf http://my.opendesktop.org/s/iwJdspdZ6A8NwPL/download #update-link
 dconf load /org/dockbarx/ < dockbarx.dconf
 rm -rfv dockbarx.dconf
+xfconf-query --reset --channel xfce4-keyboard-shortcuts --property /commands/custom/"<Super>"1
+xfconf-query --reset --channel xfce4-keyboard-shortcuts --property /commands/custom/"<Super>"2
+xfconf-query --reset --channel xfce4-keyboard-shortcuts --property /commands/custom/"<Super>"3
+xfconf-query --reset --channel xfce4-keyboard-shortcuts --property /commands/custom/"<Super>"4
 ```
 [![bashrun](../images/bashrun.png)](br:dockbarx)
 
