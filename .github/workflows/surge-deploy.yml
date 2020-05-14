@@ -41,3 +41,13 @@ jobs:
             Acabei de fazer uma atualização no XFScripts... Não deixe de conferir!
             https://github.com/rauldipeas/xfscripts/commit/{{ commit.sha }}
             https://xfscripts.rauldipeas.tk
+      - uses: appleboy/discord-action@master
+        with:
+          webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
+          webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
+          username: "Raul Dipeas"
+          avatar_url: "http://rauldipeas.tk/assets/images/avataaars-alt.png"
+          file: "./images/xfscripts.png"
+          message: "Acabei de fazer uma atualização no XFScripts, não deixe de conferir!
+            https://github.com/rauldipeas/xfscripts/commit/{{ github.commit }}
+            https://xfscripts.rauldipeas.tk"

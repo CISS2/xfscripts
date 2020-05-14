@@ -79,3 +79,13 @@ jobs:
             Pacotes novos do XFScripts acabam de ser compilados... Atualize seu sistema!
             http://my.opendesktop.org/s/xsJkwQQqXzM5rBB
             https://xfscripts.rauldipeas.tk
+      - uses: appleboy/discord-action@master
+        with:
+          webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
+          webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
+          username: "Raul Dipeas"
+          avatar_url: "http://rauldipeas.tk/assets/images/avataaars-alt.png"
+          file: "./images/xfscripts.png"
+          message: "Pacotes novos do XFScripts acabam de ser compilados, atualize seu sistema!
+            http://my.opendesktop.org/s/xsJkwQQqXzM5rBB
+            https://xfscripts.rauldipeas.tk"
