@@ -45,9 +45,12 @@ jobs:
         with:
           webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
           webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
-          username: "Raul Dipeas"
-          avatar_url: "http://rauldipeas.tk/assets/images/avataaars-alt.png"
           file: "./images/xfscripts.png"
-          message: "Acabei de fazer uma atualização no XFScripts, não deixe de conferir!
-            https://github.com/rauldipeas/xfscripts/commit/{{ github.commit }}
+          message: 
+      - uses: Ilshidur/action-discord@master
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        with:
+          args: "Acabei de fazer uma atualização no XFScripts, não deixe de conferir!
+            https://github.com/rauldipeas/xfscripts/commit/{{ EVENT_PAYLOAD.commit.sha }}
             https://xfscripts.rauldipeas.tk"
