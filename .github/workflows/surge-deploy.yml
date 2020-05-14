@@ -47,5 +47,5 @@ jobs:
         uses: Ilshidur/action-discord@master
         with:
           args: "Acabei de fazer uma atualização no XFScripts, não deixe de conferir!
-            https://github.com/rauldipeas/xfscripts/commit/{{ EVENT_PAYLOAD.commit.sha }}
+            https://github.com/rauldipeas/xfscripts/commit/{{ commit.sha }}
             https://xfscripts.rauldipeas.tk"
