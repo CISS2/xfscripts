@@ -41,15 +41,10 @@ jobs:
             Acabei de fazer uma atualização no XFScripts... Não deixe de conferir!
             https://github.com/rauldipeas/xfscripts/commit/{{ commit.sha }}
             https://xfscripts.rauldipeas.tk
-      - uses: appleboy/discord-action@master
-        with:
-          webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
-          webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
-          file: "./images/xfscripts.png"
-          message: 
-      - uses: Ilshidur/action-discord@master
+      - name: Discord notification
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        uses: Ilshidur/action-discord@master
         with:
           args: "Acabei de fazer uma atualização no XFScripts, não deixe de conferir!
             https://github.com/rauldipeas/xfscripts/commit/{{ EVENT_PAYLOAD.commit.sha }}

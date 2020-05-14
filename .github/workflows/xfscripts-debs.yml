@@ -79,9 +79,10 @@ jobs:
             Pacotes novos do XFScripts acabam de ser compilados... Atualize seu sistema!
             http://my.opendesktop.org/s/xsJkwQQqXzM5rBB
             https://xfscripts.rauldipeas.tk
-      - uses: Ilshidur/action-discord@master
+      - name: Discord notification
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        uses: Ilshidur/action-discord@master
         with:
           args: "Pacotes novos do XFScripts acabam de ser compilados, atualize seu sistema!
             http://my.opendesktop.org/s/xsJkwQQqXzM5rBB
