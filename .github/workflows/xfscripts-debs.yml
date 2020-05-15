@@ -60,9 +60,10 @@ jobs:
       - uses: rzr/fediverse-action@master
         with:
           access-token: ${{ secrets.MASTODON_ACCESS_TOKEN }}
-          message: "Pacotes novos do XFScripts acabam de ser compilados, atualize seu sistema!
+          message: |
+            Pacotes novos do XFScripts acabam de ser compilados, atualize seu sistema!
             http://my.opendesktop.org/s/xsJkwQQqXzM5rBB
-            https://xfscripts.rauldipeas.tk #xubuntu #xfscripts"
+            https://xfscripts.rauldipeas.tk #xubuntu #xfscripts
       - uses: appleboy/telegram-action@master
         with:
           to: ${{ secrets.TELEGRAM_TO }}
