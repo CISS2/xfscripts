@@ -21,7 +21,7 @@ jobs:
         with:
           access-token: ${{ secrets.MASTODON_ACCESS_TOKEN }}
           message: "Acabei de fazer uma atualização no XFScripts, não deixe de conferir!
-          https://github.com/${{ github.repository }}/commit/{{ commit.sha }}
+          https://github.com/${{ github.repository }}/commit/${{ commit.sha }}
           https://xfscripts.rauldipeas.tk #xubuntu #xfscripts"
       - uses: appleboy/telegram-action@master
         with:
