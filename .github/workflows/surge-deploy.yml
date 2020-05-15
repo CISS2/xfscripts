@@ -17,20 +17,14 @@ jobs:
           project: 'docs/book'
           login: ${{ secrets.SURGE_LOGIN }}
           token: ${{ secrets.SURGE_TOKEN }}
-      - name: cympfh/mastodon-cli
-        run: |
-          sudo add-apt-repository -y ppa:libreoffice/ppa
-          sudo apt install -y jq libreoffice-core-nogui
-          sudo ln -sv /usr/lib/libreoffice/program/uri-encode /usr/local/bin/
-          git clone https://github.com/cympfh/mastodon-cli
-          cd mastodon-cli/bin
-          wget -O mast-auth.zip http://my.opendesktop.org/s/z8inTWEmALDMmaA/download
-          unzip mast-auth.zip -d ~/
-          git clone https://github.com/rauldipeas/xfscripts
-          cd xfscripts
-          ../mast toot -f https://blog.rauldipeas.tk/images/covers/xfscripts.png "Acabei de fazer uma atualização no XFScripts, não deixe de conferir!
-            `git log --oneline -1` https://github.com/rauldipeas/xfscripts/commit/`git log --pretty=format:'%h' -n 1`
-            https://xfscripts.rauldipeas.tk #xubuntu #xfscripts"
+      - uses: rzr/fediverse-action@master
+        with:
+          access-token: ${{ secrets.MASTODON_ACCESS_TOKEN }}
+          message: "Acabei de fazer uma atualização no XFScripts, não deixe de conferir!
+          https://xfscripts.rauldipeas.tk #xubuntu #xfscripts"
+      - uses: rzr/fediverse-action@master
+        with:
+          access-token: ${{ secrets.MASTODON_ACCESS_TOKEN }}
       - uses: appleboy/telegram-action@master
         with:
           to: ${{ secrets.TELEGRAM_TO }}
