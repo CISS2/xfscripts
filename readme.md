@@ -26,4 +26,4 @@ Acompanhe as atualizações do projeto através do canal no [**Telegram**](https
 
 Acesse o servidor [**Linux Brasil**](https://discord.gg/bEVNHfg) no [**Discord**](https://discord.gg/bEVNHfg) e tire todas as suas dúvidas sobre Linux com os demais usuários.
 
-[![mastodon](images/mastodon.png)](https://mastodon.social/@raul_dipeas)
+[![discord](images/discord-banner.png)](https://discord.gg/bEVNHfg)

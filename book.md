@@ -24,12 +24,11 @@ Para atualizar os arquivos de configuração do usuário, execute os comandos in
 
 Crie um <a href="https://github.com/rauldipeas/xfscripts" target="_blank"><em><strong>fork</strong></em></a> e envie um <em><strong>pull-request</strong></em> com as suas sugestões de melhorias para este repositório, elas são muito bem vindas!
 
-Acompanhe as atualizações do projeto através do canal no <a href="https://t.me/s/xfscripts" target="_blank"><strong>Telegram</strong></a> e do <a href="https://mastodon.social/@raul_dipeas" target="_blank"><strong>Mastodon</strong></a>.
+Acompanhe as atualizações do projeto através do canal no <a href="https://t.me/s/xfscripts" target="_blank"><strong>Telegram</strong></a> e do <a href="https://mastodon.social/@raul_dipeas" target="_blank" rel="me"><strong>Mastodon</strong></a>.
 
 Acesse o servidor <a href="https://discord.gg/bEVNHfg" target="_blank"><strong>Linux Brasil</strong></a> no <a href="https://discord.gg/bEVNHfg" target="_blank"><strong>Discord</strong></a> e tire todas as suas dúvidas sobre Linux com os demais usuários.
 
-
-<a href=https://mastodon.social/@raul_dipeas target="_blank" rel="me"><img src="images/mastodon.png"></a>
+<a href="https://discord.gg/bEVNHfg" target="_blank"><img src="images/discord-banner.png"></a>
 
 <!-- Load Facebook SDK for JavaScript -->
 <div id="fb-root"></div>
