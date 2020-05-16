@@ -40,6 +40,6 @@
     - [Telegram](scripts/telegram.md)
     - [VSCodium](scripts/vscodium.md)
     - [PJeOffice](scripts/pjeoffice.md)
-    - [AdBlock](scripts/adblock.md)
+    - [hBlock](scripts/hblock.md)
     - [CleanUp](scripts/uninstall-duplicity.md)
     - [Update settings](scripts/update-settings.md)
