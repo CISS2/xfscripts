@@ -17,7 +17,7 @@
  - [**XCAPE**](scripts/xcape.md) (_workflow_)
  - [**Rofi**](scripts/rofi.md) (_workflow_)
  - [**Skippy-XD**](scripts/skippy-xd.md) (_workflow_)
- - [**Central de notificações**](scripts/deadd-notification-center.md) (_desktop_)
+ - [**Central de notificações**](scripts/linux-notification-center.md) (_desktop_)
  - [**DockbarX**](scripts/dockbarx.md) (_desktop_)
  - [**Debs**](scripts/debs.md) (_miscelânea_)
  - [**Apt**](scripts/apt.md) (_miscelânea_)
