@@ -24,4 +24,6 @@ Crie um _**fork**_ e envie um _**pull-request**_ com as suas sugestões de melho
 
 Acompanhe as atualizações do projeto através do canal no [**Telegram**](https://t.me/s/xfscripts) e do [**Mastodon**](https://mastodon.social/@raul_dipeas).
 
+Acesse o servidor [**Linux Brasil**](https://discord.gg/bEVNHfg) no [**Discord**](https://discord.gg/bEVNHfg) e tire todas as suas dúvidas sobre Linux com os demais usuários.
+
 [![mastodon](images/mastodon.png)](https://mastodon.social/@raul_dipeas)

@@ -26,6 +26,9 @@ Crie um <a href="https://github.com/rauldipeas/xfscripts" target="_blank"><em><s
 
 Acompanhe as atualizações do projeto através do canal no <a href="https://t.me/s/xfscripts" target="_blank"><strong>Telegram</strong></a> e do <a href="https://mastodon.social/@raul_dipeas" target="_blank"><strong>Mastodon</strong></a>.
 
+Acesse o servidor <a href="https://discord.gg/bEVNHfg" target="_blank"><strong>Linux Brasil</strong></a> no <a href="https://discord.gg/bEVNHfg" target="_blank"><strong>Discord</strong></a> e tire todas as suas dúvidas sobre Linux com os demais usuários.
+
+
 <a href=https://mastodon.social/@raul_dipeas target="_blank" rel="me"><img src="images/mastodon.png"></a>
 
 <!-- Load Facebook SDK for JavaScript -->
