@@ -1,4 +1,4 @@
-# Script de pós instalação do Xubuntu 19.10
+# Script de pós instalação do Xubuntu 20.04
  - [**Bash-it**](scripts/bash-it.md) (_workflow_)
  - [**XanMod**](scripts/xanmod.md) (_workflow_)
  - [**ALSA firmware**](scripts/alsa-firmware.md) (_workflow_)
