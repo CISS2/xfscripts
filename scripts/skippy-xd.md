@@ -13,6 +13,6 @@ sudo rm -rfv skippy-xd*
 mkdir -pv ~/.config/skippy-xd
 wget -O ~/.config/skippy-xd/skippy-xd.rc http://my.opendesktop.org/s/3B4wix3bTdLCzJL/download #update-link
 gef http://my.opendesktop.org/s/d7AS8ndgeqn38XG/download /usr/local/bin/skippy-xd-fix #update-link
-xfconf-query -c xfce4-keyboard-shortcuts -p /commands/custom/"<Super>"s -s "skippy-xd-fix" -n -t string
+xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/"<Super>"s -s "skippy-xd-fix" -n -t string
 ```
 [![bashrun](../images/bashrun.png)](br:skippy-xd)

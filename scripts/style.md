@@ -18,21 +18,22 @@ xfconf-query -c xfce4-appfinder -np /icon-view -t bool -s true
 xfconf-query -c xfce4-appfinder -np /item-icon-size -t int -s 4
 xfconf-query -c xfce4-appfinder -np /last/window-height -t int -s 5000
 xfconf-query -c xfce4-appfinder -np /last/window-width -t int -s 5000
-xfconf-query -c xfce4-desktop -p /desktop-icons/file-icons/show-filesystem -t bool -s false
-xfconf-query -c xfce4-desktop -p /desktop-icons/file-icons/show-home -t bool -s false
-xfconf-query -c xfce4-desktop -p /desktop-icons/file-icons/show-removable -t bool -s false
-xfconf-query -c xfce4-desktop -p /desktop-icons/file-icons/show-trash -t bool -s false
+xfconf-query -c xfce4-desktop -np /desktop-icons/file-icons/show-filesystem -t bool -s false
+xfconf-query -c xfce4-desktop -np /desktop-icons/file-icons/show-home -t bool -s false
+xfconf-query -c xfce4-desktop -np /desktop-icons/file-icons/show-removable -t bool -s false
+xfconf-query -c xfce4-desktop -np /desktop-icons/file-icons/show-trash -t bool -s false
 xfconf-query -c xfce4-notifyd -np /theme -t string -s Plata
 xfconf-query -c xfce4-power-manager -np /xfce4-power-manager/show-tray-icon -t bool -s true
-xfconf-query -c xfwm4 -p /general/cycle_draw_frame -t bool -s false
-xfconf-query -c xfwm4 -p /general/placement_ratio -t int -s 100
-xfconf-query -c xfwm4 -p /general/easy_click -t string -s Super
-xfconf-query -c xfwm4 -p /general/theme -s Plata-Noir
-xfconf-query -c xfwm4 -p /general/workspace_count -t int -s 1
-xfconf-query -c xsettings -p /Gtk/CursorThemeName -s Breeze_Snow
-xfconf-query -c xsettings -p /Gtk/MonospaceFontName -s 'Monaco 10'
-xfconf-query -c xsettings -p /Net/IconThemeName -s Papirus-Dark
-xfconf-query -c xsettings -p /Net/ThemeName -s Plata-Noir
+xfconf-query -c xfwm4 -np /general/button_layout -t string -s "|HMC"
+xfconf-query -c xfwm4 -np /general/cycle_draw_frame -t bool -s false
+xfconf-query -c xfwm4 -np /general/placement_ratio -t int -s 100
+xfconf-query -c xfwm4 -np /general/easy_click -t string -s Super
+xfconf-query -c xfwm4 -np /general/theme -s Plata-Noir
+xfconf-query -c xfwm4 -np /general/workspace_count -t int -s 1
+xfconf-query -c xsettings -np /Gtk/CursorThemeName -s Breeze_Snow
+xfconf-query -c xsettings -np /Gtk/MonospaceFontName -s 'Monaco 10'
+xfconf-query -c xsettings -np /Net/IconThemeName -s Papirus-Dark
+xfconf-query -c xsettings -np /Net/ThemeName -s Plata-Noir
 sudo update-alternatives --set x-cursor-theme /etc/X11/cursors/Breeze_Snow.theme
 sudo update-alternatives --set default.plymouth /usr/share/plymouth/themes/bgrt/bgrt.plymouth
 sed -i 's/elementary/colibre/g' ~/.config/libreoffice/4/user/registrymodifications.xcu

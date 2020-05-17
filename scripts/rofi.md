@@ -27,8 +27,7 @@ mkdir -pv ~/.config/rofi
 wget -O ~/.config/rofi/config http://my.opendesktop.org/s/smkePRgsYJSDmCM/download #update-link
 wget -O ~/.config/rofi/fullscreen.rasi http://my.opendesktop.org/s/jzSpr9PYXYmQR2G/download #update-link
 wget -O ~/.config/rofi/sidebar.rasi http://my.opendesktop.org/s/K4QbRoyZDJ2g9wF/download #update-link
-killall -9 xfconfd
-xfconf-query -c xfce4-keyboard-shortcuts -p /commands/custom/"<Super>"x -s "rofi -show drun" -n -t string
+xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/"<Super>"x -s "rofi -show drun" -n -t string
 ```
 [![bashrun](../images/bashrun.png)](br:rofi)
 
