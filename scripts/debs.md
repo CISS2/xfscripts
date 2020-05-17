@@ -19,6 +19,19 @@ enable_daemon=true
 %23%20monitor_mounted_filesystems=false" > ~/.config/appimagelauncher.cfg
 ```
  - <a href="https://github.com/crow-translate/crow-translate/releases" target="_blank"><strong>Crow translate</strong></a>
+ - <a href="https://discord.com" target="_blank"><strong>Discord</strong></a> <a href="https://dl.discordapp.net/apps/linux/0.0.10/discord-0.0.10.deb">#direct-link</a> #login
+```bash
+discord&
+sleep 5
+killall -9 Discord
+aptinst -y npm
+sudo npm install -g asar
+asar e $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core.asar $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core
+rsvg-convert -w 24 -h 24 -f png -a /usr/share/icons/Papirus/24x24/panel/discord-tray.svg > $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core/app/images/systemtray/linux/tray.png
+rsvg-convert -w 24 -h 24 -f png -a /usr/share/icons/Papirus/24x24/panel/discord-tray-unread.svg > $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core/app/images/systemtray/linux/tray-unread.png
+asar p $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core.asar
+rm -rfv $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core
+```
  - <a href="https://www.dropbox.com/install" target="_blank"><strong>Dropbox</strong></a> #login #sync-files
  - <a href="https://packages.ubuntu.com/xenial/amd64/gcolor2/download" target="_blank"><strong>GColor2</strong></a> <a href="http://mirrors.kernel.org/ubuntu/pool/universe/g/gcolor2/gcolor2_0.4-2.1ubuntu1_amd64.deb" target="_blank">#direct-link</a>
  ```bash
@@ -69,7 +82,6 @@ asar p app app.asar
 sudo cp -rfv app.asar /opt/Rambox/resources/app.asar
 rm -rfv app app.asar
 xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/XF86Messenger -s "rambox" -n -t string
-
 ```
  - <a href="https://www.rememberthemilk.com/services/linux/" target="_blank"><strong>Remember The Milk</strong></a> #login
  - <a href="https://send-anywhere.com/file-transfer" target="_blank"><strong>Send Anywhere</strong></a> #login
