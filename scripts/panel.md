@@ -1,5 +1,4 @@
 # Painel
-#### **(Em revisão)**
 ```bash
 aptinst -y tint2 xdotool
 mkdir -pv ~/.config/autostart ~/.config/tint2 ~/.local/share/scripts ~/.local/share/xfce4-panel-profiles
@@ -14,8 +13,7 @@ rm -rfv Clima.zip 20190419
 wget -O ~/.config/xfce4/panel/weather-8.rc http://my.opendesktop.org/s/77x94myzedArZit/download #update-link
 wget -O ~/.local/share/xfce4-panel-profiles/Raul\ Dipeas.tar.bz2 http://my.opendesktop.org/s/DerCwxX84qstx7n/download #update-link
 xfce4-panel-profiles load ~/.local/share/xfce4-panel-profiles/Raul\ Dipeas.tar.bz2
-zenity --title "XFScripts | Painel" --info --text="MANTENHA O TERMINAL ABERTO ATÉ REINICIAR A SESSÃO!" --no-wrap
-tint2&bash ~/.local/share/scripts/tint2-panel-auto-opaque.sh  2&1> /dev/null
+bash ~/.local/share/scripts/tint2-panel-auto-opaque.sh&gtk-launch tint2.desktop
 ```
 [![bashrun](../images/bashrun.png)](br:panel)
 

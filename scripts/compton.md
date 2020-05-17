@@ -1,5 +1,4 @@
 # Compton
-#### **(Em revisão)**
 #### <a href="http://my.opendesktop.org/index.php/s/qZWn7PQ2iNXFW6a/download" target="_blank">checkinstall-build</a>
 
 ```bash
@@ -19,7 +18,6 @@ echo 'OnlyShowIn=XFCE;' >> ~/.config/autostart/compton.desktop
 sed -i 's/TryExec/#TryExec/g' ~/.config/autostart/compton.desktop
 wget -O ~/.config/compton.conf http://my.opendesktop.org/index.php/s/SpcapKgySxmHmzG/download #update-link
 xfconf-query -c xfwm4 -np /general/use_compositing -T false
-zenity --title "XFScripts | Compton" --info --text="MANTENHA O TERMINAL ABERTO ATÉ REINICIAR A SESSÃO!" --no-wrap
-gtk-launch compton.desktop 2&1> /dev/null
+gtk-launch compton.desktop
 ```
 [![bashrun](../images/bashrun.png)](br:compton)
