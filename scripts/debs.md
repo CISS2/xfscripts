@@ -56,7 +56,7 @@ xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/Print -s "ksnip -f
  - <a href="https://mega.nz/sync" target="_blank"><strong>Megasync</strong></a> #login #sync_files
  - <a href="https://www.nomachine.com/download/linux&amp;id=1" target="_blank"><strong>NoMachine</strong></a> #dark-theme
  - <a href="https://packages.ubuntu.com/eoan/amd64/patchage/download" target="_blank"><strong>Patchage</strong></a> <a href="http://mirrors.kernel.org/ubuntu/pool/universe/p/patchage/patchage_1.0.0~dfsg0-0.2_amd64.deb" target="_blank">#direct-link</a> `--no-install-recommends`
- - <a href="https://github.com/ramboxapp/community-edition/releases" target="_blank"><strong>Rambox</strong></a> <a href="http://my.opendesktop.org/s/9Nq2Z9LffAwQCXm" target="_blank">#Temas</a> #login #sync_accounts (Instagram DM/Mastodon/Messenger+CSS/Skype/Telegram+CSS/Tweetdeck)
+ - <a href="https://github.com/ramboxapp/community-edition/releases" target="_blank"><strong>Rambox</strong></a> <a href="http://my.opendesktop.org/s/9Nq2Z9LffAwQCXm" target="_blank">#custom CSS</a> #login #sync_accounts
 ```bash
 aptinst -y npm
 sudo npm install -g asar
