@@ -31,6 +31,7 @@
     - [Painel](scripts/panel.md)
     - [Compton](scripts/compton.md)
     - [Lutris](scripts/lutris.md)
+    - [Waterfox](scripts/waterfox.md)
     - [MellowPlayer](scripts/mellowplayer.md)
     - [QOwnNotes](scripts/qownnotes.md)
     - [Syncthing](scripts/syncthing.md)
