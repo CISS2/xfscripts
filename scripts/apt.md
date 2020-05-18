@@ -37,7 +37,6 @@ xdg-mime default smplayer.desktop video/quicktime
 xdg-mime default smplayer.desktop video/webm
 xdg-mime default smplayer.desktop video/x-matroska
 xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/XF86Music -s "smplayer" -n -t string
-
 ```
  - <a href="apt:neofetch"><strong>Neofetch</strong></a> #ascii-logo (Xubuntu)
  - <a href="apt:nextcloud-desktop"><strong>Nextcloud</strong></a> #login #sync-files
