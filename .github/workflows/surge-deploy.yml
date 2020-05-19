@@ -7,16 +7,23 @@ jobs:
       - uses: actions/checkout@v1
       - uses: peaceiris/actions-mdbook@v1
       - run: |
-          mdbook init --force docs;cp -varf `ls | grep -v docs` docs/src/
-          mv -v docs/src/book.toml docs/
-          cd docs/
-          mdbook build
+          mdbook init --force xfscripts
+          cp -varf `ls | grep -v xfscripts | grep -v local-build.sh` xfscripts/src/
+          mv -v xfscripts/src/book.toml xfscripts/
+          mdbook build xfscripts
       - uses: dswistowski/surge-sh-action@v1
         with:
           domain: 'xfscripts.rauldipeas.tk'
-          project: 'docs/book'
+          project: 'xfscripts/book'
           login: ${{ secrets.SURGE_LOGIN }}
           token: ${{ secrets.SURGE_TOKEN }}
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GH_PAGES_TOKEN }}
+          publish_dir: xfscripts/book
+          publish_branch: gh-pages
+          user_name: 'Raul Dipeas'
+          user_email: 'rauldipeas@mail.com'
       - uses: rzr/fediverse-action@master
         with:
           access-token: ${{ secrets.MASTODON_ACCESS_TOKEN }}
