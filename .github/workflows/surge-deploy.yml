@@ -10,7 +10,7 @@ jobs:
           args: webpack
       - run: |
           npx embedme scripts/apt.md
-          npx emdebme scripts/debs.md
+          npx emdedme scripts/debs.md
       - uses: peaceiris/actions-mdbook@v1
       - run: |
           mdbook init --force xfscripts
