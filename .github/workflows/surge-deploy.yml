@@ -6,7 +6,8 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: mikeal/npx@master
-        args: webpack
+        with:
+          args: webpack
       - run: |
           npx embedme scripts/apt.md
           npx emdebme scripts/debs.md
