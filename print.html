@@ -1,0 +1,1182 @@
+<!DOCTYPE HTML>
+<html lang="pt-br" class="sidebar-visible no-js coal">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>XFScripts</title>
+        
+        <meta name="robots" content="noindex" />
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "coal" : "coal";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('coal')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="book.html"><strong aria-hidden="true">1.</strong> XFScripts</a></li><li class="chapter-item expanded "><a href="bashrun.html"><strong aria-hidden="true">2.</strong> Bashrun</a></li><li class="chapter-item expanded "><a href="postinst.html"><strong aria-hidden="true">3.</strong> Pós instalação</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="scripts/bash-it.html"><strong aria-hidden="true">3.1.</strong> Bash-it</a></li><li class="chapter-item expanded "><a href="scripts/xanmod.html"><strong aria-hidden="true">3.2.</strong> XanMod</a></li><li class="chapter-item expanded "><a href="scripts/alsa-firmware.html"><strong aria-hidden="true">3.3.</strong> ALSA firmware</a></li><li class="chapter-item expanded "><a href="scripts/nvidia-ppa.html"><strong aria-hidden="true">3.4.</strong> NVIDIA PPA</a></li><li class="chapter-item expanded "><a href="scripts/nvidia-drm-modeset.html"><strong aria-hidden="true">3.5.</strong> NVIDIA DRM modeset</a></li><li class="chapter-item expanded "><a href="scripts/grub.html"><strong aria-hidden="true">3.6.</strong> GRUB</a></li><li class="chapter-item expanded "><a href="scripts/jack.html"><strong aria-hidden="true">3.7.</strong> JACK</a></li><li class="chapter-item expanded "><a href="scripts/wine.html"><strong aria-hidden="true">3.8.</strong> WINE</a></li><li class="chapter-item expanded "><a href="scripts/reaper.html"><strong aria-hidden="true">3.9.</strong> REAPER</a></li><li class="chapter-item expanded "><a href="scripts/resolve.html"><strong aria-hidden="true">3.10.</strong> Resolve</a></li><li class="chapter-item expanded "><a href="scripts/openshot.html"><strong aria-hidden="true">3.11.</strong> OpenShot</a></li><li class="chapter-item expanded "><a href="scripts/blender.html"><strong aria-hidden="true">3.12.</strong> Blender</a></li><li class="chapter-item expanded "><a href="scripts/gestures.html"><strong aria-hidden="true">3.13.</strong> Gestos</a></li><li class="chapter-item expanded "><a href="scripts/palmdetection.html"><strong aria-hidden="true">3.14.</strong> Deteção de palma da mão</a></li><li class="chapter-item expanded "><a href="scripts/natural-scrolling.html"><strong aria-hidden="true">3.15.</strong> Rolagem natural</a></li><li class="chapter-item expanded "><a href="scripts/xcape.html"><strong aria-hidden="true">3.16.</strong> XCAPE</a></li><li class="chapter-item expanded "><a href="scripts/rofi.html"><strong aria-hidden="true">3.17.</strong> Rofi</a></li><li class="chapter-item expanded "><a href="scripts/skippy-xd.html"><strong aria-hidden="true">3.18.</strong> Skippy-XD</a></li><li class="chapter-item expanded "><a href="scripts/linux-notification-center.html"><strong aria-hidden="true">3.19.</strong> Central de notificações</a></li><li class="chapter-item expanded "><a href="scripts/dockbarx.html"><strong aria-hidden="true">3.20.</strong> DockbarX</a></li><li class="chapter-item expanded "><a href="scripts/debs.html"><strong aria-hidden="true">3.21.</strong> Debs</a></li><li class="chapter-item expanded "><a href="scripts/apt.html"><strong aria-hidden="true">3.22.</strong> Apt</a></li><li class="chapter-item expanded "><a href="scripts/style.html"><strong aria-hidden="true">3.23.</strong> Temas</a></li><li class="chapter-item expanded "><a href="scripts/lightdm-webkit2-greeter.html"><strong aria-hidden="true">3.24.</strong> LightDM webkit2 greeter</a></li><li class="chapter-item expanded "><a href="scripts/oblogout.html"><strong aria-hidden="true">3.25.</strong> OBLogout</a></li><li class="chapter-item expanded "><a href="scripts/panel.html"><strong aria-hidden="true">3.26.</strong> Painel</a></li><li class="chapter-item expanded "><a href="scripts/compton.html"><strong aria-hidden="true">3.27.</strong> Compton</a></li><li class="chapter-item expanded "><a href="scripts/lutris.html"><strong aria-hidden="true">3.28.</strong> Lutris</a></li><li class="chapter-item expanded "><a href="scripts/waterfox.html"><strong aria-hidden="true">3.29.</strong> Waterfox</a></li><li class="chapter-item expanded "><a href="scripts/mellowplayer.html"><strong aria-hidden="true">3.30.</strong> MellowPlayer</a></li><li class="chapter-item expanded "><a href="scripts/qownnotes.html"><strong aria-hidden="true">3.31.</strong> QOwnNotes</a></li><li class="chapter-item expanded "><a href="scripts/syncthing.html"><strong aria-hidden="true">3.32.</strong> Syncthing</a></li><li class="chapter-item expanded "><a href="scripts/google-drive.html"><strong aria-hidden="true">3.33.</strong> Google Drive</a></li><li class="chapter-item expanded "><a href="scripts/folder-icon.html"><strong aria-hidden="true">3.34.</strong> Ícones das pastas</a></li><li class="chapter-item expanded "><a href="scripts/x-tile.html"><strong aria-hidden="true">3.35.</strong> X Tile</a></li><li class="chapter-item expanded "><a href="scripts/telegram.html"><strong aria-hidden="true">3.36.</strong> Telegram</a></li><li class="chapter-item expanded "><a href="scripts/vscodium.html"><strong aria-hidden="true">3.37.</strong> VSCodium</a></li><li class="chapter-item expanded "><a href="scripts/pjeoffice.html"><strong aria-hidden="true">3.38.</strong> PJeOffice</a></li><li class="chapter-item expanded "><a href="scripts/hblock.html"><strong aria-hidden="true">3.39.</strong> hBlock</a></li><li class="chapter-item expanded "><a href="scripts/uninstall-duplicity.html"><strong aria-hidden="true">3.40.</strong> CleanUp</a></li><li class="chapter-item expanded "><a href="scripts/update-settings.html"><strong aria-hidden="true">3.41.</strong> Update settings</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">XFScripts</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                        <a href="https://github.com/rauldipeas/xfscripts" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <img src="images/xfscripts-mdbook.png"/>
+<h2><a class="header" href="#bem-vindo" id="bem-vindo">Bem vindo!</a></h2>
+<p>Esta documentação contém scripts de personalização otimizados para o <a href="https://xubuntu.org" target="_blank"><strong>Xubuntu</strong></a> <a href="https://xubuntu.org/release/20-04/" target="_blank"><strong>20.04</strong></a>.</p>
+<p>Saiba mais sobre os scripts através das postagens <a href="https://blog.rauldipeas.tk/xfscripts" target="_blank"><strong>neste blog</strong></a>.</p>
+<img src="images/xfscripts.png"> 
+<h2><a class="header" href="#instalação" id="instalação">Instalação</a></h2>
+<p><strong>Você pode seguir a ordem recomendada de execução dos scripts, através do arquivo de <a href="postinst.html">pós instalação</a></strong>.</p>
+<p>Para uma execução correta dos scripts, você deve copiar e colar uma linha por vez no terminal, para poder acompanhar detalhadamente o processo, dessa forma, qualquer tipo de problema pode ser detectado com maior facilidade.</p>
+<p>Porém, se você quiser rodar de forma automatizada, pode instalar o <a href="bashrun.html"><strong>Bashrun</strong></a>, que permite a execução dos scripts ao clicar no botão <em><strong>Run</strong></em>.</p>
+<p>Para atualizar os arquivos de configuração do usuário, execute os comandos indicados <a href="scripts/update-settings.html"><strong>aqui</strong></a>.</p>
+<h2><a class="header" href="#envolva-se" id="envolva-se">Envolva-se</a></h2>
+<p>Crie um <a href="https://github.com/rauldipeas/xfscripts" target="_blank"><em><strong>fork</strong></em></a> e envie um <em><strong>pull-request</strong></em> com as suas sugestões de melhorias para este repositório, elas são muito bem vindas!</p>
+<p>Acompanhe as atualizações do projeto através do canal no <a href="https://t.me/s/xfscripts" target="_blank"><strong>Telegram</strong></a> e do <a href="https://mastodon.social/@raul_dipeas" target="_blank" rel="me"><strong>Mastodon</strong></a>.</p>
+<p>Acesse o servidor <a href="https://discord.gg/bEVNHfg" target="_blank"><strong>Linux Brasil</strong></a> no <a href="https://discord.gg/bEVNHfg" target="_blank"><strong>Discord</strong></a> e tire todas as suas dúvidas sobre Linux com os demais usuários.</p>
+<p><a href="https://discord.gg/bEVNHfg" target="_blank"><img src="images/discord-banner.png"></a></p>
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="100113718305981"
+  greeting_dialog_display="hide"
+  logged_in_greeting="Em que posso te ajudar?"
+  logged_out_greeting="Em que posso te ajudar?">
+</div>
+<script>
+window.fbAsyncInit = function() {
+  FB.init({
+    xfbml            : true,
+    version          : 'v6.0'
+  });
+};
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/pt_BR/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script><h1><a class="header" href="#bashrun" id="bashrun">Bashrun</a></h1>
+<pre><code class="language-bash">sudo apt install -y dos2unix
+sudo wget -O /usr/local/bin/bashrun-url http://my.opendesktop.org/s/Ffio6MqjjRWqajN/download #update-link
+sudo wget -O /usr/share/applications/bashrun-url.desktop http://my.opendesktop.org/s/9LpPoETimDd2pNm/download #update-link
+sudo chmod +x -v /usr/local/bin/bashrun-url
+sudo update-desktop-database
+</code></pre>
+<iframe
+    width="100%"
+    height="420"
+    src="https://www.youtube.com/embed/sBb5fApaeuo"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+></iframe><h1><a class="header" href="#script-de-pós-instalação-do-xubuntu-2004" id="script-de-pós-instalação-do-xubuntu-2004">Script de pós instalação do Xubuntu 20.04</a></h1>
+<ul>
+<li><a href="scripts/bash-it.html"><strong>Bash-it</strong></a> (<em>workflow</em>)</li>
+<li><a href="scripts/xanmod.html"><strong>XanMod</strong></a> (<em>workflow</em>)</li>
+<li><a href="scripts/alsa-firmware.html"><strong>ALSA firmware</strong></a> (<em>workflow</em>)</li>
+<li><a href="scripts/nvidia-ppa.html"><strong>NVIDIA PPA</strong></a> (<em>extras</em>)</li>
+<li><a href="scripts/nvidia-drm-modeset.html"><strong>NVIDIA DRM modeset</strong></a> (<em>workflow</em>)</li>
+<li><a href="scripts/grub.html"><strong>GRUB</strong></a> (<em>desktop</em>)</li>
+<li><a href="scripts/jack.html"><strong>JACK</strong></a> (<em>studio</em>)</li>
+<li><a href="scripts/wine.html"><strong>WINE</strong></a> (<em>studio</em>)</li>
+<li><a href="scripts/reaper.html"><strong>REAPER</strong></a> (<em>studio</em>)</li>
+<li><a href="scripts/resolve.html"><strong>!</strong> Resolve</a> (<em>studio</em>)</li>
+<li><a href="scripts/openshot.html"><strong>OpenShot</strong></a> (<em>studio</em>)</li>
+<li><a href="scripts/blender.html"><strong>Blender</strong></a> (<em>studio</em>)</li>
+<li><a href="scripts/gestures.html"><strong>Gestos</strong></a> (<em>workflow</em>)</li>
+<li><a href="scripts/palmdetection.html"><strong>Detecção de palma da mão</strong></a> (<em>workflow</em>)</li>
+<li><a href="scripts/natural-scrolling.html"><strong>Rolagem natural</strong></a> (<em>workflow</em>)</li>
+<li><a href="scripts/xcape.html"><strong>XCAPE</strong></a> (<em>workflow</em>)</li>
+<li><a href="scripts/rofi.html"><strong>Rofi</strong></a> (<em>workflow</em>)</li>
+<li><a href="scripts/skippy-xd.html"><strong>Skippy-XD</strong></a> (<em>workflow</em>)</li>
+<li><a href="scripts/linux-notification-center.html"><strong>Central de notificações</strong></a> (<em>desktop</em>)</li>
+<li><a href="scripts/dockbarx.html"><strong>DockbarX</strong></a> (<em>desktop</em>)</li>
+<li><a href="scripts/debs.html"><strong>Debs</strong></a> (<em>miscelânea</em>)</li>
+<li><a href="scripts/apt.html"><strong>Apt</strong></a> (<em>miscelânea</em>)</li>
+<li><a href="scripts/style.html"><strong>Temas</strong></a> (<em>desktop</em>)</li>
+<li><a href="scripts/lightdm-webkit2-greeter.html"><strong>LightDM webkit2 greeter</strong></a> (<em>desktop</em>)</li>
+<li><a href="scripts/oblogout.html"><strong>OBLogout</strong></a> (<em>desktop</em>)</li>
+<li><a href="scripts/panel.html"><strong>Painel</strong></a> (<em>desktop</em>)</li>
+<li><a href="scripts/compton.html"><strong>Compton</strong></a> (<em>desktop</em>)</li>
+<li><a href="scripts/lutris.html"><strong>Lutris</strong></a> (<em>games</em>)</li>
+<li><a href="scripts/waterfox.html"><strong>Waterfox</strong></a> (<em>extras</em>)</li>
+<li><a href="scripts/mellowplayer.html"><strong>MellowPlayer</strong></a> (<em>extras</em>)</li>
+<li><a href="scripts/qownnotes.html"><strong>QOwnNotes</strong></a> (<em>extras</em>)</li>
+<li><a href="scripts/syncthing.html"><strong>Syncthing</strong></a> (<em>extras</em>)</li>
+<li><a href="scripts/google-drive.html"><strong>Google Drive</strong></a> (<em>extras</em>)</li>
+<li><a href="scripts/folder-icon.html"><strong>Ícones das pastas</strong></a> (<em>extras</em>)</li>
+<li><a href="scripts/x-tile.html"><strong>X Tile</strong></a> (<em>extras</em>)</li>
+<li><a href="scripts/telegram.html"><strong>Telegram</strong></a> (<em>extras</em>)</li>
+<li><a href="scripts/vscodium.html"><strong>VSCodium</strong></a> (<em>extras</em>)</li>
+<li><a href="scripts/pjeoffice.html"><strong>PJeOffice</strong></a> (<em>extras</em>)</li>
+<li><a href="scripts/hblock.html"><strong>hBlock</strong></a> (<em>extras</em>)</li>
+<li><a href="scripts/uninstall-duplicity.html"><strong>CleanUp</strong></a> (<em>extras</em>)</li>
+</ul>
+<h4><a class="header" href="#desktop" id="desktop">Desktop</a></h4>
+<p><img src="images/desktop.png" alt="desktop" /></p>
+<h4><a class="header" href="#apps" id="apps">Apps</a></h4>
+<p><img src="images/apps.png" alt="apps" /></p>
+<h4><a class="header" href="#terminal" id="terminal">Terminal</a></h4>
+<p><img src="images/terminal.png" alt="terminal" /></p>
+<h4><a class="header" href="#arquivos" id="arquivos">Arquivos</a></h4>
+<p><img src="images/arquivos.png" alt="arquivos" /></p>
+<h1><a class="header" href="#bash-it" id="bash-it">Bash-it</a></h1>
+<h4><a class="header" href="#em-revisão" id="em-revisão"><strong>(Em revisão)</strong></a></h4>
+<pre><code class="language-bash">aptupd
+sudo apt install -y git fonts-powerline undistract-me
+mkdir -pv ~/.fonts
+wget -cO ~/.fonts/Monaco-Linux.ttf https://github.com/hbin/top-programming-fonts/raw/master/Monaco-Linux.ttf #update-link
+wget -c https://github.com/ryanoasis/nerd-fonts/releases/download/v2.0.0/DroidSansMono.zip #update-link
+unzip DroidSansMono.zip -d ~/.fonts
+rm -rfv DroidSansMono.zip
+fc-cache -fv
+git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
+bash ~/.bash_it/install.sh --silent
+sed -i 's/bobby/powerline/g' ~/.bashrc
+echo '
+# Undistract-me
+. /usr/share/undistract-me/long-running.bash
+notify_when_long_running_commands_finish_install' &gt;&gt; ~/.bashrc #manual-cleanup-on-reinstall
+echo &quot;
+# Autocompletar pelo histórico
+bind '\&quot;\\e[A\&quot;: history-search-backward'
+bind '\&quot;\\e[B\&quot;: history-search-forward'&quot; &gt;&gt; ~/.bashrc #manual-cleanup-on-reinstall
+sudo sed -i 's/took/levou/g' /usr/share/undistract-me/long-running.bash
+sudo sed -i 's/dialog-information/xterm/g' /usr/share/undistract-me/long-running.bash
+sudo sed -i 's/Long\ command\ completed/Comando\ concluído\!/g' /usr/share/undistract-me/long-running.bash
+echo DPkg::Post-Invoke \{\&quot;sed -i \'s/took/levou/g\' /usr/share/undistract-me/long-running.bash\&quot;\;\}\; | sudo tee /etc/apt/apt.conf.d/100undistract-me
+echo DPkg::Post-Invoke \{\&quot;sed -i \'s/dialog-information/xterm/g\' /usr/share/undistract-me/long-running.bash\&quot;\;\}\; | sudo tee -a /etc/apt/apt.conf.d/100undistract-me
+echo DPkg::Post-Invoke \{\&quot;sed -i \'s/Long\ command\ completed/Comando\ concluído\!/g\' /usr/share/undistract-me/long-running.bash\&quot;\;\}\; | sudo tee -a /etc/apt/apt.conf.d/100undistract-me
+sed -i 's/apt-get/apt/g' ~/.bash_it/aliases/available/apt.aliases.bash
+sed -i 's/ -V//g' ~/.bash_it/aliases/available/apt.aliases.bash
+sed -i 's/remove --purge/autoremove --purge/g' ~/.bash_it/aliases/available/apt.aliases.bash
+mkdir -pv ~/.config/xfce4/terminal
+echo '[Configuration]
+BackgroundDarkness=0,930000
+BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
+FontName=Monaco 10
+DropdownKeepAbove=FALSE
+DropdownHeight=70
+DropdownWidth=70
+DropdownOpacity=90
+DropdownStatusIcon=FALSE
+MiscDefaultGeometry=100x26
+MiscMenubarDefault=FALSE
+MiscToolbarDefault=TRUE
+ScrollingBar=TERMINAL_SCROLLBAR_NONE
+ScrollingOnOutput=FALSE' &gt; ~/.config/xfce4/terminal/terminalrc
+xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/Insert -s &quot;xfce4-terminal --drop-down&quot; -n -t string
+sudo wget -O /usr/local/bin/gef http://my.opendesktop.org/s/LcKks6gNqYXZokA/download #update-link
+sudo chmod +x -v /usr/local/bin/gef
+exit
+</code></pre>
+<p><a href="br:bash-it"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<h4><a class="header" href="#apt-alias--execute-manualmente-" id="apt-alias--execute-manualmente-">APT alias ( <em>execute manualmente</em> ):</a></h4>
+<pre><code class="language-bash">bash_it enable alias apt
+exit
+</code></pre>
+<iframe
+    width="100%"
+    height="420"
+    src="https://www.youtube.com/embed/byNVrjHpeZE"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+></iframe><h1><a class="header" href="#xanmod" id="xanmod">XanMod</a></h1>
+<pre><code class="language-bash">wget https://dl.xanmod.org/xanmod-repository.deb
+aptinst ./xanmod-repository.deb
+rm -rfv xanmod-repository.deb
+aptupd
+aptinst -y linux-xanmod-rt-edge
+</code></pre>
+<p><a href="br:xanmod"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<h1><a class="header" href="#alsa-firmware" id="alsa-firmware">ALSA firmware</a></h1>
+<pre><code class="language-bash">wget -c https://www.alsa-project.org/files/pub/firmware/alsa-firmware-1.2.1.tar.bz2 #update-link
+tar -xvf alsa-firmware-*.tar.bz2
+rm -rfv alsa-firmware-*.tar.bz2
+cd alsa-firmware-*
+aptinst -y build-essential
+./configure --prefix=/usr
+sudo make install
+cd ..
+rm -rfv alsa-firmware-*
+</code></pre>
+<p><a href="br:alsa-firmware"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<h1><a class="header" href="#nvidia-ppa" id="nvidia-ppa">NVIDIA PPA</a></h1>
+<pre><code class="language-bash">sudo add-apt-repository -y ppa:graphics-drivers/ppa
+#echo '# Graphics Drivers
+#Package: *
+#Pin: release o=LP-PPA-graphics-drivers
+#Pin-Priority: 1000' | sudo tee /etc/apt/preferences/graphics-drivers
+</code></pre>
+<p><a href="br:nvidia-ppa"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<h1><a class="header" href="#nvidia-drm-modeset" id="nvidia-drm-modeset">NVIDIA DRM modeset</a></h1>
+<pre><code class="language-bash">echo 'options nvidia_drm modeset=1' | sudo tee /lib/modprobe.d/nvidia-drm-modeset.conf #review
+</code></pre>
+<p><a href="br:nvidia-drm-modeset"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<h1><a class="header" href="#grub" id="grub">GRUB</a></h1>
+<pre><code class="language-bash">sudo sed -i 's/\&quot;quiet splash\&quot;/\&quot;quiet splash loglevel=0 logo.nologo vt.global_cursor_default=0\&quot;/g' /etc/default/grub
+echo 'RESUME=none' | sudo tee /etc/initramfs-tools/conf.d/resume
+echo 'FRAMEBUFFER=y' | sudo tee /etc/initramfs-tools/conf.d/splash
+echo 'kernel.printk = 3 3 3 3' | sudo tee /etc/sysctl.d/20-quiet-printk.conf
+sudo update-initramfs -u -k all;sudo update-grub
+</code></pre>
+<p><a href="br:grub"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<h1><a class="header" href="#jack" id="jack">JACK</a></h1>
+<pre><code class="language-bash">sudo usermod -aG audio $USER
+sudo usermod -aG video $USER
+echo jackd2 jackd/tweak_rt_limits string true | sudo debconf-set-selections
+#sudo add-apt-repository ppa:ubuntustudio-ppa/backports
+aptinst -y --no-install-recommends ubuntustudio-controls
+sudo sed -i 's/256/224/g' /usr/share/ubuntustudio-controls/ubuntustudio-controls.glade
+echo DPkg::Post-Invoke \{\&quot;sed -i \'s/256/224/g\' /usr/share/ubuntustudio-controls/ubuntustudio-controls.glade\&quot;\;\}\; | sudo tee /etc/apt/apt.conf.d/100ubuntustudio-controls
+mkdir -pv ~/.config/autostart ~/.config/qastools
+wget -O ~/.config/qastools/qasmixer.conf http://my.opendesktop.org/s/Cb8QQ9jjk3no52r/download
+echo '[Desktop Entry]
+Type=Application
+Terminal=false
+Name=ALSA Restore
+Exec=sh -c &quot;sleep 2;alsactl restore --file ~/.config/asound.state&quot;' | tee ~/.config/autostart/alsa-restore.desktop
+alsactl store --file ~/.config/asound.state
+</code></pre>
+<p><a href="br:jack"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<p><img src="scripts/../images/jack.png" alt="jack" /></p>
+<h1><a class="header" href="#wine" id="wine">WINE</a></h1>
+<pre><code class="language-bash">echo 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main' | sudo tee /etc/apt/sources.list.d/winehq.list #update-to-focal
+wget -O- https://dl.winehq.org/wine-builds/winehq.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/winehq.gpg
+aptupd
+aptinst -y q4wine winehq-staging winetricks
+echo '
+# Wine-RT
+STAGING_RT_PRIORITY_SERVER=90
+STAGING_RT_PRIORITY_BASE=90
+WINE_RT=15
+WINE_SRV_RT=10
+STAGING_WRITECOPY=1
+STAGING_SHARED_MEMORY=1
+WINE_ENABLE_PIPE_SYNC_FOR_APP=1' &gt;&gt; ~/.profile #manual-cleanup-on-reinstall
+xdg-mime default q4wine.desktop application/x-ms-dos-executable
+
+# winetricks dxvk gdiplus mfc42 vcrun2013 vcrun2019 win10#d2d1
+</code></pre>
+<p><a href="br:wine"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<p><img src="scripts/../images/wine.png" alt="wine" /></p>
+<h1><a class="header" href="#reaper" id="reaper">REAPER</a></h1>
+<pre><code class="language-bash">wget &quot;https://www.reaper.fm/download.php#linux_download&quot; -O download.php
+DEFAULT_PATH=&quot;_linux_x86_64.tar.xz&quot;
+LINK=$(cat download.php | grep -oP \&quot;.*$DEFAULT_PATH\&quot;)
+LINK=&quot;https://www.reaper.fm/&quot;$(echo $LINK | sed 's/[\&quot;]//g')
+FILENAME=${LINK##*/}
+wget $LINK -O $FILENAME
+tar xf $FILENAME -C ~/.local/share/
+mkdir -pv ~/.config/REAPER
+rm -rfv reaper*.tar.xz download.php
+cd ~/.local/share/reaper_linux*
+./install-reaper.sh --quiet --integrate-desktop
+wget -O ~/.local/share/reaper_linux_x86_64/REAPER/libSwell.colortheme http://my.opendesktop.org/s/D4GcswAieYf6Kfx/download #update-link
+wget http://www.sws-extension.org/download/pre-release/sws-2.11.0.0-Linux-x86_64-08d3c6fc.tar.xz #update-link
+tar -xvf sws-2.11.0.0-Linux-x86_64-08d3c6fc.tar.xz -C ~/.config/REAPER
+rm -rfv sws-2.11.0.0-Linux-x86_64-08d3c6fc.tar.xz
+wget -c https://github.com/cfillion/reapack/releases/download/v1.2.1/reaper_reapack64.so -O ~/.config/REAPER/UserPlugins/reaper_reapack64.so #update-link
+echo &quot;
+Actions=NewProject;ShowAudioConfig;ReaMote;WhatsNew;License;
+[Desktop Action NewProject]
+Name=REAPER (create new project)
+Name[pt_BR]=REAPER (criar novo projeto)
+Exec=$HOME/.local/share/reaper_linux_x86_64/REAPER/reaper -new
+Icon=cockos-reaper
+[Desktop Action ShowAudioConfig]
+Name=REAPER (show audio configuration on startup)
+Name[pt_BR]=REAPER (mostrar configurações de áudio ao iniciar)
+Exec=$HOME/.local/share/reaper_linux_x86_64/REAPER/reaper -audiocfg
+Icon=cockos-reaper
+[Desktop Action ReaMote]
+Name=ReaMote
+Exec=$HOME/.local/share/reaper_linux_x86_64/REAPER/reamote-server
+Icon=folder-remote
+[Desktop Action WhatsNew]
+Name=What's new
+Name[pt_BR]=O que há de novo?
+Exec=xdg-open $HOME/.local/share/reaper_linux_x86_64/REAPER/whatsnew.txt
+Icon=text-x-plain
+[Desktop Action License]
+Name=License and User Agreement
+Name[pt_BR]=Licença e contrato de usuário
+Exec=xdg-open $HOME/.local/share/reaper_linux_x86_64/REAPER/license.txt
+Icon=text-x-plain&quot; | tee -a ~/.local/share/applications/cockos-reaper.desktop
+</code></pre>
+<ul>
+<li><a href="https://github.com/osxmidi/LinVst/releases" target="_blank"><strong>LinVST</strong></a></li>
+<li><a href="https://github.com/osxmidi/LinVst3/releases" target="_blank"><strong>LinVST3</strong></a></li>
+</ul>
+<p><a href="br:reaper"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<p><img src="scripts/../images/reaper.png" alt="reaper" /></p>
+<h1><a class="header" href="#resolve" id="resolve">Resolve</a></h1>
+<ul>
+<li><a href="https://www.blackmagicdesign.com/products/davinciresolve"><strong>Link para baixar o DaVinci Resolve no site oficial</strong></a></li>
+</ul>
+<pre><code class="language-bash">aptinst -y gdebi-core ocl-icd-libopencl1 xorriso
+mkdir -pv resolve
+wget -cO resolve/makeresolvedeb.tar.gz http://www.danieltufvesson.com/download/?file=makeresolvedeb/makeresolvedeb_16.1.2-1.sh.tar.gz
+cd resolve
+tar -vzxf makeresolvedeb*.tar.gz
+sed -i 's/Icon=\/opt\/resolve\/graphics\/DV_Resolve.png/Icon=resolve/g' makeresolvedeb*.sh
+sed -i 's/Architecture: amd64/Architecture: amd64\nDepends: ocl-icd-libopencl1\nSection: video/g' makeresolvedeb*.sh
+unzip ~/Downloads/DaVinci_Resolve_16.1.2_Linux.zip -d .
+./makeresolvedeb*.sh lite
+sudo gdebi -n ./davinci-resolve*.deb
+mv davinci-resolve*.deb ~/Downloads
+rm -rfv resolve
+aptpurge -y gdebi-core xorriso
+</code></pre>
+<ul>
+<li><a href="http://ppa.launchpad.net/cteehayder/ffmulticonverter/ubuntu/pool/main/f/ffmulticonverter/" target="_blank"><strong>FFMultiConverter</strong></a></li>
+</ul>
+<pre><code class="language-bash">mkdir -pv ~/.config/ffmulticonverter
+wget -O ~/.config/ffmulticonverter/presets.xml #update-link
+</code></pre>
+<p><a href="br:resolve"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<p><img src="scripts/../images/resolve.png" alt="resolve" /></p>
+<h1><a class="header" href="#openshot" id="openshot">OpenShot</a></h1>
+<pre><code class="language-bash">sudo add-apt-repository -y ppa:openshot.developers/libopenshot-daily
+aptinst -y openshot-qt
+</code></pre>
+<p><a href="br:openshot"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<h1><a class="header" href="#blender" id="blender">Blender</a></h1>
+<pre><code class="language-bash">wget -c https://ftp.nluug.nl/pub/graphics/blender/release/Blender2.82/blender-2.82a-linux64.tar.xz #update-link
+tar -xvf blender*.tar.xz
+rm -rfv $HOME/.local/share/blender/
+mv blender*/ $HOME/.local/share/blender/
+rm -rfv blender*.tar.xz
+mkdir -pv $HOME/.local/share/applications
+cp -rfv $HOME/.local/share/blender/blender.desktop $HOME/.local/share/applications/
+sed -i &quot;s/Exec=blender/Exec=.local\/share\/blender\/blender/g&quot; $HOME/.local/share/applications/blender.desktop
+</code></pre>
+<p><a href="br:blender"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<h1><a class="header" href="#gestos" id="gestos">Gestos</a></h1>
+<h4><a class="header" href="#a-hrefhttpmyopendesktoporgindexphpsi5g8xbqiafmgwtjdownload-target_blankcheckinstall-builda" id="a-hrefhttpmyopendesktoporgindexphpsi5g8xbqiafmgwtjdownload-target_blankcheckinstall-builda"><a href="http://my.opendesktop.org/index.php/s/i5g8XbQiAfmGWtj/download" target="_blank">checkinstall-build</a></a></h4>
+<pre><code class="language-bash">sudo gpasswd -a $USER input
+aptinst -y build-essentials libinput-tools
+git clone https://github.com/bulletmark/libinput-gestures.git
+cd libinput-gestures
+sudo make install #checkinstall
+libinput-gestures-setup autostart
+sed -i 's/NoDisplay/#NoDisplay/g' ~/.config/autostart/libinput-gestures.desktop
+aptinst -y python-gobject python3 python3-gi python3-setuptools wmctrl xdotool
+git clone https://gitlab.com/cunidev/gestures
+cd gestures
+sudo python3 setup.py install
+cd ../..
+sudo rm -rfv libinput-gestures* /usr/share/applications/libinput-gestures.desktop
+sudo sed -i 's/org.cunidev.gestures/libinput-gestures/g' /usr/share/applications/org.cunidev.gestures.desktop
+mkdir -p ~/.config
+wget -O ~/.config/libinput-gestures.conf http://my.opendesktop.org/s/y5PDNkKnNywgxwm/download #update-link
+</code></pre>
+<p><a href="br:gestures"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<p><img src="scripts/../images/gestures.png" alt="gestures" /></p>
+<h1><a class="header" href="#detecção-de-palma-da-mão" id="detecção-de-palma-da-mão">Detecção de palma da mão</a></h1>
+<pre><code class="language-bash">mkdir -p ~/.config/autostart
+echo '[Desktop Entry]
+Encoding=UTF-8
+Version=0.9.4
+Type=Application
+Name=PalmDetection
+Exec=sh -c &quot;syndaemon -i 0.1 -KRd&quot;
+OnlyShowIn=XFCE;
+StartupNotify=false
+Terminal=false
+Hidden=false
+Icon=mouse' | tee ~/.config/autostart/palmdetection.desktop
+</code></pre>
+<p><a href="br:palmdetection"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<h1><a class="header" href="#rolagem-natural" id="rolagem-natural">Rolagem natural</a></h1>
+<pre><code class="language-bash">mkdir -pv ~/.config/autostart
+echo '[Desktop Entry]
+Encoding=UTF-8
+Version=0.9.4
+Type=Application
+Name=NaturalScrolling
+Exec=sh -c &quot;synclient VertScrollDelta=-58;synclient HorizScrollDelta=-58&quot;
+OnlyShowIn=XFCE;
+StartupNotify=false
+Terminal=false
+Hidden=false
+Icon=mouse' | tee ~/.config/autostart/naturalscrolling.desktop
+</code></pre>
+<p><a href="br:natural-scrolling"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<h1><a class="header" href="#xcape" id="xcape">XCAPE</a></h1>
+<pre><code class="language-bash">aptinst -y xcape
+mkdir -pv ~/.config/autostart
+echo '[Desktop Entry]
+Exec=xcape -e &quot;Super_L=Super_L|x&quot;
+Name=XCAPE
+Type=Application
+OnlyShowIn=XFCE;' &gt; ~/.config/autostart/xcape.desktop
+</code></pre>
+<p><a href="br:xcape"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<h1><a class="header" href="#rofi" id="rofi">Rofi</a></h1>
+<h4><a class="header" href="#a-hrefhttpcloudopendesktoporgshg7mjyax9sazsrjdownload-target_blankcheckinstall-builda-check" id="a-hrefhttpcloudopendesktoporgshg7mjyax9sazsrjdownload-target_blankcheckinstall-builda-check"><a href="http://cloud.opendesktop.org/s/HG7mJyAX9SaZsrJ/download" target="_blank"><strong>checkinstall-build</strong></a> (<em>check</em>)</a></h4>
+<h4><a class="header" href="#a-hrefhttpcloudopendesktoporgsek4fkkgqdjdeefgdownload-target_blankcheckinstall-builda-rofi" id="a-hrefhttpcloudopendesktoporgsek4fkkgqdjdeefgdownload-target_blankcheckinstall-builda-rofi"><a href="http://cloud.opendesktop.org/s/EK4FkKGqdJdEeFg/download" target="_blank"><strong>checkinstall-build</strong></a> (<em>rofi</em>)</a></h4>
+<pre><code class="language-bash">git clone https://github.com/davatorium/rofi
+cd rofi
+aptinst -y autoconf automake autopoint bison debhelper dh-autoreconf dh-strip-nondeterminism flex gir1.2-harfbuzz-0.0 icu-devtools libbison-dev libcairo-script-interpreter2 libcairo2-dev libfile-stripnondeterminism-perl libgdk-pixbuf2.0-dev libgraphite2-dev libharfbuzz-dev libharfbuzz-gobject0 libice-dev libicu-dev libicu-le-hb-dev libicu-le-hb0 libjpeg-dev libpango1.0-dev libpixman-1-dev libpthread-stubs0-dev librsvg2-dev libsm-dev libstartup-notification0-dev libx11-dev libxau-dev libxcb-ewmh-dev libxcb-icccm4-dev libxcb-randr0-dev libxcb-render0-dev libxcb-shm0-dev libxcb-util-dev libxcb-util0-dev libxcb-xinerama0-dev libxcb-xkb-dev libxcb-xrm-dev libxcb1-dev libxdmcp-dev libxext-dev libxft-dev libxkbcommon-dev libxkbcommon-x11-dev libxrender-dev m4 po-debconf texinfo x11proto-core-dev x11proto-dev x11proto-xext-dev xorg-sgml-doctools xtrans-dev
+git clone https://github.com/libcheck/check
+cd check
+autoreconf -i
+./configure
+make
+sudo make install #checkinstall
+cd ..
+git submodule update --init
+autoreconf -i
+./configure
+make
+sudo make install #checkinstall
+aptpurge -y autoconf automake autopoint bison debhelper dh-autoreconf dh-strip-nondeterminism flex gir1.2-harfbuzz-0.0 icu-devtools libbison-dev libcairo-script-interpreter2 libcairo2-dev libfile-stripnondeterminism-perl libgdk-pixbuf2.0-dev libgraphite2-dev libharfbuzz-dev libharfbuzz-gobject0 libice-dev libicu-dev libicu-le-hb-dev libicu-le-hb0 libjpeg-dev libpango1.0-dev libpixman-1-dev libpthread-stubs0-dev librsvg2-dev libsm-dev libstartup-notification0-dev libx11-dev libxau-dev libxcb-ewmh-dev libxcb-icccm4-dev libxcb-randr0-dev libxcb-render0-dev libxcb-shm0-dev libxcb-util-dev libxcb-util0-dev libxcb-xinerama0-dev libxcb-xkb-dev libxcb-xrm-dev libxcb1-dev libxdmcp-dev libxext-dev libxft-dev libxkbcommon-dev libxkbcommon-x11-dev libxrender-dev m4 po-debconf x11proto-core-dev x11proto-dev x11proto-xext-dev xorg-sgml-doctools xtrans-dev libtext-unidecode-perl tex-common texinfo
+aptinst -y libxcb-ewmh2 libxcb-xrm0
+cd ..
+sudo rm -rfv rofi*
+mkdir -pv ~/.config/rofi
+wget -O ~/.config/rofi/config http://my.opendesktop.org/s/smkePRgsYJSDmCM/download #update-link
+wget -O ~/.config/rofi/fullscreen.rasi http://my.opendesktop.org/s/jzSpr9PYXYmQR2G/download #update-link
+wget -O ~/.config/rofi/sidebar.rasi http://my.opendesktop.org/s/K4QbRoyZDJ2g9wF/download #update-link
+xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/&quot;&lt;Super&gt;&quot;x -s &quot;rofi -show drun&quot; -n -t string
+</code></pre>
+<p><a href="br:rofi"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<p><img src="scripts/../images/rofi.png" alt="rofi" />
+<img src="scripts/../images/rofi-sidebar.png" alt="rofi-sidebar" /></p>
+<h1><a class="header" href="#skippy-xd" id="skippy-xd">Skippy-XD</a></h1>
+<h4><a class="header" href="#a-hrefhttpmyopendesktoporgspp2mhk5idlj4gytdownload-target_blankcheckinstall-builda" id="a-hrefhttpmyopendesktoporgspp2mhk5idlj4gytdownload-target_blankcheckinstall-builda"><a href="http://my.opendesktop.org/s/pP2mHk5iDLj4GYt/download" target="_blank"><strong>checkinstall-build</strong></a></a></h4>
+<pre><code class="language-bash">aptinst -y libimlib2-dev libfontconfig1-dev libfreetype6-dev libx11-dev libxext-dev libxft-dev libxrender-dev zlib1g-dev libxinerama-dev libxcomposite-dev libxdamage-dev libxfixes-dev libxmu-dev
+git clone https://github.com/dreamcat4/skippy-xd.git
+cd skippy-xd
+make
+sudo make install #checkinstall
+aptpurge -y autoconf automake bzip2-doc libbz2-dev libexpat1-dev libfontconfig1-dev libfreetype-dev libfreetype6-dev libgif-dev libice-dev libid3tag0-dev libimlib2-dev libjbig-dev libjpeg-dev libjpeg-turbo8-dev libjpeg8-dev libltdl-dev liblzma-dev libpng-dev libpng-tools libpthread-stubs0-dev libsigsegv2 libsm-dev libtiff-dev libtiffxx5 libwebp-dev libx11-dev libxau-dev libxcb1-dev libxcomposite-dev libxdamage-dev libxdmcp-dev libxext-dev libxfixes-dev libxft-dev libxinerama-dev libxmu-dev libxmu-headers libxrender-dev libxt-dev m4 uuid-dev x11proto-core-dev x11proto-dev x11proto-xext-dev x11proto-xinerama-dev xorg-sgml-doctools xtrans-dev
+cd ..
+sudo rm -rfv skippy-xd*
+mkdir -pv ~/.config/skippy-xd
+wget -O ~/.config/skippy-xd/skippy-xd.rc http://my.opendesktop.org/s/3B4wix3bTdLCzJL/download #update-link
+gef http://my.opendesktop.org/s/d7AS8ndgeqn38XG/download /usr/local/bin/skippy-xd-fix #update-link
+xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/&quot;&lt;Super&gt;&quot;s -s &quot;skippy-xd-fix&quot; -n -t string
+</code></pre>
+<p><a href="br:skippy-xd"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<h1><a class="header" href="#linux-notification-center" id="linux-notification-center">Linux notification center</a></h1>
+<pre><code class="language-bash">gef https://github.com/phuhl/linux_notification_center/releases/download/1.7.2/deadd-notification-center /usr/local/bin/deadd-notification-center #update-link
+sudo chmod -x -v /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+mkdir -pv ~/.config/autostart ~/.config/deadd
+wget -O ~/.config/autostart/linux-notification-center-start.desktop http://my.opendesktop.org/s/7cMHm7f5XtJbcRq/download #update-link
+wget -O ~/.config/deadd/deadd.conf http://my.opendesktop.org/s/RQk9oJDzgrAk7RZ/download #update-link
+xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/&quot;&lt;Super&gt;&quot;n -s 'sh -c &quot;kill -s USR1 $(pidof deadd-notification-center)&quot;' -n -t string
+</code></pre>
+<p><a href="br:linux-notification-center"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<h1><a class="header" href="#dockbarx" id="dockbarx">DockbarX</a></h1>
+<pre><code class="language-bash">sudo add-apt-repository -y ppa:xuzhen666/dockbarx
+aptinst -y --no-install-recommends xfce4-dockbarx-plugin
+aptinst -y dconf-cli
+git clone https://github.com/Xseba360/DockBarX-Windows10
+cd DockBarX-Windows10
+sed -i 's/-16/-10/g' config
+sudo tar -czf /usr/share/dockbarx/themes/win10.tar.gz pixmaps info config
+cd ..
+rm -rfv DockBarX-Windows10
+wget -O dockbarx.dconf http://my.opendesktop.org/s/iwJdspdZ6A8NwPL/download #update-link
+dconf load /org/dockbarx/ &lt; dockbarx.dconf
+rm -rfv dockbarx.dconf
+xfconf-query --reset --channel xfce4-keyboard-shortcuts --property /commands/custom/&quot;&lt;Super&gt;&quot;1
+xfconf-query --reset --channel xfce4-keyboard-shortcuts --property /commands/custom/&quot;&lt;Super&gt;&quot;2
+xfconf-query --reset --channel xfce4-keyboard-shortcuts --property /commands/custom/&quot;&lt;Super&gt;&quot;3
+xfconf-query --reset --channel xfce4-keyboard-shortcuts --property /commands/custom/&quot;&lt;Super&gt;&quot;4
+</code></pre>
+<p><a href="br:dockbarx"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<p><img src="scripts/../images/dockbarx.png" alt="dockbarx" /></p>
+<h1><a class="header" href="#debs" id="debs">Debs</a></h1>
+<ul>
+<li><a href="https://www.4kdownload.com/pt-br/products/product-videodownloader" target="_blank"><strong>4kVideoDownloader</strong></a> #login</li>
+</ul>
+<pre><code class="language-bash">sudo sed -i 's/.png//g' /usr/share/applications/4k*
+</code></pre>
+<ul>
+<li><a href="https://www.4kdownload.com/pt-br/products/product-stogram" target="_blank"><strong>4kStogram</strong></a> #login</li>
+</ul>
+<pre><code class="language-bash">sudo sed -i 's/.png//g' /usr/share/applications/4k*
+</code></pre>
+<ul>
+<li><a href="https://github.com/TheAssassin/AppImageLauncher/releases" target="_blank"><strong>AppImageLauncher</strong></a></li>
+</ul>
+<pre><code class="language-bash">echo &quot;[AppImageLauncher]
+ask_to_move=true
+destination=$HOME/.local/bin
+enable_daemon=true
+
+[appimagelauncherd]
+%23%20additional_directories_to_watch=~/otherApplications:/even/more/applications
+%23%20monitor_mounted_filesystems=false&quot; &gt; ~/.config/appimagelauncher.cfg
+</code></pre>
+<ul>
+<li><a href="https://github.com/crow-translate/crow-translate/releases" target="_blank"><strong>Crow translate</strong></a></li>
+<li><a href="https://discord.com" target="_blank"><strong>Discord</strong></a> <a href="https://dl.discordapp.net/apps/linux/0.0.10/discord-0.0.10.deb">#direct-link</a> #login</li>
+</ul>
+<pre><code class="language-bash">discord&amp;
+sleep 5
+killall -9 Discord
+aptinst -y npm
+sudo npm install -g asar
+asar e $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core.asar $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core
+rsvg-convert -w 24 -h 24 -f png -a /usr/share/icons/Papirus/24x24/panel/discord-tray.svg &gt; $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core/app/images/systemtray/linux/tray.png
+rsvg-convert -w 24 -h 24 -f png -a /usr/share/icons/Papirus/24x24/panel/discord-tray-unread.svg &gt; $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core/app/images/systemtray/linux/tray-unread.png
+asar p $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core.asar
+rm -rfv $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core
+</code></pre>
+<ul>
+<li><a href="https://www.dropbox.com/install" target="_blank"><strong>Dropbox</strong></a> #login #sync-files</li>
+<li><a href="https://packages.ubuntu.com/xenial/amd64/gcolor2/download" target="_blank"><strong>GColor2</strong></a> <a href="http://mirrors.kernel.org/ubuntu/pool/universe/g/gcolor2/gcolor2_0.4-2.1ubuntu1_amd64.deb" target="_blank">#direct-link</a></li>
+</ul>
+<pre><code class="language-bash">sudo sed -i 's/\/usr\/share\/pixmaps\/gcolor2\/gcolor2.xpm/gcolor2/g' /usr/share/applications/gcolor2.desktop
+</code></pre>
+<ul>
+<li><a href="https://github.com/ksnip/ksnip/releases" target="_blank"><strong>Ksnip</strong></a></li>
+</ul>
+<pre><code class="language-bash">mkdir -pv ~/.config/ksnip
+echo &quot;[Application]
+AlwaysCopyToClipboard=true
+ApplicationStyle=gtk2
+PromptSaveBeforeExit=false
+UseTrayIcon=false
+
+[Painter]
+NumberFont=@Variant(\0\0\0@\0\0\0\x14\0Z\0\x30\0\x30\0\x33\0 \0[\0u\0r\0w\0]@&gt;\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0K\x10)
+TextFont=@Variant(\0\0\0@\0\0\0\x12\0N\0o\0t\0o\0 \0S\0\x61\0n\0s@(\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)&quot; &gt; ~/.config/ksnip/ksnip.conf
+xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/&quot;&lt;Alt&gt;&quot;Print -s &quot;ksnip -a&quot; -n -t string
+xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/&quot;&lt;Shift&gt;&quot;Print -s &quot;ksnip -r&quot; -n -t string
+xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/Print -s &quot;ksnip -f&quot; -n -t string
+</code></pre>
+<ul>
+<li><a href="https://mega.nz/sync" target="_blank"><strong>Megasync</strong></a> #login #sync_files</li>
+<li><a href="https://www.nomachine.com/download/linux&amp;id=1" target="_blank"><strong>NoMachine</strong></a> #dark-theme</li>
+<li><a href="https://packages.ubuntu.com/eoan/amd64/patchage/download" target="_blank"><strong>Patchage</strong></a> <a href="http://mirrors.kernel.org/ubuntu/pool/universe/p/patchage/patchage_1.0.0~dfsg0-0.2_amd64.deb" target="_blank">#direct-link</a> <code>--no-install-recommends</code></li>
+<li><a href="https://github.com/ramboxapp/community-edition/releases" target="_blank"><strong>Rambox</strong></a> <a href="http://my.opendesktop.org/s/9Nq2Z9LffAwQCXm" target="_blank">#custom CSS</a> #login #sync_accounts</li>
+</ul>
+<pre><code class="language-bash">aptinst -y npm
+sudo npm install -g asar
+asar e /opt/Rambox/resources/app.asar app
+echo '
+/**
+ * Dark background
+ */
+.x-tab {
+  background-color: #000000
+}
+.x-tab:hover {
+  background-color: #090909
+}
+.x-tab-bar-body {
+  background-color: #000000
+}
+.x-tab.x-tab-active.x-tab-default {
+  border-color: white;
+  background-color: #090909
+}' &gt;&gt; app/resources/Rambox-all.css
+asar p app app.asar
+sudo cp -rfv app.asar /opt/Rambox/resources/app.asar
+rm -rfv app app.asar
+xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/XF86Messenger -s &quot;rambox&quot; -n -t string
+</code></pre>
+<ul>
+<li><a href="https://www.rememberthemilk.com/services/linux/" target="_blank"><strong>Remember The Milk</strong></a> #login</li>
+<li><a href="https://send-anywhere.com/file-transfer" target="_blank"><strong>Send Anywhere</strong></a> #login</li>
+<li><a href="https://www.skype.com/pt-br/get-skype/" target="_blank"><strong>Skype</strong></a> #login</li>
+<li><a href="https://www.stremio.com/downloads" target="_blank"><strong>Stremio</strong></a> <code>--no-install-recommends</code> #login</li>
+<li><a href="http://www.vst4free.com/free_vst.php?plugin=ToneLib-GFX&amp;id=3003" target="_blank"><strong>ToneLib GFX</strong></a> <a href="http://www.vst4free.com/get_plug.php?linux=ToneLib-GFX-amd64.deb" target="_blank">#direct-link</a></li>
+<li><a href="https://www.tonelib.net/download/" target="_blank"><strong>ToneLib ZOOM</strong></a></li>
+<li><a href="https://github.com/winunix/unetbootin-focal" target="_blank"><strong>UNetbootin</strong></a> <a href="https://github.com/winunix/debian/raw/master/pool/main/u/unetbootin-focal/unetbootin-focal_677-1~focal1_amd64.deb" target="_blank">#direct-link</a></li>
+</ul>
+<h1><a class="header" href="#apt" id="apt">Apt</a></h1>
+<ul>
+<li><a href="apt:baobab"><strong>Analisador de uso de discos</strong></a></li>
+<li><a href="apt:deborphan"><strong>DebOrphan</strong></a></li>
+<li><a href="apt:deluge-gtk"><strong>Deluge-gtk</strong></a> #close-to-tray
+<ul>
+<li><a href="apt:deluged"><strong>DelugeD</strong></a></li>
+</ul>
+</li>
+<li><a href="apt:gnome-disk-utility"><strong>Discos</strong></a></li>
+<li><a href="apt:dropbear"><strong>Dropbear</strong></a>
+<ul>
+<li><a href="apt:openssh-sftp-server"><strong>OpenSSH SFTP server</strong></a></li>
+</ul>
+</li>
+<li><a href="apt:feedreader"><strong>FeedReader</strong></a> #login (Feedly)</li>
+<li><a href="apt:gdebi"><strong>GDebI</strong></a> <code>--no-install-recommends</code></li>
+</ul>
+<pre><code class="language-bash">sudo sed -i 's/gdebi-gtk %f/sh -c &quot;gdebi-gtk %f&quot;/g' /usr/share/applications/gdebi.desktop
+echo DPkg::Post-Invoke \{\&quot;wget -qO /usr/share/applications/gdebi.desktop http://my.opendesktop.org/s/FiZyQR6JYNo8cSr/download\&quot;\;\}\; | sudo tee /etc/apt/apt.conf.d/100gdebi
+xdg-mime default gdebi.desktop application/vnd.debian.binary-package
+</code></pre>
+<ul>
+<li><a href="apt:geary"><strong>Geary</strong></a> #login (Mail/Outlook)</li>
+<li><a href="apt:gnome-characters"><strong>GNOME characters</strong></a> <code>--no-install-recommends</code></li>
+<li><a href="apt:fonts-emojione"><strong>Fonts EmojiOne</strong></a></li>
+<li><a href="apt:gnome-system-log"><strong>GNOME system log</strong></a></li>
+<li><a href="apt:inkscape"><strong>Inkscape</strong></a> <code>--no-install-recommends</code></li>
+<li><a href="apt:mediainfo-gui"><strong>MediaInfo GUI</strong></a></li>
+<li><a href="apt:meld"><strong>Meld</strong></a></li>
+<li><a href="apt:mplayer"><strong>MPlayer</strong></a>
+<ul>
+<li><a href="apt:smplayer"><strong>SMPlayer</strong></a></li>
+<li><a href="apt:smplayer-themes"><strong>SMPlayer themes</strong></a></li>
+</ul>
+</li>
+</ul>
+<pre><code class="language-bash">mkdir -pv ~/.config/smplayer
+echo '2345 	
+[gui]
+iconset=PapirusDark
+qt_style=qt5ct-style
+[subtitles]
+styles\fontname=Sans Serif
+styles\primarycolor\argb=fffff100' &gt; ~/.config/smplayer/smplayer.ini
+xdg-mime default smplayer.desktop video/mp4
+xdg-mime default smplayer.desktop video/quicktime
+xdg-mime default smplayer.desktop video/webm
+xdg-mime default smplayer.desktop video/x-matroska
+xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/XF86Music -s &quot;smplayer&quot; -n -t string
+</code></pre>
+<ul>
+<li><a href="apt:neofetch"><strong>Neofetch</strong></a> #ascii-logo (Xubuntu)</li>
+<li><a href="apt:nextcloud-desktop"><strong>Nextcloud</strong></a> #login #sync-files</li>
+<li><a href="apt:rar"><strong>RAR</strong></a></li>
+<li><a href="apt:redshift-gtk"><strong>Redshift-gtk</strong></a></li>
+<li><a href="apt:restic"><strong>Restic</strong></a> #backup-script
+<ul>
+<li><a href="apt:putty-tools"><strong>Putty tools</strong></a></li>
+</ul>
+</li>
+<li><a href="apt:rygel-preferences"><strong>Rygel</strong></a> #review</li>
+<li><a href="apt:steam-installer"><strong>Steam</strong></a> #login #sync_files
+<ul>
+<li><a href="apt:xboxdrv"><strong>XBoxDrv</strong></a></li>
+</ul>
+</li>
+<li><a href="apt:synaptic"><strong>Synaptic</strong></a></li>
+<li><a href="apt:thunar-dropbox-plugin"><strong>Thunar Dropbox</strong></a> #review</li>
+<li><a href="apt:thunar-megasync"><strong>Thunar Megasync</strong></a> #review</li>
+<li><a href="apt:thunar-vcs-plugin"><strong>Thunar VCS</strong></a> #review</li>
+<li><a href="apt:vokoscreen"><strong>Vokoscreen</strong></a></li>
+<li><a href="apt:volumeicon-alsa"><strong>VolumeIcon ALSA</strong></a></li>
+</ul>
+<pre><code class="language-bash">mkdir -pv ~/.config/autostart ~/.config/volumeicon
+echo '[Desktop Entry]
+Type=Application
+Name=Volume Icon
+Exec=volumeicon
+NoDisplay=false
+OnlyShowIn=XFCE;' &gt; ~/.config/autostart/volumeicon.desktop
+wget -O ~/.config/volumeicon/volumeicon http://my.opendesktop.org/index.php/s/tw8kNw3pjdQbfwB/download #update-link
+</code></pre>
+<ul>
+<li><a href="apt:virt-manager"><strong>Virt Manager</strong></a></li>
+<li><a href="apt:xfce4-clipman"><strong>XFCE Clipman</strong></a></li>
+</ul>
+<h1><a class="header" href="#temas" id="temas">Temas</a></h1>
+<pre><code class="language-bash">sudo add-apt-repository -yn ppa:papirus/hardcode-tray
+sudo add-apt-repository -yn ppa:papirus/papirus-dev
+sudo add-apt-repository -yn ppa:tista/plata-theme
+sudo add-apt-repository -y ppa:daniruiz/flat-remix
+aptinst -y breeze-cursor-theme flat-remix-gtk hardcode-tray papirus-icon-theme plata-theme plymouth-theme-spinner qt5ct qt5-style-plugins
+sudo sed -i 's/Icon\[pt_BR\]/#Icon\[pt_BR\]/g' /usr/share/applications/mate-calc.desktop
+wget -O mousepad.dconf http://my.opendesktop.org/s/St7tgafok4Nr5q4/download
+dconf load /org/xfce/mousepad/ &lt; mousepad.dconf
+rm -rfv mousepad.dconf
+xfconf-query -c thunar -np /last-location-bar -t string -s ThunarLocationButtons
+xfconf-query -c thunar -np /last-window-height -t int -s 586
+xfconf-query -c thunar -np /last-window-width -t int -s 900
+xfconf-query -c xfce4-appfinder -np /always-center -t bool -s true
+xfconf-query -c xfce4-appfinder -np /category-icon-size -t int -s 2
+xfconf-query -c xfce4-appfinder -np /icon-view -t bool -s true
+xfconf-query -c xfce4-appfinder -np /item-icon-size -t int -s 4
+xfconf-query -c xfce4-appfinder -np /last/window-height -t int -s 5000
+xfconf-query -c xfce4-appfinder -np /last/window-width -t int -s 5000
+xfconf-query -c xfce4-desktop -np /desktop-icons/file-icons/show-filesystem -t bool -s false
+xfconf-query -c xfce4-desktop -np /desktop-icons/file-icons/show-home -t bool -s false
+xfconf-query -c xfce4-desktop -np /desktop-icons/file-icons/show-removable -t bool -s false
+xfconf-query -c xfce4-desktop -np /desktop-icons/file-icons/show-trash -t bool -s false
+xfconf-query -c xfce4-notifyd -np /theme -t string -s Plata
+xfconf-query -c xfce4-power-manager -np /xfce4-power-manager/show-tray-icon -t bool -s true
+xfconf-query -c xfwm4 -np /general/button_layout -t string -s &quot;|HMC&quot;
+xfconf-query -c xfwm4 -np /general/cycle_draw_frame -t bool -s false
+xfconf-query -c xfwm4 -np /general/placement_ratio -t int -s 100
+xfconf-query -c xfwm4 -np /general/easy_click -t string -s Super
+xfconf-query -c xfwm4 -np /general/theme -s Plata-Noir
+xfconf-query -c xfwm4 -np /general/workspace_count -t int -s 1
+xfconf-query -c xsettings -np /Gtk/CursorThemeName -s Breeze_Snow
+xfconf-query -c xsettings -np /Gtk/MonospaceFontName -s 'Monaco 10'
+xfconf-query -c xsettings -np /Net/IconThemeName -s Papirus-Dark
+xfconf-query -c xsettings -np /Net/ThemeName -s Plata-Noir
+sudo update-alternatives --set x-cursor-theme /etc/X11/cursors/Breeze_Snow.theme
+sudo update-alternatives --set default.plymouth /usr/share/plymouth/themes/bgrt/bgrt.plymouth
+sed -i 's/elementary/colibre/g' ~/.config/libreoffice/4/user/registrymodifications.xcu
+echo '{
+    &quot;blacklist&quot;: [&quot;steam&quot;],
+    &quot;icons&quot;: {
+        &quot;size&quot;: 24
+    },
+    &quot;backup_ignore&quot;: true
+}' &gt; ~/.config/hardcode-tray.json
+sudo hardcode-tray --apply
+sudo sed -i 's/export QT/#export QT/g' /etc/X11/Xsession.d/56xubuntu-session
+mkdir -pv ~/.config/qt5ct
+echo '[Appearance]
+icon_theme=Papirus-Dark
+style=gtk2
+
+[Fonts]
+fixed=@Variant(\0\0\0@\0\0\0\f\0M\0o\0n\0\x61\0\x63\0o@$\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)
+general=@Variant(\0\0\0@\0\0\0\x12\0N\0o\0t\0o\0 \0S\0\x61\0n\0s@\&quot;\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)' &gt; ~/.config/qt5ct/qt5ct.conf
+echo '[greeter]
+background = /usr/share/xfce4/backdrops/xubuntu-zesty.png
+theme-name = Plata-Noir
+icon-theme-name = Papirus-Dark' | sudo tee /etc/lightdm/lightdm-gtk-greeter.conf
+sudo wget -O /usr/share/plymouth/themes/xubuntu-logo/logo.png http://my.opendesktop.org/s/7cJJBjzN3Zdi8zr/download #update-link
+sudo update-initramfs -u -k all
+</code></pre>
+<p><a href="br:style"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<p><img src="scripts/../images/style.png" alt="style" /></p>
+<h1><a class="header" href="#lightdm-webkit2-greeter" id="lightdm-webkit2-greeter">LightDM webkit2 greeter</a></h1>
+<pre><code class="language-bash">wget -c https://provo-mirror.opensuse.org/repositories/home:/antergos/xUbuntu_17.10/amd64/lightdm-webkit2-greeter_2.2.5-1+15.31_amd64.deb #update-link
+aptinst ./lightdm-webkit2-greeter*.deb
+rm -rfv lightdm-webkit2-greeter*.deb
+wget -c https://github.com/Litarvan/lightdm-webkit-theme-litarvan/releases/download/v3.1.0/lightdm-webkit-theme-litarvan-3.1.0.tar.gz #update-link
+sudo mkdir -pv /usr/share/lightdm-webkit/themes/litarvan
+sudo tar -vzxf lightdm-webkit-theme-litarvan*.tar.gz -C /usr/share/lightdm-webkit/themes/litarvan
+rm -rfv lightdm-webkit-theme-litarvan*.tar.gz
+echo '[Seat:*]
+greeter-session=lightdm-webkit2-greeter' | sudo tee /etc/lightdm/lightdm.conf.d/50-lightdm-webkit2-greeter.conf
+sudo sed -i 's/antergos/litarvan/g' /etc/lightdm/lightdm-webkit2-greeter.conf
+</code></pre>
+<p><a href="br:lightdm-webkit2-greeter"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<h1><a class="header" href="#oblogout" id="oblogout">OBLogout</a></h1>
+<pre><code class="language-bash">wget -O oblogout.zip http://my.opendesktop.org/s/c2WoBsQBpsSawW6/download
+unzip oblogout.zip
+aptinst -y --no-install-recommends ./oblogout*.deb ./python-gtk2*.deb ./python-imaging*.deb
+rm -rfv oblogout.zip oblogout*.deb python-gtk2*.deb python-imaging*.deb
+</code></pre>
+<p><a href="br:oblogout"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<p><img src="scripts/../images/oblogout.png" alt="lutris" /></p>
+<h1><a class="header" href="#painel" id="painel">Painel</a></h1>
+<pre><code class="language-bash">aptinst -y tint2 xdotool
+mkdir -pv ~/.config/autostart ~/.config/tint2 ~/.local/share/applications ~/.local/share/scripts ~/.local/share/xfce4-panel-profiles
+wget -O ~/.config/autostart/tint2-panel-auto-opaque.desktop http://my.opendesktop.org/s/2RsfZMzP3rWx8Q8/download #update-link
+wget -O ~/.local/share/applications/tint2-panel-auto-opaque.desktop http://my.opendesktop.org/s/2RsfZMzP3rWx8Q8/download #update-link
+sed -i 's/false/true/g' ~/.local/share/applications/tint2-panel-auto-opaque.desktop
+wget -O ~/.config/autostart/tint2.desktop http://my.opendesktop.org/s/2xX5W3pDadnaN8C/download #update-link
+wget -O ~/.config/tint2/tint2rc http://my.opendesktop.org/s/EGoHb5XDttH4DLr/download #update-link
+wget -O ~/.local/share/scripts/tint2-panel-auto-opaque.sh http://my.opendesktop.org/s/rQJWi764p7FxXoj/download #update-link
+wget -O Clima.zip http://my.opendesktop.org/s/B8wKfKsNEJN3dGe/download #update-link
+unzip Clima.zip
+sudo cp -rfv 20190419/Clima* /usr/share/xfce4/weather/icons/
+rm -rfv Clima.zip 20190419
+wget -O ~/.config/xfce4/panel/weather-8.rc http://my.opendesktop.org/s/77x94myzedArZit/download #update-link
+wget -O ~/.local/share/xfce4-panel-profiles/Raul\ Dipeas.tar.bz2 http://my.opendesktop.org/s/DerCwxX84qstx7n/download #update-link
+xfce4-panel-profiles load ~/.local/share/xfce4-panel-profiles/Raul\ Dipeas.tar.bz2
+gtk-launch tint2.desktop
+gtk-launch tint2-panel-auto-opaque.desktop
+</code></pre>
+<p><a href="br:panel"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<p><img src="scripts/../images/panel.png" alt="panel" /></p>
+<h1><a class="header" href="#compton" id="compton">Compton</a></h1>
+<h4><a class="header" href="#a-hrefhttpmyopendesktoporgindexphpsqzwn7pq2inxfw6adownload-target_blankcheckinstall-builda" id="a-hrefhttpmyopendesktoporgindexphpsqzwn7pq2inxfw6adownload-target_blankcheckinstall-builda"><a href="http://my.opendesktop.org/index.php/s/qZWn7PQ2iNXFW6a/download" target="_blank">checkinstall-build</a></a></h4>
+<pre><code class="language-bash">git clone https://github.com/tryone144/compton
+cd compton
+aptinst -y libx11-dev libxcomposite-dev libxdamage-dev libxrender-dev libxrandr-dev libxinerama-dev libconfig-dev libdbus-1-dev libdrm-dev libgl1-mesa-dev libpcre3-dev 
+make
+aptinst -y --no-install-recommends asciidoc docbook-xml xsltproc xmlto
+make docs
+sudo make install #checkinstall
+cd ..
+rm -rfv compton
+aptinst -y libconfig9
+aptpurge -y libpthread-stubs0-dev libx11-dev libx11-doc libxau-dev libxcb1-dev libxdmcp-dev x11proto-core-dev x11proto-dev xorg-sgml-doctools xtrans-dev libxcomposite-dev libxext-dev libxfixes-dev x11proto-composite-dev x11proto-fixes-dev x11proto-xext-dev libxdamage-dev x11proto-damage-dev libxrender-dev libxrandr-dev x11proto-randr-dev libxinerama-dev x11proto-xinerama-dev libconfig-dev libconfig-doc libdbus-1-dev libdrm-dev libgl1-mesa-dev libgles1 libglvnd-core-dev libglvnd-dev libopengl0 libx11-xcb-dev libxcb-dri2-0-dev libxcb-dri3-dev libxcb-glx0-dev libxcb-present-dev libxcb-randr0-dev libxcb-render0-dev libxcb-shape0-dev libxcb-sync-dev libxcb-xfixes0-dev libxshmfence-dev libxxf86vm-dev mesa-common-dev x11proto-xf86vidmode-dev libpcre16-3 libpcre3-dev libpcre32-3 libpcrecpp0v5 asciidoc asciidoc-base asciidoc-common libxml2-utils xsltproc asciidoc asciidoc-base asciidoc-common docbook-xsl xmlto
+cp /usr/share/applications/compton.desktop ~/.config/autostart/
+echo 'OnlyShowIn=XFCE;' &gt;&gt; ~/.config/autostart/compton.desktop
+sed -i 's/TryExec/#TryExec/g' ~/.config/autostart/compton.desktop
+wget -O ~/.config/compton.conf http://my.opendesktop.org/index.php/s/SpcapKgySxmHmzG/download #update-link
+xfconf-query -c xfwm4 -np /general/use_compositing -T false
+gtk-launch compton.desktop
+</code></pre>
+<p><a href="br:compton"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<h1><a class="header" href="#lutris" id="lutris">Lutris</a></h1>
+<pre><code class="language-bash">sudo add-apt-repository -y ppa:lutris-team/lutris
+aptinst -y libvulkan1:i386 lutris
+</code></pre>
+<p><a href="br:lutris"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<p><img src="scripts/../images/lutris.png" alt="lutris" /></p>
+<h1><a class="header" href="#waterfox" id="waterfox">Waterfox</a></h1>
+<pre><code class="language-bash">echo 'deb http://download.opensuse.org/repositories/home:/hawkeye116477:/waterfox/xUbuntu_20.04/ /' | sudo tee /etc/apt/sources.list.d/waterfox.list
+wget -O- https://download.opensuse.org/repositories/home:hawkeye116477:waterfox/xUbuntu_20.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/waterfox.gpg
+aptupd
+aptinst -y waterfox-current-i18n-pt-br waterfox-current-kpe
+gtk-launch waterfox-current.desktop
+sleep 5
+killall -9 waterfox-current
+cd ~/.waterfox/*default/
+mkdir -pv chrome
+cd chrome
+git clone https://github.com/rauldipeas/waterfox-flat-remix
+[[ -s userChrome.css ]] || echo &gt;&gt; userChrome.css
+sed -i '1s/^/@import &quot;waterfox-flat-remix\/userChrome.css&quot;;\n/' userChrome.css
+ln -s chrome/waterfox-flat-remix/configuration/user.js ../user.js
+</code></pre>
+<p><a href="br:waterfox"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<h4><a class="header" href="#abra-o-painel-de-customização-do-waterfox-e-mova-o-botão-de-nova-aba-para-a-headerbar" id="abra-o-painel-de-customização-do-waterfox-e-mova-o-botão-de-nova-aba-para-a-headerbar">Abra o painel de customização do Waterfox e mova o <em>botão de nova aba</em> para a <em>headerbar</em>.</a></h4>
+<p><img src="scripts/../images/waterfox.png" alt="waterfox" /></p>
+<h1><a class="header" href="#mellowplayer" id="mellowplayer">MellowPlayer</a></h1>
+<pre><code class="language-bash">echo 'deb http://download.opensuse.org/repositories/home:/ColinDuquesnoy/xUbuntu_20.04/ /' | sudo tee /etc/apt/sources.list.d/mellowplayer.list
+wget -O- https://download.opensuse.org/repositories/home:ColinDuquesnoy/xUbuntu_20.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/mellowplayer.gpg
+aptupd
+aptinst -y mellowplayer playerctl
+xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/XF86AudioPlay -s &quot;playerctl play-pause&quot; -n -t string
+xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/XF86AudioNext -s &quot;playerctl next&quot; -n -t string
+xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/XF86AudioPrev -s &quot;playerctl previous&quot; -n -t string
+xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/&quot;&lt;Shift&gt;&quot;AudioNext -s &quot;playerctl selection 1+&quot; -n -t string
+xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/&quot;&lt;Shift&gt;&quot;AudioPrev -s &quot;playerctl selection 1-&quot; -n -t string
+mkdir -pv ~/.config/MellowPlayer
+echo '[appearance]
+custom-tray-icon=/usr/share/icons/Papirus/24x24/panel/mellowplayer-panel.svg
+show-tray-icon=true
+theme=Default
+
+[main]
+close-to-tray=true' &gt; ~/.config/MelloyPlayer/MellowPlayer3.conf
+</code></pre>
+<p><a href="br:mellowplayer"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<h1><a class="header" href="#qownnotes" id="qownnotes">QOwnNotes</a></h1>
+<pre><code class="language-bash">sudo add-apt-repository -y ppa:pbek/qownnotes
+aptinst -y qownnotes
+</code></pre>
+<p><a href="br:qownnotes"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<ul>
+<li><a href="https://addons.mozilla.org/pt-BR/firefox/addon/qownnotes-web-companion/" target="_blank"><strong>Firefox QOwnNotes Web Companion</strong></a></li>
+</ul>
+<h1><a class="header" href="#syncthing" id="syncthing">Syncthing</a></h1>
+<pre><code class="language-bash">echo &quot;deb https://apt.syncthing.net/ syncthing stable&quot; | sudo tee /etc/apt/sources.list.d/syncthing.list
+wget -O- https://syncthing.net/release-key.txt | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/syncthing.gpg
+aptupd
+aptinst -y syncthing-gtk
+</code></pre>
+<p><a href="br:syncthing"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<h1><a class="header" href="#google-drive" id="google-drive">Google Drive</a></h1>
+<pre><code class="language-bash">sudo add-apt-repository -y ppa:alessandro-strada/ppa
+aptinst -y google-drive-ocamlfuse
+mkdir -pv ~/Google\ Drive
+sudo mkdir -pv /usr/local/bin
+sudo wget -O /usr/share/applications/google-drive.desktop http://my.opendesktop.org/s/L234JfnxHwZRSML/download #update-link
+gef http://my.opendesktop.org/s/F2bd4As8LKgMcEL/download /usr/local/bin/google-drive.sh #update-link
+google-drive-ocamlfuse ~/Google\ Drive
+</code></pre>
+<p><a href="br:google-drive"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<h1><a class="header" href="#Ícones-de-pasta" id="Ícones-de-pasta">Ícones de pasta</a></h1>
+<pre><code class="language-bash">aptinst -y librsvg2-bin
+sudo wget -O /usr/share/thumbnailers/folder.thumbnailer http://my.opendesktop.org/s/72T6aimS5dWikL6/download #update-link
+gef http://my.opendesktop.org/s/jbtRBMTc2bJeFAQ/download /usr/bin/folder-thumbnailer #update-link
+mkdir -pv ~/.config/Thunar
+wget -O ~/.config/Thunar/uca.xml http://my.opendesktop.org/s/887f3rPPZyAbqLs/download #update-link
+</code></pre>
+<p><a href="br:folder-icon"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<p><img src="scripts/../images/thunar-folder-icon.png" alt="thunar-folder-icons" /></p>
+<h1><a class="header" href="#x-tile" id="x-tile">X Tile</a></h1>
+<pre><code class="language-bash">sudo add-apt-repository -y ppa:giuspen/ppa
+aptinst -y x-tile
+sudo hardcode-tray --apply --only x-tile --size 16
+mkdir -pv ~/.config/autostart ~/.config/x-tile
+cp -rfv /usr/share/applications/x-tile.desktop ~/.config/autostart
+wget -O ~/.config/x-tile/-apps-x-tile-0-not_minimized http://my.opendesktop.org/s/NtPY3D3kfGkC8ZN/download
+wget -O ~/.config/x-tile/-apps-x-tile-0-only_curr_desk http://my.opendesktop.org/s/XtWXgzxDtRWmGQJ/download
+wget -O ~/.config/x-tile/-apps-x-tile-0-systray_enable http://my.opendesktop.org/s/Ck4gqzNngpmqY6z/download
+wget -O ~/.config/x-tile/-apps-x-tile-0-systray_start http://my.opendesktop.org/s/RkSrKqgm6LZqAyZ/download
+</code></pre>
+<p><a href="br:x-tile"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<h1><a class="header" href="#telegram" id="telegram">Telegram</a></h1>
+<pre><code class="language-bash">wget -O telegram.tar.xz https://telegram.org/dl/desktop/linux
+tar -xvf telegram.tar.xz -C $HOME/.local/share/
+rm -rfv telegram.tar.xz
+$HOME/.local/share/Telegram/Telegram 2&amp;1&gt; /dev/null
+</code></pre>
+<p><a href="br:telegram"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<h1><a class="header" href="#vscodium" id="vscodium">VSCodium</a></h1>
+<pre><code class="language-bash">wget -O- https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/vscodium.gpg
+echo 'deb https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/repos/debs/ vscodium main' | sudo tee /etc/apt/sources.list.d/vscodium.list 
+aptupd
+aptinst -y codium
+xdg-mime default thunar.desktop inode/directory
+</code></pre>
+<p><a href="br:vscodium"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<h1><a class="header" href="#pje-office" id="pje-office">PJe Office</a></h1>
+<pre><code class="language-bash">wget -O PJe.zip http://my.opendesktop.org/s/2a65eG4rqf3oLSP/download
+unzip PJe.zip
+aptinst -y ./*.deb
+sudo cp pje-office.desktop /usr/share/applications/pje-office.desktop
+rm -rfv *.deb *.desktop *.zip
+</code></pre>
+<p><a href="br:pjeoffice"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<p><img src="scripts/../images/pjeoffice.png" alt="pjeoffice" /></p>
+<h1><a class="header" href="#hblock" id="hblock">hBlock</a></h1>
+<pre><code class="language-bash">sudo mkdir -pv /usr/local/bin
+gef https://raw.githubusercontent.com/hectorm/hblock/v2.1.6/hblock /usr/local/bin/hblock
+hblock
+</code></pre>
+<p><a href="br:hblock"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<h1><a class="header" href="#cleanup" id="cleanup">CleanUp</a></h1>
+<pre><code class="language-bash">aptpurge -y \
+    gnome-mines \
+    gnome-sudoku \
+    parole \
+    pidgin \
+    pidgin-data \
+    pidgin-otr \
+    sgt-launcher \
+    sgt-puzzles \
+    transmission-common \
+    transmission-gtk \
+    thunderbird \
+    thunderbird-locale-en \
+    thunderbird-locale-en-us \
+    thunderbird-locale-pt \
+    thunderbird-locale-pt-br \
+    xfburn \
+    xfce4-notes \
+    xfce4-notes-plugin \
+    xfce4-screenshooter
+</code></pre>
+<p><a href="br:uninstall-duplicity"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+<h2><a class="header" href="#gestures" id="gestures">Gestures</a></h2>
+<pre><code class="language-bash">wget -O ~/.config/libinput-gestures.conf http://my.opendesktop.org/s/y5PDNkKnNywgxwm/download #update-link
+</code></pre>
+<h2><a class="header" href="#rofi-1" id="rofi-1">Rofi</a></h2>
+<pre><code class="language-bash">wget -O ~/.config/rofi/config http://my.opendesktop.org/s/smkePRgsYJSDmCM/download #update-link
+wget -O ~/.config/rofi/fullscreen.rasi http://my.opendesktop.org/s/jzSpr9PYXYmQR2G/download #update-link
+wget -O ~/.config/rofi/sidebar.rasi http://my.opendesktop.org/s/K4QbRoyZDJ2g9wF/download #update-link
+</code></pre>
+<h2><a class="header" href="#skippy-xd-1" id="skippy-xd-1">Skippy-XD</a></h2>
+<pre><code class="language-bash">wget -O ~/.config/skippy-xd/skippy-xd.rc http://my.opendesktop.org/s/3B4wix3bTdLCzJL/download #update-link
+</code></pre>
+<h2><a class="header" href="#linux-notification-center-1" id="linux-notification-center-1">Linux Notification Center</a></h2>
+<pre><code class="language-bash">wget -O ~/.config/deadd/deadd.conf http://my.opendesktop.org/s/RQk9oJDzgrAk7RZ/download #update-link
+</code></pre>
+<h2><a class="header" href="#volumeicon-alsa" id="volumeicon-alsa">VolumeIcon ALSA</a></h2>
+<pre><code class="language-bash">wget -O ~/.config/volumeicon/volumeicon http://my.opendesktop.org/index.php/s/tw8kNw3pjdQbfwB/download #update-link
+</code></pre>
+<h2><a class="header" href="#panel" id="panel">Panel</a></h2>
+<pre><code class="language-bash">wget -O ~/.config/tint2/tint2rc http://my.opendesktop.org/s/EGoHb5XDttH4DLr/download #update-link
+wget -O ~/.config/xfce4/panel/weather-8.rc http://my.opendesktop.org/s/77x94myzedArZit/download #update-link
+wget -O ~/.local/share/xfce4-panel-profiles/Raul\ Dipeas.tar.bz2 http://my.opendesktop.org/s/DerCwxX84qstx7n
+xfce4-panel-profiles load ~/.local/share/xfce4-panel-profiles/Raul\ Dipeas.tar.bz2
+</code></pre>
+<h2><a class="header" href="#compton-1" id="compton-1">Compton</a></h2>
+<pre><code class="language-bash">wget -O ~/.config/compton.conf http://my.opendesktop.org/index.php/s/SpcapKgySxmHmzG/download #update-link
+</code></pre>
+<h2><a class="header" href="#x-tile-1" id="x-tile-1">X Tile</a></h2>
+<pre><code class="language-bash">wget -O ~/.config/x-tile/-apps-x-tile-0-not_minimized http://my.opendesktop.org/s/NtPY3D3kfGkC8ZN/download
+wget -O ~/.config/x-tile/-apps-x-tile-0-only_curr_desk http://my.opendesktop.org/s/XtWXgzxDtRWmGQJ/download
+wget -O ~/.config/x-tile/-apps-x-tile-0-systray_enable http://my.opendesktop.org/s/Ck4gqzNngpmqY6z/download
+wget -O ~/.config/x-tile/-apps-x-tile-0-systray_start http://my.opendesktop.org/s/RkSrKqgm6LZqAyZ/download
+</code></pre>
+<p><a href="br:update-settings"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+        
+        
+        <script type="text/javascript">
+            window.playpen_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+        
+        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+        
+        
+
+    </body>
+</html>
