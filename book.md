@@ -28,21 +28,21 @@ Acompanhe as atualizações do projeto através do canal no <a href="https://t.m
 
 Acesse o servidor <a href="https://discord.gg/bEVNHfg" target="_blank"><strong>Linux Brasil</strong></a> no <a href="https://discord.gg/bEVNHfg" target="_blank"><strong>Discord</strong></a> e tire todas as suas dúvidas sobre Linux com os demais usuários.
 
-<a href="https://discord.gg/bEVNHfg" target="_blank"><img src="images/discord-banner.png"></a>
+<a href="https://discord.gg/bEVNHfg" target="_blank"><img src="images/discord-banner.png" style="border-radius: 10px;"></a>
 
 <!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
+<!--<div id="fb-root"></div>-->
 
 <!-- Your customer chat code -->
-<div class="fb-customerchat"
+<!--<div class="fb-customerchat"
   attribution=setup_tool
   page_id="100113718305981"
   greeting_dialog_display="hide"
   logged_in_greeting="Em que posso te ajudar?"
   logged_out_greeting="Em que posso te ajudar?">
-</div>
+</div>-->
 
-<script>
+<!--<script>
 window.fbAsyncInit = function() {
   FB.init({
     xfbml            : true,
@@ -56,4 +56,4 @@ window.fbAsyncInit = function() {
   js.src = 'https://connect.facebook.net/pt_BR/sdk/xfbml.customerchat.js';
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
-</script>
+</script>-->
