@@ -5,6 +5,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
+      - uses: mikeal/npx@master
+        args: webpack
+      - run: |
+          npx embedme scripts/apt.md
+          npx emdebme scripts/debs.md
       - uses: peaceiris/actions-mdbook@v1
       - run: |
           mdbook init --force xfscripts

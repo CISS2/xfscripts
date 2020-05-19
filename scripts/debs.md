@@ -1,88 +1,54 @@
 # Debs
  - <a href="https://www.4kdownload.com/pt-br/products/product-videodownloader" target="_blank"><strong>4kVideoDownloader</strong></a> #login
-```bash
-sudo sed -i 's/.png//g' /usr/share/applications/4k*
-```
+    ```bash
+    # settings-4k.md
+    ```
+    [![bashrun](../images/bashrun.png)](br:settings-4k)
+#
  - <a href="https://www.4kdownload.com/pt-br/products/product-stogram" target="_blank"><strong>4kStogram</strong></a> #login
-```bash
-sudo sed -i 's/.png//g' /usr/share/applications/4k*
-```
+    ```bash
+    # settings-4k.md
+    ```
+    [![bashrun](../images/bashrun.png)](br:settings-4k)
+#
  - <a href="https://github.com/TheAssassin/AppImageLauncher/releases" target="_blank"><strong>AppImageLauncher</strong></a>
-```bash
-echo "[AppImageLauncher]
-ask_to_move=true
-destination=$HOME/.local/bin
-enable_daemon=true
-
-[appimagelauncherd]
-%23%20additional_directories_to_watch=~/otherApplications:/even/more/applications
-%23%20monitor_mounted_filesystems=false" > ~/.config/appimagelauncher.cfg
-```
+    ```bash
+    # settings-appimagelauncher.md
+    ```
+    [![bashrun](../images/bashrun.png)](br:settings-appimagelauncher)
+#
  - <a href="https://github.com/crow-translate/crow-translate/releases" target="_blank"><strong>Crow translate</strong></a>
+#
  - <a href="https://discord.com" target="_blank"><strong>Discord</strong></a> <a href="https://dl.discordapp.net/apps/linux/0.0.10/discord-0.0.10.deb">#direct-link</a> #login
-```bash
-discord&
-sleep 5
-killall -9 Discord
-aptinst -y npm
-sudo npm install -g asar
-asar e $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core.asar $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core
-rsvg-convert -w 24 -h 24 -f png -a /usr/share/icons/Papirus/24x24/panel/discord-tray.svg > $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core/app/images/systemtray/linux/tray.png
-rsvg-convert -w 24 -h 24 -f png -a /usr/share/icons/Papirus/24x24/panel/discord-tray-unread.svg > $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core/app/images/systemtray/linux/tray-unread.png
-asar p $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core.asar
-rm -rfv $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core
-```
+    ```bash
+    # settings-discord.md
+    ```
+    [![bashrun](../images/bashrun.png)](br:settings-discord)
+#
  - <a href="https://www.dropbox.com/install" target="_blank"><strong>Dropbox</strong></a> #login #sync-files
+#
  - <a href="https://packages.ubuntu.com/xenial/amd64/gcolor2/download" target="_blank"><strong>GColor2</strong></a> <a href="http://mirrors.kernel.org/ubuntu/pool/universe/g/gcolor2/gcolor2_0.4-2.1ubuntu1_amd64.deb" target="_blank">#direct-link</a>
- ```bash
- sudo sed -i 's/\/usr\/share\/pixmaps\/gcolor2\/gcolor2.xpm/gcolor2/g' /usr/share/applications/gcolor2.desktop
- ```
+    ```bash
+    # settings gcolor2.md
+    ```
+    [![bashrun](../images/bashrun.png)](br:settings-gcolor2)
+#
  - <a href="https://github.com/ksnip/ksnip/releases" target="_blank"><strong>Ksnip</strong></a>
-```bash
-mkdir -pv ~/.config/ksnip
-echo "[Application]
-AlwaysCopyToClipboard=true
-ApplicationStyle=gtk2
-PromptSaveBeforeExit=false
-UseTrayIcon=false
-
-[Painter]
-NumberFont=@Variant(\0\0\0@\0\0\0\x14\0Z\0\x30\0\x30\0\x33\0 \0[\0u\0r\0w\0]@>\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0K\x10)
-TextFont=@Variant(\0\0\0@\0\0\0\x12\0N\0o\0t\0o\0 \0S\0\x61\0n\0s@(\0\0\0\0\0\0\xff\xff\xff\xff\x5\x1\0\x32\x10)" > ~/.config/ksnip/ksnip.conf
-xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/"<Alt>"Print -s "ksnip -a" -n -t string
-xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/"<Shift>"Print -s "ksnip -r" -n -t string
-xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/Print -s "ksnip -f" -n -t string
-```
+    ```bash
+    # settings-ksnip.md
+    ```
+    [![bashrun](../images/bashrun.png)](br:settings-ksnip)
+#
  - <a href="https://mega.nz/sync" target="_blank"><strong>Megasync</strong></a> #login #sync_files
  - <a href="https://www.nomachine.com/download/linux&amp;id=1" target="_blank"><strong>NoMachine</strong></a> #dark-theme
  - <a href="https://packages.ubuntu.com/eoan/amd64/patchage/download" target="_blank"><strong>Patchage</strong></a> <a href="http://mirrors.kernel.org/ubuntu/pool/universe/p/patchage/patchage_1.0.0~dfsg0-0.2_amd64.deb" target="_blank">#direct-link</a> `--no-install-recommends`
+#
  - <a href="https://github.com/ramboxapp/community-edition/releases" target="_blank"><strong>Rambox</strong></a> <a href="http://my.opendesktop.org/s/9Nq2Z9LffAwQCXm" target="_blank">#custom CSS</a> #login #sync_accounts
-```bash
-aptinst -y npm
-sudo npm install -g asar
-asar e /opt/Rambox/resources/app.asar app
-echo '
-/**
- * Dark background
- */
-.x-tab {
-  background-color: #000000
-}
-.x-tab:hover {
-  background-color: #090909
-}
-.x-tab-bar-body {
-  background-color: #000000
-}
-.x-tab.x-tab-active.x-tab-default {
-  border-color: white;
-  background-color: #090909
-}' >> app/resources/Rambox-all.css
-asar p app app.asar
-sudo cp -rfv app.asar /opt/Rambox/resources/app.asar
-rm -rfv app app.asar
-xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/XF86Messenger -s "rambox" -n -t string
-```
+    ```bash
+    # settings-rambox.md
+    ```
+    [![bashrun](../images/bashrun.png)](br:settings-gdebi)
+#
  - <a href="https://www.rememberthemilk.com/services/linux/" target="_blank"><strong>Remember The Milk</strong></a> #login
  - <a href="https://send-anywhere.com/file-transfer" target="_blank"><strong>Send Anywhere</strong></a> #login
  - <a href="https://www.skype.com/pt-br/get-skype/" target="_blank"><strong>Skype</strong></a> #login
