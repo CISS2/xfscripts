@@ -2,6 +2,7 @@
 ```bash
 sudo add-apt-repository -y ppa:giuspen/ppa
 aptinst -y x-tile
+sudo hardcode-tray --apply --only x-tile --size 16
 mkdir -pv ~/.config/autostart ~/.config/x-tile
 cp -rfv /usr/share/applications/x-tile.desktop ~/.config/autostart
 wget -O ~/.config/x-tile/-apps-x-tile-0-not_minimized http://my.opendesktop.org/s/NtPY3D3kfGkC8ZN/download
@@ -10,4 +11,3 @@ wget -O ~/.config/x-tile/-apps-x-tile-0-systray_enable http://my.opendesktop.org
 wget -O ~/.config/x-tile/-apps-x-tile-0-systray_start http://my.opendesktop.org/s/RkSrKqgm6LZqAyZ/download
 ```
 [![bashrun](../images/bashrun.png)](br:x-tile)
-
