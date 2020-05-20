@@ -29,7 +29,7 @@
 #
  - <a href="https://packages.ubuntu.com/xenial/amd64/gcolor2/download" target="_blank"><strong>GColor2</strong></a> <a href="http://mirrors.kernel.org/ubuntu/pool/universe/g/gcolor2/gcolor2_0.4-2.1ubuntu1_amd64.deb" target="_blank">#direct-link</a>
     ```bash
-    # settings gcolor2.md
+    # settings-gcolor2.md
     ```
     [![bashrun](../images/bashrun.png)](br:settings-gcolor2)
 #
