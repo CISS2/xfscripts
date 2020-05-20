@@ -1,4 +1,4 @@
-![xfscripts](images/xfscripts-banner.png)
+![xfscripts](src/images/xfscripts-banner.png)
 
 ## Bem vindo!
 
@@ -6,7 +6,7 @@ Este repositório contém scripts de personalização otimizados para o [**Xubun
 
 Saiba mais sobre os scripts através das postagens [**neste blog**](https://blog.rauldipeas.tk/xfscripts).
 
-![xfscripts](images/xfscripts.png)
+![xfscripts](src/images/xfscripts.png)
 
 ## Instalação
 
@@ -26,4 +26,4 @@ Acompanhe as atualizações do projeto através do canal no [**Telegram**](https
 
 Acesse o servidor [**Linux Brasil**](https://discord.gg/bEVNHfg) no [**Discord**](https://discord.gg/bEVNHfg) e tire todas as suas dúvidas sobre Linux com os demais usuários.
 
-[![discord](images/discord-banner.png)](https://discord.gg/bEVNHfg)
+[![discord](src/images/discord-banner.png)](https://discord.gg/bEVNHfg)
