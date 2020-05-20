@@ -9,13 +9,13 @@ jobs:
         with:
           args: webpack
       - run: |
-          npx embedme scripts/apt.md
-          npx embedme scripts/debs.md
+          npx embedme src/scripts/apt.md
+          npx embedme src/scripts/debs.md
       - uses: peaceiris/actions-mdbook@v1
       - run: |
           mdbook init --force xfscripts
-          cp -varf `ls | grep -v xfscripts | grep -v local-build.sh` xfscripts/src/
-          mv -v xfscripts/src/book.toml xfscripts/
+          cp -varf src xfscripts/
+          cp -varf book.toml xfscripts/
           mdbook build xfscripts
       - uses: dswistowski/surge-sh-action@v1
         with:

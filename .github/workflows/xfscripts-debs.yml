@@ -3,13 +3,13 @@ on:
   push:
     branches-ignore:
       - 'releases/**'
+      - 'gh-pages/**'
     paths-ignore:
-      - '_config.yml'
-      - 'book.md'
-      - 'book.tml'
-      - 'favicon.png'
+      - 'book.toml'
       - 'readme.md'
-      - 'images/**'
+      - 'src/book.md'
+      - 'src/favicon.png'
+      - 'src/images/**'
 jobs:
   build:
     runs-on: ubuntu-latest
