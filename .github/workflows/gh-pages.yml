@@ -17,12 +17,6 @@ jobs:
           cp -varf src xfscripts/
           cp -varf book.toml xfscripts/
           mdbook build xfscripts
-      - uses: dswistowski/surge-sh-action@v1
-        with:
-          domain: 'xfscripts.rauldipeas.tk'
-          project: 'xfscripts/book'
-          login: ${{ secrets.SURGE_LOGIN }}
-          token: ${{ secrets.SURGE_TOKEN }}
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GH_PAGES_TOKEN }}
@@ -36,7 +30,7 @@ jobs:
           message: |
             Acabei de fazer uma atualização no XFScripts, não deixe de conferir!
             https://github.com/${{ github.repository }}/commit/${{ github.sha }}
-            https://xfscripts.rauldipeas.tk #xubuntu #xfscripts
+            https://rauldipeas.github.io/xfscripts #xubuntu #xfscripts
       - uses: appleboy/telegram-action@master
         with:
           to: ${{ secrets.TELEGRAM_TO }}
@@ -46,7 +40,7 @@ jobs:
           message: |
             Acabei de fazer uma atualização no XFScripts... Não deixe de conferir!
             https://github.com/rauldipeas/xfscripts/commit/{{ commit.sha }}
-            https://xfscripts.rauldipeas.tk
+            https://rauldipeas.github.io/xfscripts
       - name: Discord notification
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}

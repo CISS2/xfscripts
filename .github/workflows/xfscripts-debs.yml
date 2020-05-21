@@ -63,7 +63,7 @@ jobs:
           message: |
             Pacotes novos do XFScripts acabam de ser compilados, atualize seu sistema!
             http://my.opendesktop.org/s/xsJkwQQqXzM5rBB
-            https://xfscripts.rauldipeas.tk #xubuntu #xfscripts
+            https://rauldipeas.github.io/xfscripts #xubuntu #xfscripts
       - uses: appleboy/telegram-action@master
         with:
           to: ${{ secrets.TELEGRAM_TO }}
@@ -71,7 +71,7 @@ jobs:
           message: |
             Pacotes novos do XFScripts acabam de ser compilados... Atualize seu sistema!
             http://my.opendesktop.org/s/xsJkwQQqXzM5rBB
-            https://xfscripts.rauldipeas.tk
+            https://rauldipeas.github.io/xfscripts
       - uses: Ilshidur/action-discord@master
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}

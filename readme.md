@@ -4,7 +4,7 @@
 
 Este repositório contém scripts de personalização otimizados para o [**Xubuntu**](https://xubuntu.org) [**20.04**](https://xubuntu.org/release/20-04/).
 
-Saiba mais sobre os scripts através das postagens [**neste blog**](https://blog.rauldipeas.tk/xfscripts).
+Saiba mais sobre os scripts através das postagens [**neste blog**](https://rauldipeas.github.io/blog/xfscripts).
 
 ![xfscripts](src/images/xfscripts.png)
 
