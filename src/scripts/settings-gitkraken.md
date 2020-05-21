@@ -1,0 +1,1 @@
+sudo sed -i 's/\/usr\/share\/pixmaps\/gitkraken.png/gitkraken/g' /usr/share/applications/gitkraken.desktop

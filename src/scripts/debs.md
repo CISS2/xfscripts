@@ -17,6 +17,7 @@
     ```
     [![bashrun](../images/bashrun.png)](br:settings-appimagelauncher)
 #
+ - <a href="https://bitwarden.com/#download" target="_blank"><strong>Bitwarden</strong></a> #login
  - <a href="https://github.com/crow-translate/crow-translate/releases" target="_blank"><strong>Crow translate</strong></a>
 #
  - <a href="https://discord.com" target="_blank"><strong>Discord</strong></a> <a href="https://dl.discordapp.net/apps/linux/0.0.10/discord-0.0.10.deb">#direct-link</a> #login
@@ -33,6 +34,12 @@
     ```
     [![bashrun](../images/bashrun.png)](br:settings-gcolor2)
 #
+ - <a href="https://www.gitkraken.com/download" target="_blank"><strong>GitKraken</strong></a> #login
+    ```bash
+    # settings-gitkraken.md
+    ```
+    [![bashrun](../images/bashrun.png)](br:settings-gcolor2)
+#
  - <a href="https://github.com/ksnip/ksnip/releases" target="_blank"><strong>Ksnip</strong></a>
     ```bash
     # settings-ksnip.md
@@ -40,6 +47,7 @@
     [![bashrun](../images/bashrun.png)](br:settings-ksnip)
 #
  - <a href="https://mega.nz/sync" target="_blank"><strong>Megasync</strong></a> #login #sync_files
+ - <a href="https://minbrowser.org/" target="_blank"><strong>Min</strong></a>
  - <a href="https://www.nomachine.com/download/linux&amp;id=1" target="_blank"><strong>NoMachine</strong></a> #dark-theme
  - <a href="https://packages.ubuntu.com/eoan/amd64/patchage/download" target="_blank"><strong>Patchage</strong></a> <a href="http://mirrors.kernel.org/ubuntu/pool/universe/p/patchage/patchage_1.0.0~dfsg0-0.2_amd64.deb" target="_blank">#direct-link</a> `--no-install-recommends`
 #
