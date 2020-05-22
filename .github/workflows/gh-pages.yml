@@ -9,8 +9,7 @@ jobs:
         with:
           args: webpack
       - run: |
-          npx embedme src/scripts/apt.md
-          npx embedme src/scripts/debs.md
+          npx embedme src/scripts/apt.md src/scripts/debs.md
       - uses: peaceiris/actions-mdbook@v1
       - run: |
           mdbook init --force xfscripts
