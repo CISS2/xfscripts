@@ -1,4 +1,5 @@
 ![xfscripts](src/images/xfscripts-banner.png)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frauldipeas%2Fxfscripts.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Frauldipeas%2Fxfscripts?ref=badge_shield)
 
 ## Bem vindo!
 
