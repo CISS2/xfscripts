@@ -1,4 +1,4 @@
-discord&
+gtk-launch discord-desktop
 sleep 5
 killall -9 Discord
 aptinst -y npm
