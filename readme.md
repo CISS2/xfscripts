@@ -29,5 +29,4 @@ Acesse o servidor [**Linux Brasil**](https://discord.gg/bEVNHfg) no [**Discord**
 
 [![discord](src/images/discord-banner.png)](https://discord.gg/bEVNHfg)
 
-## License
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frauldipeas%2Fxfscripts.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frauldipeas%2Fxfscripts?ref=badge_large)
