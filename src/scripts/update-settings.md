@@ -24,7 +24,7 @@ wget -O ~/.config/volumeicon/volumeicon http://my.opendesktop.org/index.php/s/tw
 ```bash
 wget -O ~/.config/tint2/tint2rc http://my.opendesktop.org/s/EGoHb5XDttH4DLr/download #update-link
 wget -O ~/.config/xfce4/panel/weather-8.rc http://my.opendesktop.org/s/77x94myzedArZit/download #update-link
-wget -O ~/.local/share/xfce4-panel-profiles/Raul\ Dipeas.tar.bz2 http://my.opendesktop.org/s/DerCwxX84qstx7n
+wget -O ~/.local/share/xfce4-panel-profiles/Raul\ Dipeas.tar.bz2 http://my.opendesktop.org/s/DerCwxX84qstx7n/download #update-link
 xfce4-panel-profiles load ~/.local/share/xfce4-panel-profiles/Raul\ Dipeas.tar.bz2
 ```
 ## Compton
@@ -33,9 +33,9 @@ wget -O ~/.config/compton.conf http://my.opendesktop.org/index.php/s/SpcapKgySxm
 ```
 ## X Tile
 ```bash
-wget -O ~/.config/x-tile/-apps-x-tile-0-not_minimized http://my.opendesktop.org/s/NtPY3D3kfGkC8ZN/download
-wget -O ~/.config/x-tile/-apps-x-tile-0-only_curr_desk http://my.opendesktop.org/s/XtWXgzxDtRWmGQJ/download
-wget -O ~/.config/x-tile/-apps-x-tile-0-systray_enable http://my.opendesktop.org/s/Ck4gqzNngpmqY6z/download
-wget -O ~/.config/x-tile/-apps-x-tile-0-systray_start http://my.opendesktop.org/s/RkSrKqgm6LZqAyZ/download
+wget -O ~/.config/x-tile/-apps-x-tile-0-not_minimized http://my.opendesktop.org/s/NtPY3D3kfGkC8ZN/download #update-link
+wget -O ~/.config/x-tile/-apps-x-tile-0-only_curr_desk http://my.opendesktop.org/s/XtWXgzxDtRWmGQJ/download #update-link
+wget -O ~/.config/x-tile/-apps-x-tile-0-systray_enable http://my.opendesktop.org/s/Ck4gqzNngpmqY6z/download #update-link
+wget -O ~/.config/x-tile/-apps-x-tile-0-systray_start http://my.opendesktop.org/s/RkSrKqgm6LZqAyZ/download #update-link
 ```
 [![bashrun](../images/bashrun.png)](br:update-settings)
