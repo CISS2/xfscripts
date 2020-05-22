@@ -27,3 +27,5 @@ Acompanhe as atualizações do projeto através do canal no [**Telegram**](https
 Acesse o servidor [**Linux Brasil**](https://discord.gg/bEVNHfg) no [**Discord**](https://discord.gg/bEVNHfg) e tire todas as suas dúvidas sobre Linux com os demais usuários.
 
 [![discord](src/images/discord-banner.png)](https://discord.gg/bEVNHfg)
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frauldipeas%2Fxfscripts.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frauldipeas%2Fxfscripts?ref=badge_large)
