@@ -38,7 +38,7 @@
     ```bash
     # settings-gitkraken.md
     ```
-    [![bashrun](../images/bashrun.png)](br:settings-gcolor2)
+    [![bashrun](../images/bashrun.png)](br:settings-gitkraken)
 #
  - <a href="https://github.com/ksnip/ksnip/releases" target="_blank"><strong>Ksnip</strong></a>
     ```bash
