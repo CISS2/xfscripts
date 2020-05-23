@@ -34,6 +34,12 @@
     ```
     [![bashrun](../images/bashrun.png)](br:settings-gcolor2)
 #
+ - <a href="https://packages.ubuntu.com/eoan/gimp-python" target="_blank"><strong>GIMP Python</strong></a> <a href="http://mirrors.kernel.org/ubuntu/pool/universe/g/gimp/gimp-python_2.10.8-2_amd64.deb" target="_blank">#direct-link</a>
+   ```bash
+    # settings-gimp-python.md
+    ```
+    [![bashrun](../images/bashrun.png)](br:settings-gimp-python)
+#
  - <a href="https://www.gitkraken.com/download" target="_blank"><strong>GitKraken</strong></a> #login
     ```bash
     # settings-gitkraken.md
