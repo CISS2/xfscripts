@@ -1,6 +1,7 @@
 # CleanUp
 ```bash
 aptpurge -y \
+    gnome-font-viewer \
     gnome-mines \
     gnome-sudoku \
     parole \

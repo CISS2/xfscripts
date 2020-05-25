@@ -7,6 +7,7 @@
  - <a href="apt:dropbear"><strong>Dropbear</strong></a>
     - <a href="apt:openssh-sftp-server"><strong>OpenSSH SFTP server</strong></a>
  - <a href="apt:feedreader"><strong>FeedReader</strong></a> #login (Feedly)
+ - <a href="apt:font-manager"><strong>Font Manager</strong></a>
 #
  - <a href="apt:gdebi"><strong>GDebI</strong></a> `--no-install-recommends`
    ```bash
