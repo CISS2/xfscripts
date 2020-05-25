@@ -26,6 +26,7 @@ sudo rm -rfv rofi*
 mkdir -pv ~/.config/rofi
 wget -O ~/.config/rofi/config http://my.opendesktop.org/s/smkePRgsYJSDmCM/download #update-link
 wget -O ~/.config/rofi/fullscreen.rasi http://my.opendesktop.org/s/jzSpr9PYXYmQR2G/download #update-link
+wget -O ~/.config/rofi/menu.rasi http://my.opendesktop.org/s/37nM6FRk9CxBw4H/download #update-link
 wget -O ~/.config/rofi/sidebar.rasi http://my.opendesktop.org/s/K4QbRoyZDJ2g9wF/download #update-link
 xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/"<Super>"x -s "rofi -show drun" -n -t string
 ```
