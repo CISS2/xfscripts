@@ -76,5 +76,5 @@ jobs:
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         with:
-          args: "Pacotes novos do XFScripts acabam de ser compilados, atualize seu sistema!
+          args: "Pacotes novos do **XFScripts** acabam de ser compilados, atualize seu sistema!
             http://my.opendesktop.org/s/xsJkwQQqXzM5rBB"

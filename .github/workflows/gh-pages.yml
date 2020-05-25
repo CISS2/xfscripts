@@ -45,7 +45,7 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         uses: Ilshidur/action-discord@master
         with:
-          args: "Acabei de fazer uma atualização no XFScripts, não deixe de conferir!"
+          args: "Acabei de fazer uma atualização no **XFScripts**, não deixe de conferir!"
       - name: Discord notification
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
