@@ -45,6 +45,7 @@ MiscToolbarDefault=TRUE
 ScrollingBar=TERMINAL_SCROLLBAR_NONE
 ScrollingOnOutput=FALSE' > ~/.config/xfce4/terminal/terminalrc
 xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/Insert -s "xfce4-terminal --drop-down" -n -t string
+xfconf-query -c thunar -np /misc-exec-shell-scripts-by-default -t bool -s true
 sudo wget -O /usr/local/bin/gef http://my.opendesktop.org/s/LcKks6gNqYXZokA/download #update-link
 sudo chmod +x -v /usr/local/bin/gef
 exit
