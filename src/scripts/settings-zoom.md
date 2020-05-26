@@ -1,0 +1,1 @@
+sudo sed -i 's/.png//g' /usr/share/applications/Zoom.desktop
