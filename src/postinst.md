@@ -38,6 +38,7 @@
  - [**VSCodium**](scripts/vscodium.md) (_extras_)
  - [**PJeOffice**](scripts/pjeoffice.md) (_extras_)
  - [**hBlock**](scripts/hblock.md) (_extras_)
+ - [**Persepolis**](scripts/persepolis.md) (_extras_)
  - [**CleanUp**](scripts/uninstall-duplicity.md) (_extras_)
 
 #### Desktop
