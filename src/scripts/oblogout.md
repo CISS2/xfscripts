@@ -7,4 +7,4 @@ rm -rfv oblogout.zip oblogout*.deb python-gtk2*.deb python-imaging*.deb
 ```
 [![bashrun](../images/bashrun.png)](br:oblogout)
 
-![lutris](../images/oblogout.png)
+![oblogout](../images/oblogout.png)
