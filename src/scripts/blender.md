@@ -10,3 +10,5 @@ cp -rfv $HOME/.local/share/blender/blender.desktop $HOME/.local/share/applicatio
 sed -i "s/Exec=blender/Exec=.local\/share\/blender\/blender/g" $HOME/.local/share/applications/blender.desktop
 ```
 [![bashrun](../images/bashrun.png)](br:blender)
+
+![blender](../images/blender.png)
