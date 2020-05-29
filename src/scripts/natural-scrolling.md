@@ -14,3 +14,5 @@ Hidden=false
 Icon=mouse' | tee ~/.config/autostart/naturalscrolling.desktop
 ```
 [![bashrun](../images/bashrun.png)](br:natural-scrolling)
+
+![naturalscrolling](../images/naturalscrolling.gif)
