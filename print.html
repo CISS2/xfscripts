@@ -583,11 +583,19 @@ wget -O ~/.config/rofi/fullscreen.rasi http://my.opendesktop.org/s/jzSpr9PYXYmQR
 wget -O ~/.config/rofi/menu.rasi http://my.opendesktop.org/s/37nM6FRk9CxBw4H/download #update-link
 wget -O ~/.config/rofi/sidebar.rasi http://my.opendesktop.org/s/K4QbRoyZDJ2g9wF/download #update-link
 xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/&quot;&lt;Super&gt;&quot;x -s &quot;rofi -show drun&quot; -n -t string
+xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/&quot;&lt;Super&gt;&quot;b -s &quot;rofi -show drun -theme sidebar&quot; -n -t string
+xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/&quot;&lt;Super&gt;&quot;k -s &quot;rofi -show drun -theme menu&quot; -n -t string
 </code></pre>
 <p><a href="br:rofi"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
-<p><img src="scripts/../images/rofi.png" alt="rofi" />
-<img src="scripts/../images/rofi-sidebar.png" alt="rofi-sidebar" /></p>
-<h1><a class="header" href="#skippy-xd" id="skippy-xd">Skippy-XD</a></h1>
+<iframe
+    width="100%"
+    height="422"
+    src="https://www.youtube.com/embed/WuxwgQVZ1Bw"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    style="border-radius: 10px;"
+></iframe><h1><a class="header" href="#skippy-xd" id="skippy-xd">Skippy-XD</a></h1>
 <h4><a class="header" href="#a-hrefhttpmyopendesktoporgspp2mhk5idlj4gytdownload-target_blankcheckinstall-builda" id="a-hrefhttpmyopendesktoporgspp2mhk5idlj4gytdownload-target_blankcheckinstall-builda"><a href="http://my.opendesktop.org/s/pP2mHk5iDLj4GYt/download" target="_blank"><strong>checkinstall-build</strong></a></a></h4>
 <pre><code class="language-bash">aptinst -y libimlib2-dev libfontconfig1-dev libfreetype6-dev libx11-dev libxext-dev libxft-dev libxrender-dev zlib1g-dev libxinerama-dev libxcomposite-dev libxdamage-dev libxfixes-dev libxmu-dev
 git clone https://github.com/dreamcat4/skippy-xd.git
