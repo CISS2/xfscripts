@@ -16,3 +16,13 @@ gef http://my.opendesktop.org/s/d7AS8ndgeqn38XG/download /usr/local/bin/skippy-x
 xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/"<Super>"s -s "skippy-xd-fix" -n -t string
 ```
 [![bashrun](../images/bashrun.png)](br:skippy-xd)
+
+<iframe
+    width="100%"
+    height="422"
+    src="https://www.youtube.com/embed/CSufPc3jo4E?autoplay=1&loop=1&playlist=GRonxog5mbw&controls=0"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    style="border-radius: 10px;"
+></iframe>
