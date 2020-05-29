@@ -20,7 +20,7 @@ xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/"<Super>"s -s "ski
 <iframe
     width="100%"
     height="422"
-    src="https://www.youtube.com/embed/CSufPc3jo4E?autoplay=1&loop=1&playlist=GRonxog5mbw&controls=0"
+    src="https://www.youtube.com/embed/CSufPc3jo4E?autoplay=1&loop=1&playlist=CSufPc3jo4E&controls=0"
     frameborder="0"
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen
