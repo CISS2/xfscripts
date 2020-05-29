@@ -7,3 +7,5 @@ aptupd
 aptinst -y linux-xanmod-rt-edge
 ```
 [![bashrun](../images/bashrun.png)](br:xanmod)
+
+![xanmod-neofetch](../images/xanmod-neofetch.png)
