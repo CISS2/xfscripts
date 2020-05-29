@@ -36,7 +36,7 @@ xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/"<Super>"k -s "rof
 <iframe
     width="100%"
     height="422"
-    src="https://www.youtube.com/embed/WuxwgQVZ1Bw"
+    src="https://www.youtube.com/embed/WuxwgQVZ1Bw?autoplay=1&loop=1&playlist=WuxwgQVZ1Bw&controls=0"
     frameborder="0"
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen
