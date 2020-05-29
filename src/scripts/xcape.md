@@ -9,3 +9,5 @@ Type=Application
 OnlyShowIn=XFCE;' > ~/.config/autostart/xcape.desktop
 ```
 [![bashrun](../images/bashrun.png)](br:xcape)
+
+![xcape-super](../images/xcape-super.png)
