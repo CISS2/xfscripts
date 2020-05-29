@@ -29,8 +29,16 @@ wget -O ~/.config/rofi/fullscreen.rasi http://my.opendesktop.org/s/jzSpr9PYXYmQR
 wget -O ~/.config/rofi/menu.rasi http://my.opendesktop.org/s/37nM6FRk9CxBw4H/download #update-link
 wget -O ~/.config/rofi/sidebar.rasi http://my.opendesktop.org/s/K4QbRoyZDJ2g9wF/download #update-link
 xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/"<Super>"x -s "rofi -show drun" -n -t string
+xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/"<Super>"b -s "rofi -show drun -theme sidebar" -n -t string
+xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/"<Super>"k -s "rofi -show drun -theme menu" -n -t string
 ```
 [![bashrun](../images/bashrun.png)](br:rofi)
-
-![rofi](../images/rofi.png)
-![rofi-sidebar](../images/rofi-sidebar.png)
+<iframe
+    width="100%"
+    height="422"
+    src="https://www.youtube.com/embed/WuxwgQVZ1Bw"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    style="border-radius: 10px;"
+></iframe>
