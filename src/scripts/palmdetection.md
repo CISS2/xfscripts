@@ -14,3 +14,5 @@ Hidden=false
 Icon=mouse' | tee ~/.config/autostart/palmdetection.desktop
 ```
 [![bashrun](../images/bashrun.png)](br:palmdetection)
+
+![palmdetection](../images/palmdetection.png)
