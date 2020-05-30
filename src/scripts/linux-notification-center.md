@@ -8,3 +8,5 @@ wget -O ~/.config/deadd/deadd.conf http://my.opendesktop.org/s/RQk9oJDzgrAk7RZ/d
 xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/"<Super>"n -s 'sh -c "kill -s USR1 $(pidof deadd-notification-center)"' -n -t string
 ```
 [![bashrun](../images/bashrun.png)](br:linux-notification-center)
+
+![linux-notification-center](../images/linux-notification-center.png)
