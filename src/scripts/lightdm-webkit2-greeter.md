@@ -12,3 +12,5 @@ greeter-session=lightdm-webkit2-greeter' | sudo tee /etc/lightdm/lightdm.conf.d/
 sudo sed -i 's/antergos/litarvan/g' /etc/lightdm/lightdm-webkit2-greeter.conf
 ```
 [![bashrun](../images/bashrun.png)](br:lightdm-webkit2-greeter)
+
+![lightdm-litarvan](../images/lightdm-litarvan.png)
