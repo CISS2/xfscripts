@@ -19,3 +19,5 @@ theme=Default
 close-to-tray=true' > ~/.config/MelloyPlayer/MellowPlayer3.conf
 ```
 [![bashrun](../images/bashrun.png)](br:mellowplayer)
+
+![mellowplayer](../images/mellowplayer.png)
