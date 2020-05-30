@@ -21,3 +21,5 @@ xfconf-query -c xfwm4 -np /general/use_compositing -T false
 gtk-launch compton.desktop
 ```
 [![bashrun](../images/bashrun.png)](br:compton)
+
+![compton](../images/compton.png)
