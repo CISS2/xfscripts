@@ -11,12 +11,6 @@
     ```
     [![bashrun](../images/bashrun.png)](br:settings-4k)
 #
- - <a href="https://github.com/TheAssassin/AppImageLauncher/releases" target="_blank"><strong>AppImageLauncher</strong></a>
-    ```bash
-    # settings-appimagelauncher.md
-    ```
-    [![bashrun](../images/bashrun.png)](br:settings-appimagelauncher)
-#
  - <a href="https://bitwarden.com/#download" target="_blank"><strong>Bitwarden</strong></a> #login
  - <a href="https://github.com/crow-translate/crow-translate/releases" target="_blank"><strong>Crow translate</strong></a>
 #
