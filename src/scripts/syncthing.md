@@ -6,3 +6,5 @@ aptupd
 aptinst -y syncthing-gtk
 ```
 [![bashrun](../images/bashrun.png)](br:syncthing)
+
+![syncthing](../images/syncthing.png)
