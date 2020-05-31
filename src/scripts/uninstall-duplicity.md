@@ -3,6 +3,7 @@
 aptpurge -y \
     gnome-font-viewer \
     gnome-mines \
+    gnome-software \
     gnome-sudoku \
     parole \
     pidgin \

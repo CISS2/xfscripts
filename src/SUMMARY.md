@@ -39,6 +39,7 @@
     - [Ícones das pastas](scripts/folder-icon.md)
     - [X Tile](scripts/x-tile.md)
     - [AppImageLauncher](scripts/appimagelauncher.md)
+    - [App Grid](scripts/appgrid.md)
     - [Telegram](scripts/telegram.md)
     - [VSCodium](scripts/vscodium.md)
     - [PJeOffice](scripts/pjeoffice.md)
