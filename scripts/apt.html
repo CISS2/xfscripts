@@ -251,6 +251,9 @@ Exec=volumeicon
 NoDisplay=false
 OnlyShowIn=XFCE;' &gt; ~/.config/autostart/volumeicon.desktop
 wget -O ~/.config/volumeicon/volumeicon http://my.opendesktop.org/index.php/s/tw8kNw3pjdQbfwB/download #update-link
+wget -O ~/.local/share/scripts/toggle-mic.sh http://my.opendesktop.org/s/Rtws3n6AqgKqBCW/download #update-link
+xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/AudioMicMute -s &quot;bash .local/share/scripts/toggle-mic.sh&quot; -n -t string
+
 </code></pre>
 <a href="br:settings-volumeicon-alsa"><img src="../images/bashrun.png" alt="bashrun" /></a></li>
 </ul>
