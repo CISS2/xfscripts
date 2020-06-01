@@ -936,9 +936,9 @@ wget -O mousepad.dconf http://my.opendesktop.org/s/St7tgafok4Nr5q4/download
 wget https://github.com/supermarin/YosemiteSanFranciscoFont/archive/master.zip
 unzip master.zip
 sudo mkdir -pv /usr/share/fonts/YosemiteSanFranciscoFont/
-sudo mv YosemiteSanFranciscoFont/*.ttv /usr/share/fonts/YosemiteSanFranciscoFont/
+sudo mv YosemiteSanFranciscoFont-master/*.ttf /usr/share/fonts/YosemiteSanFranciscoFont/
 fc-cache -f -v
-rm -rfv master.zip YosemiteSanFranciscoFont/
+rm -rfv master.zip YosemiteSanFranciscoFont-master/
 dconf load /org/xfce/mousepad/ &lt; mousepad.dconf
 rm -rfv mousepad.dconf
 xfconf-query -c thunar -np /last-location-bar -t string -s ThunarLocationButtons
