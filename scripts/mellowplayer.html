@@ -159,8 +159,8 @@ aptinst -y mellowplayer playerctl
 xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/XF86AudioPlay -s &quot;playerctl play-pause&quot; -n -t string
 xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/XF86AudioNext -s &quot;playerctl next&quot; -n -t string
 xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/XF86AudioPrev -s &quot;playerctl previous&quot; -n -t string
-xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/&quot;&lt;Shift&gt;&quot;AudioNext -s &quot;playerctl selection 1+&quot; -n -t string
-xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/&quot;&lt;Shift&gt;&quot;AudioPrev -s &quot;playerctl selection 1-&quot; -n -t string
+xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/&quot;&lt;Shift&gt;&quot;AudioNext -s &quot;playerctl position 1+&quot; -n -t string
+xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/&quot;&lt;Shift&gt;&quot;AudioPrev -s &quot;playerctl position 1-&quot; -n -t string
 mkdir -pv ~/.config/MellowPlayer
 echo '[appearance]
 custom-tray-icon=/usr/share/icons/Papirus/24x24/panel/mellowplayer-panel.svg
