@@ -57,7 +57,6 @@
     ```
     [![bashrun](../images/bashrun.png)](br:settings-gdebi)
 #
- - <a href="https://www.rememberthemilk.com/services/linux/" target="_blank"><strong>Remember The Milk</strong></a> #login
  - <a href="https://send-anywhere.com/file-transfer" target="_blank"><strong>Send Anywhere</strong></a> #login
  - <a href="https://www.skype.com/pt-br/get-skype/" target="_blank"><strong>Skype</strong></a> #login
  - <a href="https://www.stremio.com/downloads" target="_blank"><strong>Stremio</strong></a> `--no-install-recommends` #login
