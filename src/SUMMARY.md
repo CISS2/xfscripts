@@ -40,6 +40,7 @@
     - [X Tile](scripts/x-tile.md)
     - [AppImageLauncher](scripts/appimagelauncher.md)
     - [App Grid](scripts/appgrid.md)
+    - [Elementary OS AppCenter](scripts/eos-appcenter-repo.md)
     - [Telegram](scripts/telegram.md)
     - [VSCodium](scripts/vscodium.md)
     - [PJeOffice](scripts/pjeoffice.md)

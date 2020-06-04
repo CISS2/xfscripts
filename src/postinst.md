@@ -36,6 +36,7 @@
  - [**X Tile**](scripts/x-tile.md) (_extras_)
  - [**AppImageLauncher**](scripts/appimagelauncher.md) (_extras_)
  - [**App Grid**](scripts/appgrid.md) (_extras_)
+ - [**Elemtnary OS AppCenter**](scripts/eos-appcenter-repo.md) (_extras_)
  - [**Telegram**](scripts/telegram.md) (_extras_)
  - [**VSCodium**](scripts/vscodium.md) (_extras_)
  - [**PJeOffice**](scripts/pjeoffice.md) (_extras_)
