@@ -8,6 +8,7 @@
     - <a href="apt:openssh-sftp-server"><strong>OpenSSH SFTP server</strong></a>
  - <a href="apt:feedreader"><strong>FeedReader</strong></a> #login (Feedly)
  - <a href="apt:font-manager"><strong>Font Manager</strong></a>
+ - <a href="apt:fonts-emojione"><strong>Fonts EmojiOne</strong></a>
 #
  - <a href="apt:gdebi"><strong>GDebI</strong></a> `--no-install-recommends`
    ```bash
@@ -16,8 +17,8 @@
    [![bashrun](../images/bashrun.png)](br:settings-gdebi)
 #
  - <a href="apt:geary"><strong>Geary</strong></a> #login (Mail/Outlook)
+ - <a href="apt:gitg"><strong>gitg</strong></a>
  - <a href="apt:gnome-characters"><strong>GNOME characters</strong></a> `--no-install-recommends`
- - <a href="apt:fonts-emojione"><strong>Fonts EmojiOne</strong></a>
  - <a href="apt:gnome-system-log"><strong>GNOME system log</strong></a>
  - <a href="apt:inkscape"><strong>Inkscape</strong></a> `--no-install-recommends`
  - <a href="apt:mediainfo-gui"><strong>MediaInfo GUI</strong></a>

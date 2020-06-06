@@ -6,7 +6,7 @@ aptupd
 ```
 [![bashrun](../images/bashrun.png)](br:eos-appcenter-repo)
 
-#### [AppCenter](https://appcenter.elementary.io/)
+<a href="https://appcenter.elementary.io" target="_blank"><strong>AppCenter</strong></a>
 
 ![eos-appcenter](../images/eos-appcenter-repo.png)
 
