@@ -46,5 +46,6 @@
     - [PJeOffice](scripts/pjeoffice.md)
     - [hBlock](scripts/hblock.md)
     - [Persepolis](scripts/persepolis.md)
+    - [OBS Studio](scripts/obs-studio.md)
     - [CleanUp](scripts/uninstall-duplicity.md)
     - [Update settings](scripts/update-settings.md)

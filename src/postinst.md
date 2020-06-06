@@ -42,6 +42,7 @@
  - [**PJeOffice**](scripts/pjeoffice.md) (_extras_)
  - [**hBlock**](scripts/hblock.md) (_extras_)
  - [**Persepolis**](scripts/persepolis.md) (_extras_)
+ - [**OBS Studio**](scripts/obs-studio.md) (_extras_)
  - [**CleanUp**](scripts/uninstall-duplicity.md) (_extras_)
 
 #### Desktop
