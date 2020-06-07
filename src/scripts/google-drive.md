@@ -9,3 +9,5 @@ gef http://my.opendesktop.org/s/F2bd4As8LKgMcEL/download /usr/local/bin/google-d
 google-drive-ocamlfuse ~/Google\ Drive
 ```
 [![bashrun](../images/bashrun.png)](br:google-drive)
+
+![google-drive](../images/google-drive.png)
