@@ -6,3 +6,5 @@ rm -rfv telegram.tar.xz
 $HOME/.local/share/Telegram/Telegram 2&1> /dev/null
 ```
 [![bashrun](../images/bashrun.png)](br:telegram)
+
+![telegram](../images/telegram.png)
