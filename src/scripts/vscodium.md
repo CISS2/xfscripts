@@ -7,3 +7,4 @@ aptinst -y codium
 xdg-mime default thunar.desktop inode/directory
 ```
 [![bashrun](../images/bashrun.png)](br:vscodium)
+![vscodium](../images/vscodium.png)
