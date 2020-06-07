@@ -11,3 +11,5 @@ wget -O ~/.config/x-tile/-apps-x-tile-0-systray_enable http://my.opendesktop.org
 wget -O ~/.config/x-tile/-apps-x-tile-0-systray_start http://my.opendesktop.org/s/RkSrKqgm6LZqAyZ/download
 ```
 [![bashrun](../images/bashrun.png)](br:x-tile)
+
+![x-tile](../images/x-tile.png)
