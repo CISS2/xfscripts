@@ -55,7 +55,7 @@
     ```bash
     # settings-rambox.md
     ```
-    [![bashrun](../images/bashrun.png)](br:settings-gdebi)
+    [![bashrun](../images/bashrun.png)](br:settings-rambox)
 #
  - <a href="https://send-anywhere.com/file-transfer" target="_blank"><strong>Send Anywhere</strong></a> #login
  - <a href="https://www.skype.com/pt-br/get-skype/" target="_blank"><strong>Skype</strong></a> #login
