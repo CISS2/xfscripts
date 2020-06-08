@@ -10,3 +10,4 @@ wget -O ~/.config/persepolis_download_manager/persepolis.conf http://my.opendesk
 
  - <a href="https://addons.mozilla.org/en-US/firefox/addon/persepolis-dlm-integration/" target="_blank"><strong>Extensão para o Firefox/Waterfox</strong></a>
 
+![persepolis](../images/persepolis.png)
