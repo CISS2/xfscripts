@@ -37,7 +37,6 @@
  - <a href="apt:rar"><strong>RAR</strong></a>
  - <a href="apt:redshift-gtk"><strong>Redshift-gtk</strong></a>
  - <a href="apt:restic"><strong>Restic</strong></a> #backup-script
-    - <a href="apt:putty-tools"><strong>Putty tools</strong></a>
  - <a href="apt:rygel-preferences"><strong>Rygel</strong></a> #review
  - <a href="apt:steam-installer"><strong>Steam</strong></a> #login #sync_files
     - <a href="apt:xboxdrv"><strong>XBoxDrv</strong></a>
