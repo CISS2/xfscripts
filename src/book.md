@@ -30,6 +30,14 @@ Acesse o servidor <a href="https://discord.gg/bEVNHfg" target="_blank"><strong>L
 
 <a href="https://discord.gg/bEVNHfg" target="_blank"><img src="images/discord-banner.png" style="border-radius: 10px;"></a>
 
+<script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+    new Crate({
+      server: '709523237322620928', // Linux Brasil
+      channel: '709523237805228127', // #🌐-geral
+      color: '#000000'
+    })
+</script>
+
 <!-- Load Facebook SDK for JavaScript -->
 <!--<div id="fb-root"></div>-->
 
