@@ -32,6 +32,7 @@
  - [**QOwnNotes**](scripts/qownnotes.md) (_extras_)
  - [**Syncthing**](scripts/syncthing.md) (_extras_)
  - [**Google Drive**](scripts/google-drive.md) (_extras_)
+ - [**RClone**](scripts/rclone.md) (_extras_)
  - [**Ícones das pastas**](scripts/folder-icon.md) (_extras_)
  - [**X Tile**](scripts/x-tile.md) (_extras_)
  - [**AppImageLauncher**](scripts/appimagelauncher.md) (_extras_)
