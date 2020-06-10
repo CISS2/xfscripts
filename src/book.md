@@ -18,8 +18,6 @@ Porém, se você quiser rodar de forma automatizada, pode instalar o <a href="ba
 
 Para atualizar os arquivos de configuração do usuário, execute os comandos indicados <a href="scripts/update-settings.md"><strong>aqui</strong></a>.
 
-
-
 ## Envolva-se
 
 Crie um <a href="https://github.com/rauldipeas/xfscripts" target="_blank"><em><strong>fork</strong></em></a> e envie um <em><strong>pull-request</strong></em> com as suas sugestões de melhorias para este repositório, elas são muito bem vindas!
@@ -29,6 +27,10 @@ Acompanhe as atualizações do projeto através do canal no <a href="https://t.m
 Acesse o servidor <a href="https://discord.gg/bEVNHfg" target="_blank"><strong>Linux Brasil</strong></a> no <a href="https://discord.gg/bEVNHfg" target="_blank"><strong>Discord</strong></a> e tire todas as suas dúvidas sobre Linux com os demais usuários.
 
 <a href="https://discord.gg/bEVNHfg" target="_blank"><img src="images/discord-banner.png" style="border-radius: 10px;"></a>
+
+<video width="100%" controls autoplay loop style="border-radius: 10px;">
+  <source src="videos/xfscripts.mp4" type="video/mp4">
+</video>
 
 <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
     new Crate({
