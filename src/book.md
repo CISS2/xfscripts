@@ -6,7 +6,9 @@ Esta documentação contém scripts de personalização otimizados para o <a hre
 
 Saiba mais sobre os scripts através das postagens <a href="https://rauldipeas.github.io/blog" target="_blank"><strong>neste blog</strong></a>.
 
-<img src="images/xfscripts.png"> 
+<video width="100%" controls autoplay loop style="border-radius: 10px;">
+  <source src="videos/xfscripts.mp4" type="video/mp4">
+</video>
 
 ## Instalação
 
@@ -27,10 +29,6 @@ Acompanhe as atualizações do projeto através do canal no <a href="https://t.m
 Acesse o servidor <a href="https://discord.gg/bEVNHfg" target="_blank"><strong>Linux Brasil</strong></a> no <a href="https://discord.gg/bEVNHfg" target="_blank"><strong>Discord</strong></a> e tire todas as suas dúvidas sobre Linux com os demais usuários.
 
 <a href="https://discord.gg/bEVNHfg" target="_blank"><img src="images/discord-banner.png" style="border-radius: 10px;"></a>
-
-<video width="100%" controls autoplay loop style="border-radius: 10px;">
-  <source src="videos/xfscripts.mp4" type="video/mp4">
-</video>
 
 <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
     new Crate({
