@@ -65,6 +65,7 @@
 #
  - <a href="https://send-anywhere.com/file-transfer" target="_blank"><strong>Send Anywhere</strong></a> #login
  - <a href="https://www.skype.com/pt-br/get-skype/" target="_blank"><strong>Skype</strong></a> #login
+ - <a href="https://github.com/subhra74/snowflake/releases" target="_blank"><strong>Snowflake</strong></a>
  - <a href="https://www.stremio.com/downloads" target="_blank"><strong>Stremio</strong></a> `--no-install-recommends` #login
  - <a href="https://www.teamviewer.com/pt-br/download/linux/" target="_blank"><strong>TeamViewer</strong></a> #login
  - <a href="http://www.vst4free.com/free_vst.php?plugin=ToneLib-GFX&amp;id=3003" target="_blank"><strong>ToneLib GFX</strong></a> <a href="http://www.vst4free.com/get_plug.php?linux=ToneLib-GFX-amd64.deb" target="_blank">#direct-link</a>
