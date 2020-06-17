@@ -1,5 +1,6 @@
 # Apt
  - <a href="apt:baobab"><strong>Analisador de uso de discos</strong></a>
+ - <a href="apt:axel"><strong>Axel</strong></a>
  - <a href="apt:deborphan"><strong>DebOrphan</strong></a>
  - <a href="apt:deluge-gtk"><strong>Deluge-gtk</strong></a> #close-to-tray
      - <a href="apt:deluged"><strong>DelugeD</strong></a>
