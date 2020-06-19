@@ -156,6 +156,7 @@
 wget -O libssl1.deb http://my.opendesktop.org/s/qtraPxfsAgRLW5d/download #update-link
 wget -O mediafire.deb http://my.opendesktop.org/s/DXb4BS7f49DJwgM/download #update-link
 aptinst -y ./libssl1.deb ./mediafire.deb
+rm -rfv libssl1.deb mediafire.deb
 mkdir -pv ~/MediaFire ~/.config/mediafire-fuse
 echo '--username foo@bar.com
 --password secret' &gt; ~/.config/mediafire-fuse/config
