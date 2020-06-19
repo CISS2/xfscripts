@@ -46,7 +46,11 @@
  - <a href="apt:thunar-dropbox-plugin"><strong>Thunar Dropbox</strong></a> #review
  - <a href="apt:thunar-megasync"><strong>Thunar Megasync</strong></a> #review
  - <a href="apt:thunar-vcs-plugin"><strong>Thunar VCS</strong></a> #review
- - <a href="apt:vokoscreen"><strong>Vokoscreen</strong></a>
+#
+ - <a href="apt:vokoscreen-ng"><strong>VokoscreenNG</strong></a>
+   ```bash
+   # settings-vokoscreen-ng.md
+   ```
 #
  - <a href="apt:volumeicon-alsa"><strong>VolumeIcon ALSA</strong></a>
    ```bash
