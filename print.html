@@ -932,6 +932,7 @@ xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/XF86Music -s &quot
 <li><a href="apt:vokoscreen-ng"><strong>VokoscreenNG</strong></a>
 <pre><code class="language-bash"># settings-vokoscreen-ng.md
 
+sudo sed -i 's/Icon=\/usr\/share\/pixmap\/vokoscreenNG.xpm/Icon=vokoscreenNG/g' /usr/share/applications/vokoscreenNG.desktop
 mkdir -pv ~/.config/vokoscreenNG
 echo '[General]
 checkBoxShowInSystray=false' &gt; ~/.config/vokoscreenNG/vokoscreenNG.ini
