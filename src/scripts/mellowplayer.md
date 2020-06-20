@@ -4,6 +4,8 @@ echo 'deb http://download.opensuse.org/repositories/home:/ColinDuquesnoy/xUbuntu
 wget -O- https://download.opensuse.org/repositories/home:ColinDuquesnoy/xUbuntu_20.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/mellowplayer.gpg
 aptupd
 aptinst -y mellowplayer playerctl
+gef http://my.opendesktop.org/s/ybrA8jfKZJGDnbg/download /usr/local/bin/mellowplayer-drm.sh
+mellowplayer-drm.sh
 xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/XF86AudioPlay -s "playerctl play-pause" -n -t string
 xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/XF86AudioNext -s "playerctl next" -n -t string
 xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/XF86AudioPrev -s "playerctl previous" -n -t string

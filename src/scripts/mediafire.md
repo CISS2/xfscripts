@@ -11,7 +11,7 @@ echo '--username foo@bar.com
 sudo mkdir -pv /usr/local/bin
 sudo wget -O /usr/share/applications/mediafire.desktop http://my.opendesktop.org/s/BnW8qPcTx789MHR/download #update-link
 sudo wget -O /usr/share/pixmaps/mediafire.png http://my.opendesktop.org/s/gBok2qi752SSx32/download #update-link
-gef /download /usr/local/bin/mediafire.sh #update-link
+gef http://my.opendesktop.org/s/JB9ygn3SHW2JSdM/download /usr/local/bin/mediafire.sh #update-link
 ```
 [![bashrun](../images/bashrun.png)](br:mediafire)
 
