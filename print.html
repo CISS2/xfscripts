@@ -1133,6 +1133,8 @@ ln -s chrome/waterfox-flat-remix/configuration/user.js ../user.js
 wget -O- https://download.opensuse.org/repositories/home:ColinDuquesnoy/xUbuntu_20.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/mellowplayer.gpg
 aptupd
 aptinst -y mellowplayer playerctl
+gef http://my.opendesktop.org/s/ybrA8jfKZJGDnbg/download /usr/local/bin/mellowplayer-drm.sh
+mellowplayer-drm.sh
 xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/XF86AudioPlay -s &quot;playerctl play-pause&quot; -n -t string
 xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/XF86AudioNext -s &quot;playerctl next&quot; -n -t string
 xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/XF86AudioPrev -s &quot;playerctl previous&quot; -n -t string
@@ -1189,7 +1191,7 @@ echo '--username foo@bar.com
 sudo mkdir -pv /usr/local/bin
 sudo wget -O /usr/share/applications/mediafire.desktop http://my.opendesktop.org/s/BnW8qPcTx789MHR/download #update-link
 sudo wget -O /usr/share/pixmaps/mediafire.png http://my.opendesktop.org/s/gBok2qi752SSx32/download #update-link
-gef /download /usr/local/bin/mediafire.sh #update-link
+gef http://my.opendesktop.org/s/JB9ygn3SHW2JSdM/download /usr/local/bin/mediafire.sh #update-link
 </code></pre>
 <p><a href="br:mediafire"><img src="scripts/../images/bashrun.png" alt="bashrun" /></a></p>
 <h4><a class="header" href="#adicione-as-suas-informações-de-login-no-arquivo-configmediafire-fuseconfig" id="adicione-as-suas-informações-de-login-no-arquivo-configmediafire-fuseconfig"><em>Adicione as suas informações de login no arquivo:</em> <code>~/.config/mediafire-fuse/config</code></a></h4>
