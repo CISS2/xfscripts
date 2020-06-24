@@ -5,12 +5,19 @@
         <meta charset="UTF-8">
         <title>Debs - XFScripts</title>
         
+        
+
+
+        <!-- Custom HTML head -->
+        
+
 
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
 
+        <link rel="icon" href="../favicon.svg">
         <link rel="shortcut icon" href="../favicon.png">
         <link rel="stylesheet" href="../css/variables.css">
         <link rel="stylesheet" href="../css/general.css">
@@ -19,8 +26,9 @@
 
         <!-- Fonts -->
         <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+        
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        
 
         <!-- Highlight.js Stylesheets -->
         <link rel="stylesheet" href="../highlight.css">
@@ -183,11 +191,10 @@ gtk-launch discord.desktop
 sleep 5
 killall -9 Discord
 aptinst -y npm
-sudo npm install -g asar
-asar e $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core.asar $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core
+npx asar e $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core.asar $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core
 rsvg-convert -w 24 -h 24 -f png -a /usr/share/icons/Papirus/24x24/panel/discord-tray.svg &gt; $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core/app/images/systemtray/linux/tray.png
 rsvg-convert -w 24 -h 24 -f png -a /usr/share/icons/Papirus/24x24/panel/discord-tray-unread.svg &gt; $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core/app/images/systemtray/linux/tray-unread.png
-asar p $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core.asar
+npx asar p $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core.asar
 rm -rfv $HOME/.config/discord/0.0.10/modules/discord_desktop_core/core
 </code></pre>
 <a href="br:settings-discord"><img src="../images/bashrun.png" alt="bashrun" /></a></li>
@@ -272,8 +279,7 @@ xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/Print -s &quot;ksn
 <pre><code class="language-bash"># settings-rambox.md
 
 aptinst -y npm
-sudo npm install -g asar
-asar e /opt/Rambox/resources/app.asar app
+npx asar e /opt/Rambox/resources/app.asar app
 echo '
 /**
  * Dark background
@@ -291,7 +297,7 @@ echo '
   border-color: white;
   background-color: #090909
 }' &gt;&gt; app/resources/Rambox-all.css
-asar p app app.asar
+npx asar p app app.asar
 sudo cp -rfv app.asar /opt/Rambox/resources/app.asar
 rm -rfv app app.asar
 xfconf-query -c xfce4-keyboard-shortcuts -np /commands/custom/XF86Messenger -s &quot;rambox&quot; -n -t string
@@ -362,10 +368,10 @@ sudo sed -i 's/.png//g' /usr/share/applications/Zoom.desktop
         
 
         
-        
+
         
         <script type="text/javascript">
-            window.playpen_copyable = true;
+            window.playground_copyable = true;
         </script>
         
 
