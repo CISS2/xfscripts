@@ -1,6 +1,12 @@
 # MediaFire
 ```bash
-sudo add-apt-repository -y ppa:xapienz/curl34
+sudo add-apt-repository -yn ppa:xapienz/curl34
+echo '# Curl 3 and 4
+Package: *
+Pin: release o=LP-PPA-xapienz-curl34
+Pin-Priority: 1000' | sudo tee /etc/apt/preferences.d/curl34
+aptupd
+sudo apt dist-upgrade -y
 wget -O libssl1.deb http://my.opendesktop.org/s/qtraPxfsAgRLW5d/download #update-link
 wget -O mediafire.deb http://my.opendesktop.org/s/DXb4BS7f49DJwgM/download #update-link
 aptinst -y ./libssl1.deb ./mediafire.deb
