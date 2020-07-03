@@ -27,6 +27,7 @@
  - [**Painel**](scripts/panel.md) (_desktop_)
  - [**Compton**](scripts/compton.md) (_desktop_)
  - [**Lutris**](scripts/lutris.md) (_games_)
+ - [**Y PPA Manager**](scripts/y-ppa-manager.md) (_extras_)
  - [**Waterfox**](scripts/waterfox.md) (_extras_)
  - [**MellowPlayer**](scripts/mellowplayer.md) (_extras_)
  - [**QOwnNotes**](scripts/qownnotes.md) (_extras_)
