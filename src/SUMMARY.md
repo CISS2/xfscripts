@@ -51,5 +51,6 @@
     - [Persepolis](scripts/persepolis.md)
     - [OBS Studio](scripts/obs-studio.md)
     - [CoreCtrl](scripts/corectrl.md)
+    - [Haguichi](scripts/haguichi.md)
     - [CleanUp](scripts/uninstall-duplicity.md)
     - [Update settings](scripts/update-settings.md)
