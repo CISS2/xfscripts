@@ -23,6 +23,12 @@
  - <a href="apt:gnome-characters"><strong>GNOME characters</strong></a> `--no-install-recommends`
  - <a href="apt:gnome-system-log"><strong>GNOME system log</strong></a>
  - <a href="apt:gtkhash"><strong>GTKHash</strong></a>
+#
+ - <a href="apt:hardinfo"><strong>HardInfo</strong></a>
+   ```bash
+   # settings-hardinfo.md
+   ```
+#
  - <a href="apt:inkscape"><strong>Inkscape</strong></a> `--no-install-recommends`
  - <a href="apt:mediainfo-gui"><strong>MediaInfo GUI</strong></a>
  - <a href="apt:meld"><strong>Meld</strong></a>
