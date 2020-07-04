@@ -72,6 +72,7 @@
  - <a href="http://www.vst4free.com/free_vst.php?plugin=ToneLib-GFX&amp;id=3003" target="_blank"><strong>ToneLib GFX</strong></a> <a href="http://www.vst4free.com/get_plug.php?linux=ToneLib-GFX-amd64.deb" target="_blank">#direct-link</a>
  - <a href="https://www.tonelib.net/download/" target="_blank"><strong>ToneLib ZOOM</strong></a>
  - <a href="https://github.com/winunix/unetbootin-focal" target="_blank"><strong>UNetbootin</strong></a> <a href="https://github.com/winunix/debian/raw/master/pool/main/u/unetbootin-focal/unetbootin-focal_677-1~focal1_amd64.deb" target="_blank">#direct-link</a>
+ - <a href="https://github.com/yakyak/yakyak/releases/tag/v1.5.9" target="_blank"><strong>YakYak</strong></a>
 #
  - <a href="https://us04web.zoom.us/download" target="_blank"><strong>Zoom</strong></a> #login
     ```bash
