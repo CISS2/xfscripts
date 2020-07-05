@@ -47,6 +47,7 @@
  - <a href="apt:redshift-gtk"><strong>Redshift-gtk</strong></a>
  - <a href="apt:restic"><strong>Restic</strong></a> #backup-script
  - <a href="apt:rygel-preferences"><strong>Rygel</strong></a> #review
+ - <a href="apt:seahorse"><strong>Seahorse</strong></a>
  - <a href="apt:steam-installer"><strong>Steam</strong></a> #login #sync_files
     - <a href="apt:xboxdrv"><strong>XBoxDrv</strong></a>
  - <a href="apt:synaptic"><strong>Synaptic</strong></a>
