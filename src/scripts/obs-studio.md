@@ -11,7 +11,8 @@ cd droidcam
 sudo ./install
 cd ..
 sudo rm -rfv droidcam droidcam_latest.zip
-wget -O /usr/share/applications/droidcam.desktop http://cloud.opendesktop.org/s/3iyg4oJprZzWyWp/download
+sudo wget -O /usr/share/applications/droidcam.desktop http://cloud.opendesktop.org/s/3iyg4oJprZzWyWp/download
+sudo wget -O /usr/share/pixmaps/droidcam.png http://my.opendesktop.org/s/YdKX2TxRRZbyQJe/download
 ```
 [![bashrun](../images/bashrun.png)](br:obs-studio)
 
