@@ -48,6 +48,7 @@
  - [**OBS Studio**](scripts/obs-studio.md) (_extras_)
  - [**CoreCtrl**](scripts/corectrl.md) (_extras_)
  - [**Haguichi**](scripts/haguichi.md) (_extras_)
+ - [**Chromium**](scripts/chromium.md) (_extras_)
  - [**CleanUp**](scripts/uninstall-duplicity.md) (_extras_)
 
 #### Desktop

@@ -52,5 +52,6 @@
     - [OBS Studio](scripts/obs-studio.md)
     - [CoreCtrl](scripts/corectrl.md)
     - [Haguichi](scripts/haguichi.md)
+    - [Chromium](scripts/chromium.md)
     - [CleanUp](scripts/uninstall-duplicity.md)
     - [Update settings](scripts/update-settings.md)
