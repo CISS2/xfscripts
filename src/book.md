@@ -26,17 +26,17 @@ Crie um <a href="https://github.com/rauldipeas/xfscripts" target="_blank"><em><s
 
 Acompanhe as atualizações do projeto através do canal no <a href="https://t.me/s/xfscripts" target="_blank"><strong>Telegram</strong></a> e do <a href="https://mastodon.social/@raul_dipeas" target="_blank" rel="me"><strong>Mastodon</strong></a>.
 
-Acesse o servidor <a href="https://discord.gg/bEVNHfg" target="_blank"><strong>Linux Brasil</strong></a> no <a href="https://discord.gg/bEVNHfg" target="_blank"><strong>Discord</strong></a> e tire todas as suas dúvidas sobre Linux com os demais usuários.
+<!--Acesse o servidor <a href="https://discord.gg/bEVNHfg" target="_blank"><strong>Linux Brasil</strong></a> no <a href="https://discord.gg/bEVNHfg" target="_blank"><strong>Discord</strong></a> e tire todas as suas dúvidas sobre Linux com os demais usuários.-->>
 
-<a href="https://discord.gg/bEVNHfg" target="_blank"><img src="images/discord-banner.png" style="border-radius: 10px;"></a>
+<!--<a href="https://discord.gg/bEVNHfg" target="_blank"><img src="images/discord-banner.png" style="border-radius: 10px;"></a>-->
 
-<script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+<!--<script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
     new Crate({
       server: '709523237322620928', // Linux Brasil
       channel: '709523237805228127', // #🌐-geral
       color: '#000000'
     })
-</script>
+</script>-->
 
 <!-- Load Facebook SDK for JavaScript -->
 <!--<div id="fb-root"></div>-->
